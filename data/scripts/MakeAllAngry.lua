@@ -30,7 +30,16 @@ function Create()
         Prisoner.Needs.Safety = 200;
         Prisoner.Needs.Spirituality = 200;
 
-        Prisoner.BoilingPoint = 500;
+        -- Found a fix, thanks @Reddit:User[RunOutOfNames]
+        if Object.GetProperty(Prisoner, "Needs.Alcohol") ~= nil then
+            Prisoner.Needs.Alchohol = 200;
+        end
+
+        if Object.GetProperty(Prisoner, "Needs.Drugs") ~= nil then
+            Prisoner.Needs.Drugs = 200;
+        end
+
+        Prisoner.BoilingPoint = 100;
     end
     this.Delete();
 end

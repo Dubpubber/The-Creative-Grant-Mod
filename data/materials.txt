@@ -8,7 +8,7 @@ BEGIN Object
     Price                1
     RenderDepth          2
     Group                StaticObject
-    Sprite               Box
+    Sprite               Pills
     SpriteScale          0.9
     Properties           Entity
     Properties           DoesNotTire
@@ -21,7 +21,7 @@ BEGIN Object
     Price                1
     RenderDepth          2
     Group                StaticObject
-    Sprite               Box
+    Sprite               CbRadio
     SpriteScale          0.9
     Properties           Entity
     Properties           DoesNotTire
@@ -152,6 +152,45 @@ BEGIN Object
     RenderDepth          2
     Group                StaticObject
     Sprite               Prisoner
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 RestAllGuards
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Megaphone
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 OpenAllDoors
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               JailKey
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 PlaceRandomContraband
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Knife
     SpriteScale          0.9
     Properties           Entity
     Properties           DoesNotTire

@@ -30,6 +30,15 @@ function Create()
         Prisoner.Needs.Safety = 0;
         Prisoner.Needs.Sleep = 0;
         Prisoner.Needs.Spirituality = 0;
+
+        -- Found a fix, thanks @Reddit:User[RunOutOfNames]
+        if Object.GetProperty(Prisoner, "Needs.Alcohol") ~= nil then
+            Prisoner.Needs.Alchohol = 0;
+        end
+
+        if Object.GetProperty(Prisoner, "Needs.Drugs") ~= nil then
+            Prisoner.Needs.Drugs = 0;
+        end
     end
 
     this.Delete();
