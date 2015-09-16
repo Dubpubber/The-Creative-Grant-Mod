@@ -3,7 +3,7 @@ A very early implementation of a trainer for the popular tycoon game known as "P
 Inspired by Introversions in game development kit and the lack of modding options through the LUA API, I'm happy to introduce the newly rebranded TGM to "The Creative Trainer Mod"! Finally, a mod the packs the most into a game that refuses to give modders the options we need to make the game even more powerful. Enough of that, check out the features!
 
 #Features
- - Temporary [b]Bodyguards[/b] (Highly Experimental! Use with caution!)
+ - Temporary Bodyguards (Highly Experimental! Use with caution!)
  - Spawn a fire and then swiftly put it out!
  - Taze anyone that attempts to escape.
  - Infect patient zero with the virus, simulate quarantine.
@@ -16,7 +16,7 @@ Inspired by Introversions in game development kit and the lack of modding option
  - There is so much more that can done. More to come!
 
 #Reference Me!
-Since somebody has to do it, I'm pushing [b][i]YOU[/i][/b] to use this mod to inspire your own creative ideas! Please, let's get this community rolling and push the developers to give us the tools we need! The more references I see the more features I'll add! Thanks so much for your participation! 
+Since somebody has to do it, I'm pushing YOU to use this mod to inspire your own creative ideas! Please, let's get this community rolling and push the developers to give us the tools we need! The more references I see the more features I'll add! Thanks so much for your participation! 
 
 Though not required, I'd love if you do use this project as reference for your idea... How about sending a little bit of love my way? Rate this, star github, say thank you, give credit, whatever you want to do. Doesn't mean much but it means people care. Thanks!
 
