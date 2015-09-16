@@ -99,7 +99,7 @@ BEGIN Object
     Price                100
     RenderDepth          2
     Group                StaticObject
-    Sprite               Hand
+    Sprite               AssaultRifle
     SpriteScale          0.9
     Properties           Entity
     Properties           DoesNotTire
