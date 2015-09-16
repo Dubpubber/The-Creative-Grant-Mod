@@ -42,12 +42,116 @@ BEGIN Object
 END
 
 BEGIN Object
+    Name                 RemoveAllFires
+    Toughness            20.0000
+    Price                1
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Fireman
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 StopEscapingPrisoners
+    Toughness            20.0000
+    Price                1
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Tazer
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 InfectPatientZero
+    Toughness            20.0000
+    Price                10000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Needle
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 CureAllPrisoners
+    Toughness            20.0000
+    Price                -1000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Needle
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 MakeAllAngry
+    Toughness            20.0000
+    Price                100
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Hand
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
     Name                 AssignBodyguard
     Toughness            20.0000
     Price                1
     RenderDepth          2
     Group                StaticObject
     Sprite               Box
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 SpawnInmate
+    Toughness            20.0000
+    Price                1000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Prisoner
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 Spawn2Inmates
+    Toughness            20.0000
+    Price                2000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Prisoner
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 Spawn3Inmates
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Prisoner
     SpriteScale          0.9
     Properties           Entity
     Properties           DoesNotTire

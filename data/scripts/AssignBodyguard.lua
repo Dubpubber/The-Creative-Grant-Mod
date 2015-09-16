@@ -6,45 +6,72 @@
 -- Use as you please, it's LUA for christ's sake.
 --
 
+--[[
+-- !!!THIS IS VERY EARLY IMPLENTATION AND HIGHLY EXPERIMENTAL!!!
+--
+ - I will be improving on pathfinding as more access to the api becomes avialable.
+ - If you have any advice on how the code can be improved, please pm me on the introversion forums or this mods discussion page.
+ - Feel free to copy, remake, do really whatever you want. Like said, be wary. This code may be determental to performance.
+-- ]]
+
 local Time = Game.Time;
-local Delay = 5;
-local Cutoff = 60;
+local Delay = 2;
+-- It's going to set the routing 30 times before deleting the guard.
+local KillDelay = 0;
+local KillTime = 30;
+
 local Ready = Time();
 
-local assignedGuard;
-local assignedPrisoner;
+function tablelength(T)
+    local count = 0
+    for _ in pairs(T) do count = count + 1 end
+    return count
+end
+
+local bodyguard;
+
+local function findFollower()
+    local founders = this.GetNearbyObjects( "Prisoner", 15 );
+    local founder
+
+    for Prisoner, _ in next, founders do
+        founder = Prisoner;
+    end
+
+    return founder;
+end
+
+local follower = findFollower();
 
 function Create()
-    local Guards = this.GetNearbyObjects("Guard", 100, 100);
-    local Prisoners = this.GetNearbyObjects("Prisoner", 3, 3);
-
-    if Guards[1] ~= nil then
-        assignedGuard = Guards[1];
+    bodyguard = Object.Spawn("Guard", this.Pos.x, this.Pos.y);
+    if bodyguard ~= nil then
+        Game.DebugOut( "Worked so far." );
+        if follower ~= nil then
+            bodyguard.NavigateTo(follower.Pos.x, follower.Pos.y);
+        else
+            bodyguard.Delete();
+        end
     end
-
-    if Prisoners[1] ~= nil then
-        assignedGuard = Prisoners[1];
-    end
-
-    if assignedGuard ~= nil and assignedPrisoner ~= nil then
-        assignedGuard.NavigateTo(assignedPrisoner.Pos.x, assignedPrisoner.Pos.y);
-        Game.DebugOut("MAde it here.");
-    end
+    this.Delete();
 end
 
 function Update()
     if Time() > Ready then
         Act( Delay )
         Ready = Ready + Delay
-    elseif Ready > Cutoff then
-        assignedGuard.ClearRouting();
-        this.Delete();
+        KillDelay = KillDelay + 1;
     end
 end
 
 -- Update following.
 function Act( elapsedTime )
-    if not assignedGuard then
-        assignedGuard.NavigateTo(assignedPrisoner.Pos.x, assignedPrisoner.Pos.y);
+    bodyguard.ClearRouting();
+    bodyguard.NavigateTo(follower.Pos.x, follower.Pos.y);
+    Game.DebugOut("Navigating guard to " .. follower.Pos.x .. " " .. follower.Pos.y);
+    Game.DebugOut("Guard Kill Timer: " .. KillDelay .. " MAX: " .. KillTime);
+    if KillDelay == KillTime then
+        bodyguard.ClearRouting();
+        bodyguard.Delete();
     end
 end
