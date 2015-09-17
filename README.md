@@ -14,7 +14,7 @@ Inspired by Introversions in game development kit and the lack of modding option
  - Research instantly after a warden is placed!
  - Reform programs now made easy.
  - There is so much more that can done. More to come!
- - 
+ 
  #Download
 [Steam workshop link](http://steamcommunity.com/sharedfiles/filedetails/?id=261379081&searchtext=)
 
