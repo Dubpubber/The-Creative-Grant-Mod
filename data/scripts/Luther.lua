@@ -90,7 +90,7 @@ end
 function Act( elapsedTime )
     -- Get a victim
     local target = HuntForPrisoner();
-
+    -- Teleport to victim
     this.Pos.x = target.Pos.x;
     this.Pos.y = target.Pos.y;
 

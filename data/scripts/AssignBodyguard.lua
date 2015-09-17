@@ -46,7 +46,6 @@ local follower = findFollower();
 function Create()
     bodyguard = Object.Spawn("Guard", this.Pos.x, this.Pos.y);
     if bodyguard ~= nil then
-        Game.DebugOut( "Worked so far." );
         if follower ~= nil then
             bodyguard.NavigateTo(follower.Pos.x, follower.Pos.y);
         else
@@ -68,8 +67,6 @@ end
 function Act( elapsedTime )
     bodyguard.ClearRouting();
     bodyguard.NavigateTo(follower.Pos.x, follower.Pos.y);
-    Game.DebugOut("Navigating guard to " .. follower.Pos.x .. " " .. follower.Pos.y);
-    Game.DebugOut("Guard Kill Timer: " .. KillDelay .. " MAX: " .. KillTime);
     if KillDelay == KillTime then
         bodyguard.ClearRouting();
         bodyguard.Delete();

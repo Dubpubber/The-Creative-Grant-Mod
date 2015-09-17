@@ -16,11 +16,12 @@ local ContrabandList = {
 }
 
 function Create()
-    local randomContra = Object.Spawn(ContrabandList[math.random(#ContrabandList)], this.Pos.x, this.Pos.y);
-    local prisoners = this.GetNearbyObjects("Prisoner", 10);
-    for Prisoner, _ in next, prisoners do
-        Prisoner.Carrying.i = randomContra.Id.i;
-        Prisoner.Carrying.u = randomContra.Id.u;
+    local tempGuard = Object.Spawn("ArmedGuard", this.Pos.x, this.Pos.y);
+
+    if tempGuard ~= nil then
+        tempGuard.Damage = 0.85;
+        Object.SetProperty(tempGuard, "SecondaryEquipment", ContrabandList[math.random(#ContrabandList)]);
+        tempGuard.Delete();
     end
     this.Delete();
 end

@@ -1,0 +1,245 @@
+
+
+BEGIN Object
+    Name                 Contra_Club
+    Toughness            20.0000
+    Price                3000
+    Research             CustomTest
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Club
+END
+
+BEGIN Object
+    Name                 Contra_Baton
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Baton
+END
+
+BEGIN Object
+    Name                 Contra_Shank
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Shank
+END
+
+BEGIN Object
+    Name                 Contra_Knife
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Knife
+END
+
+BEGIN Object
+    Name                 Contra_Fork
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Fork
+END
+
+BEGIN Object
+    Name                 Contra_Spoon
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Spoon
+END
+
+BEGIN Object
+    Name                 Contra_Needle
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Needle
+END
+
+BEGIN Object
+    Name                 Contra_Booze
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Booze
+END
+
+BEGIN Object
+    Name                 Contra_Posion
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Posion
+END
+
+BEGIN Object
+    Name                 Contra_JailKeys
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            JailKeys
+END
+
+BEGIN Object
+    Name                 Contra_Saw
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Saw
+END
+
+BEGIN Object
+    Name                 Contra_Cigs
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Cigs
+END
+
+BEGIN Object
+    Name                 Contra_MobilePhone
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            MobilePhone
+END
+
+BEGIN Object
+    Name                 Contra_Lighter
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Lighter
+END
+
+BEGIN Object
+    Name                 Contra_Screwdriver
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Screwdriver
+END
+
+BEGIN Object
+    Name                 Contra_Drugs
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Drugs
+END
+
+BEGIN Object
+    Name                 Contra_Medicine
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Medicine
+END
+
+BEGIN Object
+    Name                 Contra_Scissors
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Scissors
+END
+
+BEGIN Object
+    Name                 Contra_Sheers
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Sheers
+END
+
+BEGIN Object
+    Name                 Contra_Hammer
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Hammer
+END
+
+BEGIN Object
+    Name                 Contra_Drill
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Drill
+END
+
+BEGIN Object
+    Name                 Contra_Gun
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Gun
+END
+
+BEGIN Object
+    Name                 Contra_Shotgun
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Shotgun
+END
+
+BEGIN Object
+    Name                 Contra_AssaultRifle
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            AssaultRifle
+END
+
+BEGIN Object
+    Name                 Contra_Axe
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Axe
+END
+
+BEGIN Object
+    Name                 Contra_Spade
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            Spade
+END
+
+BEGIN Object
+    Name                 Contra_WoodenPickAxe
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Properties           Entity
+    Equipment            WoodenPickAxe
+END
