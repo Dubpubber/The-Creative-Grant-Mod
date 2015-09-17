@@ -18,6 +18,7 @@ object_CureAllPrisoners                         Cures all Prisoners
 object_MakeAllAngry                             Spreads Anger
 object_RestAllGuards                            Rests Up All Guards
 object_OpenAllDoors                             Open All Doors
+object_Luther                                   Luther
 
 objective_grant_money1		                	TCM Money Grant 1
 objective_grant_money1_description				Receive $100,000 cash.

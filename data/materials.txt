@@ -197,6 +197,25 @@ BEGIN Object
     Properties           Scripted
 END
 
+BEGIN Object
+    Name                 Luther
+    Toughness            100.0000
+    Price                10000
+    RenderDepth          2
+    Group                StaticObject
+    BEGIN Sprite
+      x 0
+      y 0
+      w 2
+      h 2
+      RotateType 4
+    END
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+    Equipment            Gun
+END
+
 BEGIN Object     
     Name                 Box  
     MoveSpeedFactor      0.750000  
