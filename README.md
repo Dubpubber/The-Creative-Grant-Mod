@@ -14,6 +14,9 @@ Inspired by Introversions in game development kit and the lack of modding option
  - Research instantly after a warden is placed!
  - Reform programs now made easy.
  - There is so much more that can done. More to come!
+ 
+ #Download
+[Steam workshop link](http://steamcommunity.com/sharedfiles/filedetails/?id=261379081&searchtext=)
 
 #Reference Me!
 Since somebody has to do it, I'm pushing YOU to use this mod to inspire your own creative ideas! Please, let's get this community rolling and push the developers to give us the tools we need! The more references I see the more features I'll add! Thanks so much for your participation! 
