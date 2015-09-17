@@ -15,7 +15,7 @@ Inspired by Introversions in game development kit and the lack of modding option
  - Reform programs now made easy.
  - There is so much more that can done. More to come!
  - 
- #Give me this mod NOW!
+ #Download
 [Steam workshop link](http://steamcommunity.com/sharedfiles/filedetails/?id=261379081&searchtext=)
 
 #Reference Me!
