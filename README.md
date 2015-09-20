@@ -28,3 +28,6 @@ Start a discussion or leave a hurtful comment, thank you!
 
 #Some mentions
 My man, [aubergine18](http://steamcommunity.com/profiles/76561198190710127) made an amazing effort to create a [modding guide](http://steamcommunity.com/sharedfiles/filedetails/?id=480978426). I used it a ton making this project, use it! You can find the rest of his work [here](http://steamcommunity.com/profiles/76561198190710127/myworkshopfiles/?section=guides&appid=233450). Be sure to thank him as well.
+
+#Update (9/20/2015)
+Are you a curious little butterfly and noticed there are new features not yet pushed into the steam branch of development!? OH HOW CRUEL OF ME. Anyways, if you're reading this: show your support, man. I need to know someone out there appreciates/uses this software. Thanks! Dubpubber
