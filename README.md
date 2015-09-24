@@ -31,3 +31,6 @@ My man, [aubergine18](http://steamcommunity.com/profiles/76561198190710127) made
 
 #Update (9/20/2015)
 Are you a curious little butterfly and noticed there are new features not yet pushed into the steam branch of development!? OH HOW CRUEL OF ME. Anyways, if you're reading this: show your support, man. I need to know someone out there appreciates/uses this software. Thanks! Dubpubber
+
+#Website
+Looking for more projects by me? Possibly a job? Find more information on [my site](http://loneboat.com).
