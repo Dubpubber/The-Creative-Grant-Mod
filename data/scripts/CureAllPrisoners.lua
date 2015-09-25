@@ -12,5 +12,7 @@ function Create()
     for Prisoner, _ in next, Prisoners do
         Prisoner.StatusEffects.virus = 0;
     end
+
+    this.Delete();
 end
 

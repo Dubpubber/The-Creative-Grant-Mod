@@ -1,4 +1,4 @@
-Inspired by Introversions in game development kit and the lack of modding options through the LUA API, I'm happy to introduce the newly rebranded TGM to "The Creative Trainer Mod"! Finally, a mod the packs the most into a game that refuses to give modders the options we need to make the game even more powerful. Enough of that, check out the features!
+Inspired by Introversions in game development kit and the lack of modding options through the LUA API, I'm happy to introduce the newly rebranded TGM to "The Creative Trainer Mod"! Finally, a mod that packs the most into a game that refuses to give modders the options we need to make the game even more powerful. Enough of that, check out the features!
 
 [h1]Features[/h1]
  - Temporary [b]Bodyguards[/b] (Highly Experimental! Use with caution!)
@@ -25,3 +25,6 @@ Start a discussion or leave a hurtful comment, thank you!
 
 [h1]Some mentions[/h1]
 My man, [url=http://steamcommunity.com/profiles/76561198190710127]aubergine18[/url] made an amazing effort to create a [url=http://steamcommunity.com/sharedfiles/filedetails/?id=480978426]modding guide[/url]. I used it a ton making this project, use it! You can find the rest of his work [url=http://steamcommunity.com/profiles/76561198190710127/myworkshopfiles/?section=guides&appid=233450]here[/url]. Be sure to thank him as well.
+
+[h1]I've joined the SCP team as their active LUA script maker![/h1]
+I've seen some requests and got some pm's on reddit on the SCP mod being made for Prison Architect and as a long time fan of the secret agency, I'm proud to say I'm working alongside the good people of the mod in hopes of bringing a the SCP world into the Prison Architect world. Please note, I'm by no means giving up development on this mod and will continue to update it with future content and with future PA patches. Thanks.

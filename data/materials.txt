@@ -198,22 +198,9 @@ BEGIN Object
 END
 
 BEGIN Object
-    Name                 TunnelDetector
-    Toughness            20.0000
-    Price                3000
-    RenderDepth          2
-    Group                StaticObject
-    Sprite               Spade
-    SpriteScale          0.9
-    Properties           Entity
-    Properties           DoesNotTire
-    Properties           Scripted
-END
-
-BEGIN Object
     Name                 Luther
     Toughness            100.0000
-    Price                10000
+    Price                75000
     RenderDepth          2
     Group                StaticObject
     BEGIN Sprite

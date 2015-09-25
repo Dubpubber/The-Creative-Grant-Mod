@@ -13,6 +13,7 @@ function Create()
     local Prisoners = this.GetNearbyObjects("Prisoner", 1000);
     for Prisoner, _ in next, Prisoners do
         Prisoner.StatusEffects.angst = 2500;
+        Prisoner.StatusEffects.suppressed  = 0;
 
         Prisoner.Needs.Bowels = 200;
         Prisoner.Needs.Bladder = 200;
