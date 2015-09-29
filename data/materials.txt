@@ -2,6 +2,19 @@ BEGIN Object
     Name                 None  
 END
 
+BEGIN Object
+    Name                 RemoveCTMEntities
+    Toughness            20.0000
+    Price                1
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Clipboard
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
 BEGIN Object     
     Name                 SatisfyAllNeeds
     Toughness            20.0000

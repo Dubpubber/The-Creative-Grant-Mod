@@ -1,6 +1,6 @@
 
-Name                 "The Creative Trainer Mod 4.05"
-Description          "Now updated to be more serious, TCGM is to become the workshops leading trainer."
+Name                 "The Creative Trainer Mod 4.05.1"
+Description          "Now updated to be more serious, CTM is to become the workshops leading trainer."
 IsTranslation        false  
 FileID               F261379081  
 SteamAuthor          A76561198024187021  
