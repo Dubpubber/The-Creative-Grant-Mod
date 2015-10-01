@@ -21,6 +21,7 @@ local CTMList = {
     "SpawnFire",
     "StopEscapingPrisoners",
     "TunnelDectector",
+    "StartRiot"
 }
 
 function tablelength(T)
