@@ -6,7 +6,9 @@ Inspired by Introversions in game development kit and the lack of modding option
  - Taze anyone that attempts to escape.
  - Infect patient zero with the virus, simulate quarantine.
  - Spawn 1, 2 or 3 prisoners at once!
- - Fully open source on GitHub! Copy, modify, and reference whatever you like! 
+ - ([b]NEW[/b]) Place a random piece of contraband.
+ - ([b]NEW[/b]) Start a mass riot.
+ - Fully open source on GitHub! Copy, modify, and reference whatever you like!
  - Of course, unlock the power of cash with 10 money giving grants!
  - Build every single item instantly.
  - Research instantly after a warden is placed!

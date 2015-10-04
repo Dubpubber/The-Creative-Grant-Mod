@@ -15,7 +15,7 @@
 -- ]]
 
 local Time = Game.Time;
-local Delay = 2;
+local Delay = 3;
 -- It's going to set the routing 30 times before deleting the guard.
 local KillDelay = 0;
 local KillTime = 30;
@@ -31,7 +31,7 @@ end
 local bodyguard;
 
 local function findFollower()
-    local founders = this.GetNearbyObjects( "Prisoner", 15 );
+    local founders = this.GetNearbyObjects( "Prisoner", 5 );
     local founder
 
     for Prisoner, _ in next, founders do
@@ -66,7 +66,16 @@ end
 -- Update following.
 function Act( elapsedTime )
     bodyguard.ClearRouting();
-    bodyguard.NavigateTo(follower.Pos.x, follower.Pos.y);
+    bodyguard.PlayerOrderPos.x = follower.Pos.x;
+    bodyguard.PlayerOrderPos.y = follower.Pos.y;
+    -- Radio for help if health goes above 0 and no KO'd
+    if bodyguard.Damage > 0 and bodyguard.Damage < 0.85 then
+        local nearbyGuards = this.GetNearbyObjects( "Guard", 30 );
+        for Guard, _ in next, nearbyGuards do
+            Guard.PlayerOrderPos.x = bodyguard.Pos.x;
+            Guard.PlayerOrderPos.y = bodyguard.Pos.y;
+        end
+    end
     if KillDelay == KillTime then
         bodyguard.ClearRouting();
         bodyguard.Delete();
