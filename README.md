@@ -5,6 +5,7 @@ Inspired by Introversions in game development kit and the lack of modding option
 #Features
  - Temporary Bodyguards (Highly Experimental! Use with caution!)
  - Spawn a fire and then swiftly put it out!
+ - Spawn random contraband!
  - Taze anyone that attempts to escape.
  - Infect patient zero with the virus, simulate quarantine.
  - Spawn 1, 2 or 3 prisoners at once!
