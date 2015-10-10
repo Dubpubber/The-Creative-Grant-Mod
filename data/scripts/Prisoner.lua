@@ -11,41 +11,70 @@ local isAvatar = false;
 
 local selector;
 
+local commands = {
+    [0] = {'PlaceRandomContraband' },
+    [1] = {'StartRiot'},
+    [2] = {'SpawnInmate'}
+}
+
 function checkAvatarStatus()
     if Object.GetProperty(this, "AvatarControl") == true then
         isAvatar = true;
         this.Routine = 0;
         Game.DebugOut("Avatar found!");
+        Game.DebugOut("|=|=|-Creative Trainer Mod by Dubpub-|=|=|");
         Game.DebugOut("Hey there! The below redness is intentional, please don't report it.");
         Game.DebugOut("To spawn the selector, face north for the next 5 seconds, I'll let you know.");
         print("");
+        Game.DebugOut("|=|=|-ABOVE ERROR IS INTENTIONAL. DO NOT REPORT IT!!!-|=|=|");
     end
 end
 
--- Naming patterns? FUCK THAT.
-function GetSelectorSelection()
-    local i = selector.GetProperty("Selection");
-    return i;
+function DeleteSelector()
+    selector.Delete();
+    selector = nil;
+    Game.DebugOut("Deleting the selector.");
+    Delay = 5;
 end
 
 function SpawnSelector()
     -- Spawns the selector. The player is then prompted to press F3 on the selector, as indicated on the sprite itself.
     selector = Object.Spawn("Selector", this.Pos.x, this.Pos.y - 1);
-    selector.SetProperty("Selection", 0);
-    Game.DebugOut("Don't fear this console! The above redness is not a bug!");
+    selector.Selection = 0;
+    Game.DebugOut("|=|=|-------------------------------------|=|=|");
     Game.DebugOut("I'm the selector. I will help you pick trainer options while in escape mode.");
     Game.DebugOut("To despawn me, just punch me. I'll despawn soon.");
+    Game.DebugOut("-INSTRUCTIONS ON USAGE-");
+    Game.DebugOut(" - The Selector will print out options to this console, so don't close it.");
+    Game.DebugOut(" - SELECTING A COMMAND: Face NORTH (UP) and wait.");
+    Game.DebugOut(" - SKIPPING TO NEXT COMMAND: Face SOUTH (DOWN) and wait.");
     Game.DebugOut("Current Selection: [0] - Nothing Will Happen");
+    Game.DebugOut("|=|=|-------------------------------------|=|=|");
 end
 
 function UpdateSelector()
-    -- check north, if north, select this option and act accordiningly. Or.y = -1
-    if this.Or.y == -1 then
 
+    -- If the selector is dead, despawn him and reset the delay.
+    if selector.Damage > 0.80 then
+        DeleteSelector();
+    end
+
+    -- check north, if north, select this option and act accordiningly. Or.y = -1
+    if this.Or.y < 0 then
+        -- Activate the selected command.
+        Object.Spawn(commands[selector.Selection][1], this.Pos.x, this.Pos.y);
+        -- After the player selects, delete the selector.
+        DeleteSelector();
     end
     -- check south, if south, move to the next option. Or.y = 1
-    if this.Or.y == 1 then
-
+    if this.Or.y > 0 then
+        if selector.Selection + 1 < 3 then
+            selector.Selection = selector.Selection + 1;
+            Game.DebugOut("Current selection: " .. selector.Selection .. ". Command: " .. commands[selector.Selection][1]);
+        else
+            -- Reset the selection.
+            selector.Selection = 0;
+        end
     end
 end
 
@@ -55,7 +84,7 @@ end
 
 function ProcessDanceRoutine()
     -- First the player must face north.
-    local orio = math.sign(this.Or.y);
+    local orio = this.Or.y;
     if this.Routine == 0 and orio < 0 then
         this.Routine = 1;
         Game.DebugOut("Awesome, now keep facing north. Routine val: " .. this.Routine);
@@ -95,12 +124,17 @@ function Act( elapsedTime )
     if isAvatar == false then
         checkAvatarStatus();
     else
-        if selector then
-
+        if selector ~= nil then
+            Game.DebugOut("Updating selector!");
+            UpdateSelector();
+            -- Don't want to make too many calls.
+            if Delay ~= 2 then
+                Delay = 2;
+            end
         else
             -- Make the player dance to spawn the selector.
             -- Dance routine = North North South to Or(ientation): <0, <0, >0
-            if this.Routine == 0 or this.Routine < 2 then
+            if this.Routine == 0 or this.Routine < 3 then
                 if ProcessDanceRoutine() == 3 then
                     -- Spawn selector!
                     SpawnSelector();
