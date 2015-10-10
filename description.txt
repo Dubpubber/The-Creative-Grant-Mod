@@ -17,6 +17,11 @@ Inspired by Introversions in game development kit and the lack of modding option
 
 [url=https://github.com/Dubpubber/The-Creative-Grant-Mod]GitHub Link[/url]
 
+[h1]Usage and Installation[/h1]
+The Creative Trainer mod behaves in a way you're not typically acustomed to. Other in game trainers like Grand Theft Auto offer graphical interfaces - this mod provides its features through a series of objects found in the "Staff" menu. You place these objects on the map and the corresponding action takes place.
+
+Like all mods for prison architect, it's activated through the extras menu, checking this mod, and hitting apply.
+
 [h1]Reference Me![/h1]
 Since somebody has to do it, I'm pushing [b][i]YOU[/i][/b] to use this mod to inspire your own creative ideas! Please, let's get this community rolling and push the developers to give us the tools we need! The more references I see the more features I'll add! Thanks so much for your participation!
 
