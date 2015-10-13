@@ -2,6 +2,7 @@
 -- Author: Dubpub
 -- Date: 10/9/2015
 -- Time: 4:03 PM
+-- File marked ND for "not done".
 --
 local Time = Game.Time;
 local Delay = 5;

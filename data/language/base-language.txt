@@ -21,10 +21,10 @@ object_OpenAllDoors                             Open All Doors
 object_Luther                                   Luther
 object_PlaceRandomContraband                    Place Equipment
 object_RemoveCTMEntities                        Removes all CTM Entities
-object_Selector                                 EM ONLY Selector
 object_StartRiot                                Start a Riot
 object_StopRiot                                 Stop a Riot
 object_GiveEveryoneContraband                   Give All Prisoners Contraband
+object_ShackleNearbyPrisoners                   Shackle Nearby Prisoners
 
 objective_grant_money1		                	TCM Money Grant 1
 objective_grant_money1_description				Receive $100,000 cash.

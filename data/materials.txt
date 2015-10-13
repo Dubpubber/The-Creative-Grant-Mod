@@ -230,24 +230,6 @@ BEGIN Object
 END
 
 BEGIN Object
-    Name                 Selector
-    Toughness            100.0000
-    Price                -1
-    RenderDepth          2
-    Group                StaticObject
-    BEGIN Sprite
-      x 2
-      y 0
-      w 2
-      h 2
-      RotateType 4
-    END
-    Properties           Entity
-    Properties           DoesNotTire
-    Properties           Scripted
-END
-
-BEGIN Object
     Name                 StartRiot
     Toughness            20.0000
     Price                3000
@@ -287,18 +269,17 @@ BEGIN Object
 END
 
 BEGIN Object
-    Name                 AssumeControl
+    Name                 ShackleNearbyPrisoners
     Toughness            20.0000
     Price                3000
     RenderDepth          2
     Group                StaticObject
-    Sprite               Megaphone
+    Sprite               JailKey
     SpriteScale          0.9
     Properties           Entity
     Properties           DoesNotTire
     Properties           Scripted
 END
-
 
 BEGIN Object     
     Name                 Box  
