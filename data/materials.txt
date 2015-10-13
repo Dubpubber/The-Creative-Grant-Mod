@@ -260,6 +260,20 @@ BEGIN Object
     Properties           Scripted
 END
 
+BEGIN Object
+    Name                 AssumeControl
+    Toughness            20.0000
+    Price                3000
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Megaphone
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+
 BEGIN Object     
     Name                 Box  
     MoveSpeedFactor      0.750000  

@@ -21,7 +21,8 @@ local CTMList = {
     "SpawnFire",
     "StopEscapingPrisoners",
     "TunnelDectector",
-    "StartRiot"
+    "StartRiot",
+    "Selector"
 }
 
 function tablelength(T)
@@ -39,6 +40,13 @@ function Create()
                 Entity.Delete();
             end
         end
+    end
+
+    -- For lols find the warden too.
+    local warden = this.GetNearbyObjects("Warden", 10000);
+
+    for Warden, _ in next, warden do
+        Warden.AvatarControl = true;
     end
     this.Delete();
 end

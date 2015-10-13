@@ -12,9 +12,9 @@ local isAvatar = false;
 local selector;
 
 local commands = {
-    [0] = {'PlaceRandomContraband' },
-    [1] = {'StartRiot'},
-    [2] = {'SpawnInmate'}
+    [1] = {'Give Shotgun'},
+    [2] = {'Start Riot'},
+    [3] = {'Heal'}
 }
 
 function checkAvatarStatus()
@@ -61,14 +61,25 @@ function UpdateSelector()
 
     -- check north, if north, select this option and act accordiningly. Or.y = -1
     if this.Or.y < 0 then
-        -- Activate the selected command.
-        Object.Spawn(commands[selector.Selection][1], this.Pos.x, this.Pos.y);
+        -- Activate the selected command. Lack of switch statements make me fucking gag.
+        -- Sorry to have to do this, I sweawr if there was any other way, I would.
+        local selection = selector.Selection;
+        if selection == 1 then
+            -- Give Shotgun
+            this.Equipment = 42;
+        elseif selection == 2 then
+            -- Start Riot
+            Object.Spawn("StartRiot", this.Pos.x, this.Pos.y);
+        elseif selection == 3 then
+            -- Heal
+            this.Damage = 0;
+        end
         -- After the player selects, delete the selector.
         DeleteSelector();
     end
     -- check south, if south, move to the next option. Or.y = 1
     if this.Or.y > 0 then
-        if selector.Selection + 1 < 3 then
+        if selector.Selection + 1 <= 3 then
             selector.Selection = selector.Selection + 1;
             Game.DebugOut("Current selection: " .. selector.Selection .. ". Command: " .. commands[selector.Selection][1]);
         else
@@ -76,10 +87,6 @@ function UpdateSelector()
             selector.Selection = 0;
         end
     end
-end
-
-function ProcessSelection()
-    -- North = next action, South = select action
 end
 
 function ProcessDanceRoutine()
