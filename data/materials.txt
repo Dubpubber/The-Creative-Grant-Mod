@@ -269,12 +269,12 @@ BEGIN Object
 END
 
 BEGIN Object
-    Name                 ShackleNearbyPrisoners
+    Name                 TrainGuards
     Toughness            20.0000
     Price                3000
     RenderDepth          2
     Group                StaticObject
-    Sprite               JailKey
+    Sprite               Tazer
     SpriteScale          0.9
     Properties           Entity
     Properties           DoesNotTire

@@ -22,7 +22,9 @@ local CTMList = {
     "StopEscapingPrisoners",
     "TunnelDectector",
     "StartRiot",
-    "Selector"
+    "Selector",
+    "StopRiot",
+    "TrainGuards",
 }
 
 function tablelength(T)
