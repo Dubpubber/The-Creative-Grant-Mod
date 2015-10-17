@@ -27,5 +27,5 @@ function Update()
 end
 
 function Act( elapsedTime )
-    
+
 end
