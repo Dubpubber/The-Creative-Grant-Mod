@@ -31,14 +31,7 @@ end
 local bodyguard;
 
 local function findFollower()
-    local founders = this.GetNearbyObjects( "Prisoner", 5 );
-    local founder
-
-    for Prisoner, _ in next, founders do
-        founder = Prisoner;
-    end
-
-    return founder;
+    return next( this.GetNearbyObjects( "Prisoner", 5 ) )
 end
 
 local follower = findFollower();
