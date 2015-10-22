@@ -9,6 +9,10 @@ Inspired by Introversions in game development kit and the lack of modding option
  - Taze anyone that attempts to escape.
  - Infect patient zero with the virus, simulate quarantine.
  - Spawn 1, 2 or 3 prisoners at once!
+ - Spawn a random bit of contraband!
+ - Spawn Luther! (Saving first is adviced)
+ - Spawn a military team to secure your rioting prison!
+ - Start a prison wide riot on command.
  - Fully open source on GitHub! Copy, modify, and reference whatever you like! 
  - Of course, unlock the power of cash with 10 money giving grants!
  - Build every single item instantly.
