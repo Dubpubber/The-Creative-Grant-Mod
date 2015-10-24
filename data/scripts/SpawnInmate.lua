@@ -7,7 +7,7 @@
 --
 -- Spawns a single inmate, obviously. I mean, look at the code dude.
 function Create()
-    Object.Spawn("Prisoner", this.Pos.x, this.Pos.y);
+    local prisoner = Object.Spawn("Prisoner", this.Pos.x, this.Pos.y);
     this.Delete();
 end
 
