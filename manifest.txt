@@ -1,5 +1,5 @@
 
-Name                 "The Creative Trainer Mod 4.05.1"
+Name                 "The Creative Trainer Mod 4.6"
 Description          "Now updated to be more serious, CTM is to become the workshops leading trainer."
 IsTranslation        false  
 FileID               F261379081  
