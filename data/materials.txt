@@ -6,6 +6,7 @@ BEGIN Object
     Name                 RemoveCTMEntities
     Toughness            20.0000
     Price                100
+    Teleportable         true
     RenderDepth          2
     Group                StaticObject
     Sprite               Clipboard
@@ -15,7 +16,7 @@ BEGIN Object
     Properties           Scripted
 END
 
-BEGIN Object     
+BEGIN Object
     Name                 SatisfyAllNeeds
     Toughness            20.0000
     Price                100
@@ -307,6 +308,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            30.0000
     Price                100
+    Teleportable         true
     NumSlots             2
     AttachToWall         true
     Group                StaticObject
@@ -326,6 +328,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            30.0000
     Price                100
+    Teleportable         true
     NumSlots             2
     Group                StaticObject
     BlockedBy            Wall
@@ -344,6 +347,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            10.0000
     Price                100
+    Teleportable         true
     NumSlots             2
     AttachToWall         true
     Group                StaticObject
@@ -365,6 +369,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            30.0000
     Price                100
+    Teleportable         true
     NumSlots             1
     AttachToWall         true
     Group                StaticObject
@@ -384,6 +389,7 @@ BEGIN Object
     ConstructionTime     0.0001
     Toughness            5.0000
     Price                100
+    Teleportable         true
     NumSlots             1
     Group                StaticObject
     BlockedBy            Wall
@@ -402,6 +408,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            15.0000
     Price                100
+    Teleportable         true
     RenderDepth          1
     NumSlots             1
     AttachToWall         true
@@ -421,6 +428,7 @@ BEGIN Object
     MoveSpeedFactor      0.250000
     Toughness            10.0000
     Price                100
+    Teleportable         true
     NumSlots             4
     Group                StaticObject
     BlockedBy            Wall
@@ -437,6 +445,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.500000
     Price                100
+    Teleportable         true
     NumSlots             1
     Group                StaticObject
     BlockedBy            Wall
@@ -454,6 +463,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            20.0000
     Price                100
+    Teleportable         true
     NumSlots             4
     Group                StaticObject
     BlockedBy            Wall
@@ -473,6 +483,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            40.0000
     Price                100
+    Teleportable         true
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -609,6 +620,7 @@ BEGIN Object
     Toughness            100.000
     BlockMove            true
     Price                100
+    Teleportable         true
     RenderDepth          2
     Group                StaticObject
     BlockedBy            Wall
@@ -626,6 +638,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            20.0000
     Price                100
+    Teleportable         true
     Group                StaticObject
     BlockedBy            StaticObject
     BlockedBy            UtilityStation
@@ -642,6 +655,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.500000
     Price                100
+    Teleportable         true
     Group                StaticObject
     BlockedBy            StaticObject
     BlockedBy            UtilityStation
@@ -660,6 +674,7 @@ BEGIN Object
     Toughness            10.0000
     RenderDepth          2
     Price                100
+    Teleportable         true
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -714,6 +729,7 @@ BEGIN Object
     MoveSpeedFactor      0.750000
     Toughness            10.0000
     Price                100
+    Teleportable         true
     NumSlots             2
     Group                StaticObject
     BlockedBy            Wall
@@ -733,6 +749,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.750000
     Price                100
+    Teleportable         true
     NumSlots             2
     Group                StaticObject
     BlockedBy            Wall
@@ -752,6 +769,7 @@ BEGIN Object
     MoveSpeedFactor      0.800000
     Toughness            3.00000
     Price                100
+    Teleportable         true
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -767,6 +785,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.800000
     Price                100
+    Teleportable         true
     NumSlots             3
     AttachToWall         true
     Group                StaticObject
@@ -786,6 +805,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.800000
     Price                100
+    Teleportable         true
     NumSlots             5
     RenderPostOffset     2
     Group                StaticObject
@@ -803,6 +823,7 @@ BEGIN Object
     Name                 ShowerHead
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          3
     AttachToWall         true
     BlockedBy            Wall
@@ -853,6 +874,7 @@ BEGIN Object
     MaxStackSize         10
     RenderDepth          1
     Price                100
+    Teleportable         true
     Sprite               StackBleach
     StackSprite          StackBleach
     Properties           Material
@@ -864,6 +886,7 @@ BEGIN Object
     MaxStackSize         10
     RenderDepth          1
     Price                100
+    Teleportable         true
     Sprite               SheetMetal
     StackSprite          StackSheetMetal
     Properties           Material
@@ -884,6 +907,7 @@ BEGIN Object
     MaxStackSize         20
     RenderDepth          1
     Price                100
+    Teleportable         true
     Sprite               Plate
     StackSprite          StackPlates
     Properties           Material
@@ -939,6 +963,7 @@ BEGIN Object
     Name                 Meal
     MaxStackSize         10
     Price                100
+    Teleportable         true
     RenderDepth          1
     Sprite               FoodTray
     Properties           Material
@@ -948,6 +973,7 @@ BEGIN Object
     Name                 FoodTray
     MaxStackSize         40
     Price                100
+    Teleportable         true
     RenderDepth          1
     Sprite               FoodTray
     StackSprite          StackFoodTrays
@@ -959,6 +985,7 @@ BEGIN Object
     Name                 FoodTrayDirty
     MaxStackSize         20
     Price                100
+    Teleportable         true
     RenderDepth          1
     Sprite               FoodTrayDirty
     StackSprite          StackFoodTraysDirty
@@ -969,6 +996,7 @@ BEGIN Object
     Name                 GrassTurf
     MaxStackSize         10
     Price                100
+    Teleportable         true
     RenderDepth          1
     Teleportable         true
     Sprite               GrassTurf
@@ -980,6 +1008,7 @@ BEGIN Object
     Name                 PrisonerUniform
     MaxStackSize         20
     Price                100
+    Teleportable         true
     RenderDepth          1
     Sprite               PrisonerUniform
     StackSprite          StackPrisonUniform
@@ -1032,6 +1061,7 @@ BEGIN Object
     Name                 Workman
     Toughness            5.0000
     Price                100
+    Teleportable         true
     RenderDepth          2
     ViewRange            3
     BlockedBy            Wall
@@ -1614,6 +1644,7 @@ BEGIN Object
     ConstructionTime     0.0001
     Toughness            10.0000
     Price                100
+    Teleportable         true
     RenderDepth          2
     AttachToWall         true
     Group                StaticObject
@@ -1632,6 +1663,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.800000
     Price                100
+    Teleportable         true
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -1651,6 +1683,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.600000
     Price                100
+    Teleportable         true
     NumSlots             1
     RenderDepth          1
     AttachToWall         true
@@ -1671,6 +1704,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.800000
     Price                100
+    Teleportable         true
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -1693,6 +1727,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            30.0000
     Price                100
+    Teleportable         true
     NumSlots             1
     AttachToWall         true
     Group                StaticObject
@@ -1714,6 +1749,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            30.0000
     Price                100
+    Teleportable         true
     NumSlots             1
     RenderDepth          0
     AttachToWall         true
@@ -1757,6 +1793,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            50.0000
     Price                100
+    Teleportable         true
     Group                UtilityStation
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -1777,6 +1814,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.500000
     Price                100
+    Teleportable         true
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -1794,6 +1832,7 @@ BEGIN Object
     Toughness            5.00000
     MaxStackSize         10
     Price                100
+    Teleportable         true
     RenderDepth          2
     Sprite               ElectricalCable
     StackSprite          StackCable
@@ -1807,6 +1846,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.800000
     Price                100
+    Teleportable         true
     RenderDepth          2
     Group                StaticObject
     BlockedBy            Wall
@@ -1831,6 +1871,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            50.0000
     Price                100
+    Teleportable         true
     RenderDepth          1
     Group                UtilityStation
     BlockedBy            Wall
@@ -1852,6 +1893,7 @@ BEGIN Object
     MoveSpeedFactor      0.800000
     Toughness            5.00000
     Price                100
+    Teleportable         true
     RenderDepth          1
     Group                StaticObject
     BlockedBy            Wall
@@ -1867,6 +1909,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MaxStackSize         10
     Price                100
+    Teleportable         true
     RenderDepth          1
     Group                LargePipe
     BlockedBy            LargePipe
@@ -1883,6 +1926,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MaxStackSize         10
     Price                100
+    Teleportable         true
     RenderDepth          1
     Group                SmallPipe
     BlockedBy            LargePipe
@@ -1900,6 +1944,7 @@ BEGIN Object
     ConstructionTime     0.0001
     Toughness            10.0000
     Price                100
+    Teleportable         true
     RenderDepth          3
     AttachToWall         true
     BlockedBy            Wall
@@ -1916,6 +1961,7 @@ BEGIN Object
     ConstructionTime     0.0001
     Toughness            10.0000
     Price                100
+    Teleportable         true
     RenderDepth          -1
     AttachToWall         false
     BlockedBy            Wall
@@ -1931,6 +1977,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.500000
     Price                100
+    Teleportable         true
     RenderDepth          3
     AttachToWall         true
     Group                StaticObject
@@ -1951,6 +1998,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.500000
     Price                100
+    Teleportable         true
     RenderDepth          1
     RenderPostOffset     2
     NumSlots             1
@@ -1970,6 +2018,7 @@ BEGIN Object
     Height               1
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -1988,6 +2037,7 @@ BEGIN Object
     Height               1
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -2006,6 +2056,7 @@ BEGIN Object
     Height               1
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          1
     Group                StaticObject
     BlockedBy            Wall
@@ -2024,6 +2075,7 @@ BEGIN Object
     Height               2
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          1
     AttachToWall         false
     NumSlots             2
@@ -2049,6 +2101,7 @@ BEGIN Object
     Height               1
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          2
     AttachToWall         true
     Group                StaticObject
@@ -2071,6 +2124,7 @@ BEGIN Object
     Height               1
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     Toughness            30
     RenderDepth          1
     AttachToWall         false
@@ -2094,6 +2148,7 @@ BEGIN Object
     Height               1
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     Toughness            30
     RenderDepth          1
     AttachToWall         false
@@ -2116,6 +2171,7 @@ BEGIN Object
     Height               1
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     Toughness            30
     RenderDepth          1
     AttachToWall         false
@@ -2137,6 +2193,7 @@ BEGIN Object
     Name                 Servo
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     Height               2
     RenderDepth          3
     AttachToWall         false
@@ -2154,6 +2211,7 @@ BEGIN Object
     Name                 DoorTimer
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     AttachToWall         false
     Group                StaticObject
     BlockedBy            Wall
@@ -2172,6 +2230,7 @@ BEGIN Object
     Name                 LogicCircuit
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          3
     AttachToWall         false
     Group                StaticObject
@@ -2189,6 +2248,7 @@ BEGIN Object
     Name                 LogicBridge
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          3
     AttachToWall         false
     Group                StaticObject
@@ -2206,6 +2266,7 @@ BEGIN Object
     Name                 PressurePad
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          0
     AttachToWall         false
     BlockedBy            Wall
@@ -2223,6 +2284,7 @@ BEGIN Object
     Name                 StatusLight
     ConstructionTime     0.0001
     Price                100
+    Teleportable         true
     RenderDepth          1
     AttachToWall         false
     Group                StaticObject
@@ -2265,6 +2327,7 @@ END
 BEGIN Object
     Name                 LaundryMachine
     Price                100
+    Teleportable         true
     ConstructionTime     20
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2286,6 +2349,7 @@ END
 BEGIN Object
     Name                 WorkshopSaw
     Price                100
+    Teleportable         true
     ConstructionTime     20
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2312,6 +2376,7 @@ END
 BEGIN Object
     Name                 WorkshopPress
     Price                100
+    Teleportable         true
     ConstructionTime     20
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2335,6 +2400,7 @@ END
 BEGIN Object
     Name                 CarpenterTable
     Price                100
+    Teleportable         true
     ConstructionTime     20
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2379,6 +2445,7 @@ END
 BEGIN Object
     Name                 LaundryBasket
     Price                100
+    Teleportable         true
     ConstructionTime     2
     MoveSpeedFactor      0.800000
     Toughness            15.0000
@@ -2398,6 +2465,7 @@ BEGIN Object
     Width                3
     Height               2
     Price                100
+    Teleportable         true
     ConstructionTime     2
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2420,6 +2488,7 @@ BEGIN Object
     MoveSpeedFactor      0.800000
     Toughness            30.0000
     Price                100
+    Teleportable         true
     NumSlots             1
     RenderPostOffset     3
     AttachToWall         false
@@ -2441,6 +2510,7 @@ BEGIN Object
     MoveSpeedFactor      0.600000
     Toughness            50.0000
     Price                100
+    Teleportable         true
     AttachToWall         true
     Group                StaticObject
     BlockedBy            Wall
@@ -2461,6 +2531,7 @@ BEGIN Object
     MoveSpeedFactor      0.900000
     Toughness            20.0000
     Price                100
+    Teleportable         true
     AttachToWall         true
     Group                StaticObject
     BlockedBy            Wall
@@ -2481,6 +2552,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            20.0000
     Price                100
+    Teleportable         true
     AttachToWall         true
     NumSlots             1
     Group                StaticObject
@@ -2500,6 +2572,7 @@ BEGIN Object
     MoveSpeedFactor      0.400000
     Toughness            20.0000
     Price                100
+    Teleportable         true
     AttachToWall         true
     NumSlots             2
     Group                StaticObject
@@ -2519,6 +2592,7 @@ BEGIN Object
     MoveSpeedFactor      0.300000
     Toughness            50.0000
     Price                100
+    Teleportable         true
     AttachToWall         true
     Group                StaticObject
     BlockedBy            Wall
@@ -2538,6 +2612,7 @@ BEGIN Object
     MoveSpeedFactor      0.300000
     Toughness            50.0000
     Price                100
+    Teleportable         true
     AttachToWall         true
     Group                StaticObject
     BlockedBy            Wall
@@ -2557,6 +2632,7 @@ BEGIN Object
     MoveSpeedFactor      0.900000
     Toughness            10.0000
     Price                100
+    Teleportable         true
     AttachToWall         false
     Group                StaticObject
     BlockedBy            Wall
@@ -2689,6 +2765,7 @@ BEGIN Object
     MoveSpeedFactor      0.250000
     Toughness            10.0000
     Price                100
+    Teleportable         true
     NumSlots             3
     Group                StaticObject
     BlockedBy            Wall
@@ -2778,6 +2855,7 @@ BEGIN Object
     ConstructionTime     0.0001
     MoveSpeedFactor      0.500000
     Price                100
+    Teleportable         true
     Group                StaticObject
     BlockedBy            StaticObject
     BlockedBy            UtilityStation
@@ -3127,6 +3205,7 @@ BEGIN Material
     SoftEdged            -1
     IndoorOutdoor        1
     Price                100
+    Teleportable         true
     SpriteType           Connected
     NumSprites           1
     BEGIN Sprite0    x 0  y 16  END
@@ -3298,6 +3377,7 @@ BEGIN Material
     SoftEdged            -1
     ObjectRequired       Brick
     Price                100
+    Teleportable         true
     IndoorOutdoor        1
     SpriteType           Connected
     NumSprites           1
