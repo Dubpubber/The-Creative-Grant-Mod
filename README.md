@@ -1,3 +1,8 @@
+# Current State: [11/15/2015]
+Introversion's latest ghost patch to 1.1 has lead to script related workshop mods to not update. This can be replicated across all mods. I've submitted a report to Mantis and eagerly await to be told I'm wrong and it's my problem.
+
+Maybe resolved.
+
 # The-Creative-Grant-Mod
 A very early implementation of a trainer for the popular tycoon game known as "Prison Architect"!
 Inspired by Introversions in game development kit and the lack of modding options through the LUA API, I'm happy to introduce the newly rebranded TGM to "The Creative Trainer Mod"! Finally, a mod the packs the most into a game that refuses to give modders the options we need to make the game even more powerful. Enough of that, check out the features!
