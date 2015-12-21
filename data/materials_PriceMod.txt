@@ -5,7 +5,7 @@ END
 BEGIN Object
     Name                 RemoveCTMEntities
     Toughness            20.0000
-    Price                100
+    Price                150
     Teleportable         true
     RenderDepth          2
     Group                StaticObject
@@ -19,7 +19,7 @@ END
 BEGIN Object
     Name                 SatisfyAllNeeds
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Pills
@@ -32,7 +32,7 @@ END
 BEGIN Object
     Name                 CallAllGuardsHere
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               CbRadio
@@ -45,7 +45,7 @@ END
 BEGIN Object
     Name                 SpawnFire
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Fire
@@ -58,7 +58,7 @@ END
 BEGIN Object
     Name                 RemoveAllFires
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Fireman
@@ -71,7 +71,7 @@ END
 BEGIN Object
     Name                 StopEscapingPrisoners
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Tazer
@@ -84,7 +84,7 @@ END
 BEGIN Object
     Name                 InfectPatientZero
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Needle
@@ -97,7 +97,7 @@ END
 BEGIN Object
     Name                 CureAllPrisoners
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Needle
@@ -110,7 +110,7 @@ END
 BEGIN Object
     Name                 MakeAllAngry
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               AssaultRifle
@@ -123,7 +123,7 @@ END
 BEGIN Object
     Name                 AssignBodyguard
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Box
@@ -136,7 +136,7 @@ END
 BEGIN Object
     Name                 SpawnInmate
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Prisoner
@@ -149,7 +149,7 @@ END
 BEGIN Object
     Name                 Spawn2Inmates
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Prisoner
@@ -162,7 +162,7 @@ END
 BEGIN Object
     Name                 Spawn3Inmates
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Prisoner
@@ -175,7 +175,7 @@ END
 BEGIN Object
     Name                 RestAllGuards
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Megaphone
@@ -188,7 +188,7 @@ END
 BEGIN Object
     Name                 OpenAllDoors
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               JailKey
@@ -201,7 +201,7 @@ END
 BEGIN Object
     Name                 PlaceRandomContraband
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Knife
@@ -214,7 +214,7 @@ END
 BEGIN Object
     Name                 Luther
     Toughness            100.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     BEGIN Sprite
@@ -233,7 +233,7 @@ END
 BEGIN Object
     Name                 StartRiot
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Megaphone
@@ -246,7 +246,7 @@ END
 BEGIN Object
     Name                 StopRiot
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Megaphone
@@ -259,7 +259,7 @@ END
 BEGIN Object
     Name                 GiveEveryoneContraband
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Axe
@@ -272,7 +272,7 @@ END
 BEGIN Object
     Name                 SpawnRandomCategoryInmate
     Toughness            20.0000
-    Price                100
+    Price                150
     RenderDepth          2
     Group                StaticObject
     Sprite               Prisoner
@@ -282,78 +282,75 @@ BEGIN Object
     Properties           Scripted
 END
 
-BEGIN Object
-    Name                 Box
-    MoveSpeedFactor      0.750000
-    Toughness            10.0000
-    RenderDepth          1
-    Sprite               Box
+BEGIN Object     
+    Name                 Box  
+    MoveSpeedFactor      0.500000  
+    Toughness            10.0000  
+    RenderDepth          1  
+    Sprite               Box  
     SpriteScale          0.9
     MadeOf               Wood
     Properties           Material
 END
 
-BEGIN Object
-    Name                 Stack
-    MoveSpeedFactor      0.750000
-    RenderDepth          1
-    Sprite               StackConcrete
-    Properties           Material
+BEGIN Object     
+    Name                 Stack  
+    MoveSpeedFactor      0.500000  
+    RenderDepth          1  
+    Sprite               StackConcrete  
+    Properties           Material    
 END
 
-BEGIN Object
-    Name                 Bed
-    Height               2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            30.0000
-    Price                100
-    Teleportable         true
-    NumSlots             2
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Bed
+BEGIN Object     
+    Name                 Bed  
+    Height               2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            30.0000  
+    Price                150  
+    NumSlots             2  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Bed  
     MadeOf               Wood
     ToolbarSprite        BedToolbar
     Properties           StaticObject
 END
 
-BEGIN Object
-    Name                 BunkBed
-    Height               2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            30.0000
-    Price                100
-    Teleportable         true
-    NumSlots             2
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               BunkBed
+BEGIN Object     
+    Name                 BunkBed  
+    Height               2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            30.0000  
+    Price                150  
+    NumSlots             2  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               BunkBed  
     ToolbarSprite        BunkBedToolbar
     MadeOf               Wood
     Properties           StaticObject
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 SuperiorBed
-    Height               2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            10.0000
-    Price                100
-    Teleportable         true
+    Height               2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            10.0000  
+    Price                150  
     NumSlots             2
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     MadeOf               Wood
     Sprite               SuperiorBed
     SpriteScale          1.1
@@ -363,590 +360,570 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-BEGIN Object
-    Name                 Crib
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            30.0000
-    Price                100
-    Teleportable         true
-    NumSlots             1
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Cot
+BEGIN Object     
+    Name                 Crib  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            30.0000  
+    Price                150  
+    NumSlots             1  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Cot  
     MadeOf               Wood
     Properties           StaticObject
     Properties           WomenOnly
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
 
 BEGIN Object
-    Name                 PlayMat
-    ConstructionTime     0.0001
-    Toughness            5.0000
-    Price                100
-    Teleportable         true
-    NumSlots             1
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               PlayMat
+    Name                 PlayMat  
+    ConstructionTime     0.0001  
+    Toughness            5.0000  
+    Price                150  
+    NumSlots             1  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               PlayMat  
     MadeOf               Composite
     Properties           StaticObject
     Properties           WomenOnly
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
-BEGIN Object
-    Name                 Toilet
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            15.0000
-    Price                100
-    Teleportable         true
+BEGIN Object     
+    Name                 Toilet  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            15.0000  
+    Price                150
     RenderDepth          1
-    NumSlots             1
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Toilet
+    NumSlots             1  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Toilet  
     MadeOf               HollowMetal
-    Properties           StaticObject
+    Properties           StaticObject    
 END
 
-BEGIN Object
-    Name                 Table
-    Width                4
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.250000
-    Toughness            10.0000
-    Price                100
-    Teleportable         true
-    NumSlots             4
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+BEGIN Object     
+    Name                 Table  
+    Width                4  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            10.0000  
+    Price                150  
+    NumSlots             4 
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     MadeOf               Composite
-    Sprite               Table
+    Sprite               Table  
     ToolbarSprite        TableToolbar
     Properties           StaticObject
 END
 
-BEGIN Object
-    Name                 Chair
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Price                100
-    Teleportable         true
-    NumSlots             1
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+BEGIN Object     
+    Name                 Chair  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    NumSlots             1  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     MadeOf               Composite
-    Sprite               OfficeChair
+    Sprite               OfficeChair  
     Properties           StaticObject
 END
 
-BEGIN Object
-    Name                 Bench
-    Width                4
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            20.0000
-    Price                100
-    Teleportable         true
-    NumSlots             4
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Bench
+BEGIN Object     
+    Name                 Bench  
+    Width                4  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    Price                150  
+    NumSlots             4  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Bench  
     MadeOf               Composite
     ToolbarSprite        BenchToolbar
     Properties           StaticObject
 END
 
-BEGIN Object
-    Name                 ElectricChair
-    Width                2
-    Height               2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            40.0000
-    Price                100
-    Teleportable         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               ElectricChair
+BEGIN Object     
+    Name                 ElectricChair  
+    Width                2  
+    Height               2  
+    ConstructionTime     10.0000  
+    MoveSpeedFactor      0.500000  
+    Toughness            40.0000  
+    Price                150  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               ElectricChair  
     MadeOf               SolidMetal
     Properties           StaticObject
     Properties           Electrical
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
-BEGIN Object
-    Name                 JailDoor
-    ConstructionTime     0.0001
-    Toughness            100.000
-    Teleportable         true
-    Price                100
-    RenderDepth          2
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+BEGIN Object     
+    Name                 JailDoor  
+    ConstructionTime     0.0001  
+    Toughness            100.000  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          2  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               JailDoor
-    MadeOf               SolidMetal
+    MadeOf               SolidMetal  
     Properties           StaticObject
     Properties           Door
 END
 
-BEGIN Object
-    Name                 JailDoorLarge
-    Width                2
-    ConstructionTime     0.0001
-    Toughness            100.000
-    Teleportable         true
-    Price                100
-    RenderDepth          2
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               JailDoorLarge
-    MadeOf               SolidMetal
+BEGIN Object     
+    Name                 JailDoorLarge  
+    Width                2  
+    ConstructionTime     0.0001  
+    Toughness            100.000  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          2  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               JailDoorLarge  
+    MadeOf               SolidMetal  
     Properties           StaticObject
     Properties           Door
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 RoadGate
     Width                7
     Height               1
-    ConstructionTime     0.0001
-    Toughness            100.000
-    Teleportable         true
-    Price                100
+    ConstructionTime     20.00000
+    Toughness            100.000  
+    Teleportable         true  
+    Price                150
     RenderPreOffset      -2
-    RenderDepth          2
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               RoadGate
-    MadeOf               SolidMetal
+    RenderDepth          2  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               RoadGate  
+    MadeOf               SolidMetal  
     ToolbarSprite        RoadGateToolbar
     Properties           StaticObject
     Properties           Door
     Properties           CanPlaceOnRoad
 END
 
-BEGIN Object
-    Name                 Door
-    ConstructionTime     0.0001
-    Toughness            20.0000
-    Teleportable         true
-    Price                100
-    RenderDepth          2
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Door
+BEGIN Object     
+    Name                 Door  
+    ConstructionTime     0.0001  
+    Toughness            20.0000  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          2  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Door  
     MadeOf               Wood
     Properties           StaticObject
     Properties           Door
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 StaffDoor
-    ConstructionTime     0.0001
-    Toughness            40.0000
-    Teleportable         true
-    Price                100
-    RenderDepth          2
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    ConstructionTime     0.0001  
+    Toughness            40.0000  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          2  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               StaffDoor
     MadeOf               Wood
     Properties           StaticObject
     Properties           Door
 END
 
-BEGIN Object
-    Name                 SolitaryDoor
-    ConstructionTime     0.0001
-    Toughness            300.000
-    Teleportable         true
-    Price                100
-    RenderDepth          2
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+BEGIN Object     
+    Name                 SolitaryDoor  
+    ConstructionTime     15.00000  
+    Toughness            300.000  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          2  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               SolitaryDoor
-    MadeOf               SolidMetal
+    MadeOf               SolidMetal  
     Properties           StaticObject
     Properties           Door
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 RemoteDoor
-    ConstructionTime     0.0001
-    Toughness            300.000
-    Teleportable         true
-    Price                100
-    RenderDepth          2
+    ConstructionTime     20.00000  
+    Toughness            300.000  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          2  
     Research             RemoteAccess
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               RemoteDoor
-    MadeOf               SolidMetal
+    MadeOf               SolidMetal  
     Properties           StaticObject
     Properties           Door
 END
 
-BEGIN Object
-    Name                 JailBars
-    MoveSpeedFactor      0.500000
-    Toughness            100.000
-    BlockMove            true
-    Price                100
-    Teleportable         true
-    RenderDepth          2
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               JailBars
+BEGIN Object     
+    Name                 JailBars  
+    MoveSpeedFactor      0.500000  
+    Toughness            100.000  
+    BlockMove            true  
+    Price                150  
+    RenderDepth          2  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               JailBars  
     MadeOf               HollowMetal
     Properties           StaticObject
     Properties           BlockMovement
 END
 
-BEGIN Object
-    Name                 Window
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            20.0000
-    Price                100
-    Teleportable         true
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Window
+BEGIN Object     
+    Name                 Window  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    Price                150  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Window  
     MadeOf               HollowMetal
     Properties           StaticObject
     Properties           Window
     Properties           BuiltOnWall
 END
 
-BEGIN Object
-    Name                 WindowLarge
-    Width                2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Price                100
-    Teleportable         true
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               WindowLarge
+BEGIN Object     
+    Name                 WindowLarge  
+    Width                2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               WindowLarge  
     MadeOf               HollowMetal
     Properties           StaticObject
     Properties           Window
     Properties           BuiltOnWall
 END
 
-BEGIN Object
-    Name                 Tree
+BEGIN Object     
+    Name                 Tree  
     Width                3
-    Height               3
-    ConstructionTime     0.0001
-    Toughness            10.0000
+    Height               3  
+    ConstructionTime     30.00000  
+    Toughness            10.0000  
     RenderDepth          2
-    Price                100
-    Teleportable         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    Price                150
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               TreeInPot
     StackSprite          StackTrees
     SpriteScale          0.5
     ToolbarSprite        Tree
     MadeOf               Wood
-    MaxStackSize         10
+    MaxStackSize         10  
     Research             GroundsKeeping
     Properties           StaticObject
     Properties           SlowDelivery
 END
 
-BEGIN Object
-    Name                 TreeStump
-    Width                1
-    Height               1
+BEGIN Object     
+    Name                 TreeStump  
+    Width                1  
+    Height               1  
     ConstructionTime     -1.00000
-    Toughness            50.0000
+    Toughness            50.0000  
     RenderDepth          2
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               TreeStump
     MadeOf               Wood
     Properties           StaticObject
 END
 
-BEGIN Object
-    Name                 Light
-    ConstructionTime     0.0001
-    Toughness            1.00000
-    Teleportable         true
-    Price                100
+BEGIN Object     
+    Name                 Light  
+    ConstructionTime     0.0001  
+    Toughness            1.00000  
+    Teleportable         true  
+    Price                150  
     RenderDepth          4
     BlockedBy            Wall
-    BlockedBy            UtilityStation
+    BlockedBy            UtilityStation  
     Sprite               Light
-    SpriteScale          0.4
+    SpriteScale          0.4  
     Properties           StaticObject
     Properties           Electrical
     Properties           DontAvoid
 END
 
-BEGIN Object
-    Name                 Cooker
-    Width                2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.750000
-    Toughness            10.0000
-    Price                100
-    Teleportable         true
-    NumSlots             2
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Cooker
+BEGIN Object     
+    Name                 Cooker  
+    Width                2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            10.0000  
+    Price                150  
+    NumSlots             2  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Cooker  
     ToolbarSprite        CookerToolbar
     MadeOf               Composite
     Properties           StaticObject
     Properties           Electrical
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
-BEGIN Object
-    Name                 Fridge
-    Width                2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.750000
-    Price                100
-    Teleportable         true
-    NumSlots             2
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Fridge
+BEGIN Object     
+    Name                 Fridge  
+    Width                2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    NumSlots             2  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Fridge  
     MadeOf               Composite
     ToolbarSprite        FridgeToolbar
     Properties           StaticObject
     Properties           Electrical
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
-BEGIN Object
-    Name                 Bin
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.800000
-    Toughness            3.00000
-    Price                100
-    Teleportable         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Bin
+BEGIN Object     
+    Name                 Bin  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            3.00000  
+    Price                150  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Bin  
     MadeOf               Composite
     Properties           StaticObject
 END
 
-BEGIN Object
-    Name                 Sink
-    Width                3
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.800000
-    Price                100
-    Teleportable         true
-    NumSlots             3
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+BEGIN Object     
+    Name                 Sink  
+    Width                3  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    NumSlots             3  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               KitchenSink2
     MadeOf               HollowMetal
     ToolbarSprite        KitchenSinkToolbar
     Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
-BEGIN Object
-    Name                 ServingTable
-    Width                5
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.800000
-    Price                100
-    Teleportable         true
-    NumSlots             5
+BEGIN Object     
+    Name                 ServingTable  
+    Width                5  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    NumSlots             5  
     RenderPostOffset     2
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
     BlockedBy            UtilityStation
-    Sprite               ServingTable
+    Sprite               ServingTable  
     MadeOf               Composite
     ToolbarSprite        ServingTableToolbar
     Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
-BEGIN Object
-    Name                 ShowerHead
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
-    RenderDepth          3
-    AttachToWall         true
-    BlockedBy            Wall
-    BlockedBy            UtilityStation
-    Sprite               ShowerHead
+BEGIN Object     
+    Name                 ShowerHead  
+    ConstructionTime     0.0001  
+    Price                150  
+    RenderDepth          3  
+    AttachToWall         true    
+    BlockedBy            Wall    
+    BlockedBy            UtilityStation  
+    Sprite               ShowerHead  
     MadeOf               HollowMetal
     ToolbarSprite        ShowerHeadToolbar
     Properties           StaticObject
     Properties           DontAvoid
 END
 
-BEGIN Object
-    Name                 Brick
-    Toughness            1.00000
-    MaxStackSize         20
-    Teleportable         true
-    Price                100
-    RenderDepth          1
-    Sprite               Brick
+BEGIN Object     
+    Name                 Brick  
+    Toughness            1.00000  
+    MaxStackSize         20  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          1  
+    Sprite               Brick  
     StackSprite          StackBrick
     Properties           Material
 END
 
-BEGIN Object
-    Name                 Concrete
-    MaxStackSize         20
-    Teleportable         true
-    Price                100
-    RenderDepth          1
-    Sprite               Concrete
+BEGIN Object     
+    Name                 Concrete  
+    MaxStackSize         20  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          1  
+    Sprite               Concrete  
     StackSprite          StackConcrete
     Properties           Material
 END
 
-BEGIN Object
-    Name                 Steel
-    MaxStackSize         20
-    Teleportable         true
-    Price                100
-    RenderDepth          1
-    Sprite               Girder
+BEGIN Object     
+    Name                 Steel  
+    MaxStackSize         20  
+    Teleportable         true  
+    Price                150  
+    RenderDepth          1  
+    Sprite               Girder  
     StackSprite          StackGirder
     Properties           Material
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Bleach
     MaxStackSize         10
-    RenderDepth          1
-    Price                100
-    Teleportable         true
+    RenderDepth          1  
+    Price                150
     Sprite               StackBleach
     StackSprite          StackBleach
     Properties           Material
     Properties           SlowDelivery
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 SheetMetal
     MaxStackSize         10
-    RenderDepth          1
-    Price                100
-    Teleportable         true
+    RenderDepth          1  
+    Price                150
     Sprite               SheetMetal
     StackSprite          StackSheetMetal
-    Properties           Material
+    Properties           Material    
     Properties           SlowDelivery
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 LicensePlateBlank
     MaxStackSize         20
-    RenderDepth          1
+    RenderDepth          1  
     Sprite               PlateBlank
     StackSprite          StackPlatesBlank
-    Properties           Material
+    Properties           Material    
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 LicensePlate
     MaxStackSize         20
-    RenderDepth          1
-    Price                100
-    Teleportable         true
+    RenderDepth          1  
+    Price                150
     Sprite               Plate
     StackSprite          StackPlates
     Properties           Material
     Properties           Sellable
 END
 
-BEGIN Object
-    Name                 Ingredients
-    MaxStackSize         20
-    RenderDepth          1
-    Sprite               Ingredient1
+BEGIN Object     
+    Name                 Ingredients  
+    MaxStackSize         20  
+    RenderDepth          1  
+    Sprite               Ingredient1  
     StackSprite          StackIngredients1
     Properties           Material
     Properties           SlowDelivery
 END
 
-BEGIN Object
-    Name                 IngredientsCooking
-    MaxStackSize         10
-    RenderDepth          1
-    Sprite               StackMeals1
+BEGIN Object     
+    Name                 IngredientsCooking  
+    MaxStackSize         10  
+    RenderDepth          1  
+    Sprite               StackMeals1  
     StackSprite          StackMeals1
     Properties           Material
 END
 
-BEGIN Object
-    Name                 IngredientsCooked
-    MaxStackSize         20
-    RenderDepth          1
+BEGIN Object     
+    Name                 IngredientsCooked  
+    MaxStackSize         20  
+    RenderDepth          1  
     Sprite               StackMealsCooked1
     StackSprite          StackMealsCooked1
     Properties           Material
 END
 
-BEGIN Object
-    Name                 IngredientsSpoiled
-    MaxStackSize         20
-    RenderDepth          1
-    Sprite               Ingredient1
+BEGIN Object     
+    Name                 IngredientsSpoiled  
+    MaxStackSize         20  
+    RenderDepth          1  
+    Sprite               Ingredient1  
     StackSprite          StackIngredients1
     Properties           Material
     Properties           SlowDelivery
@@ -959,68 +936,63 @@ BEGIN Object
     Sprite               FoodTrash1
 END
 
-BEGIN Object
-    Name                 Meal
-    MaxStackSize         10
-    Price                100
-    Teleportable         true
+BEGIN Object     
+    Name                 Meal  
+    MaxStackSize         10  
+    Price                150  
     RenderDepth          1
-    Sprite               FoodTray
+    Sprite               FoodTray  
     Properties           Material
 END
 
-BEGIN Object
-    Name                 FoodTray
-    MaxStackSize         40
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    Sprite               FoodTray
+BEGIN Object     
+    Name                 FoodTray  
+    MaxStackSize         40  
+    Price                150  
+    RenderDepth          1  
+    Sprite               FoodTray  
     StackSprite          StackFoodTrays
     Properties           Material
     Properties           SlowDelivery
 END
 
-BEGIN Object
-    Name                 FoodTrayDirty
-    MaxStackSize         20
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    Sprite               FoodTrayDirty
+BEGIN Object     
+    Name                 FoodTrayDirty  
+    MaxStackSize         20  
+    Price                150  
+    RenderDepth          1  
+    Sprite               FoodTrayDirty  
     StackSprite          StackFoodTraysDirty
     Properties           Material
 END
 
-BEGIN Object
-    Name                 GrassTurf
-    MaxStackSize         10
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    Teleportable         true
-    Sprite               GrassTurf
+BEGIN Object     
+    Name                 GrassTurf  
+    MaxStackSize         10  
+    Price                150  
+    RenderDepth          1  
+    Teleportable         true  
+    Sprite               GrassTurf  
     StackSprite          StackGrass
     Properties           Material
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 PrisonerUniform
-    MaxStackSize         20
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    Sprite               PrisonerUniform
+    MaxStackSize         20  
+    Price                150  
+    RenderDepth          1  
+    Sprite               PrisonerUniform  
     StackSprite          StackPrisonUniform
     Properties           Material
     Properties           SlowDelivery
 END
 
-BEGIN Object
-    Name                 DirtyPrisonerUniform
-    MaxStackSize         20
+BEGIN Object     
+    Name                 DirtyPrisonerUniform  
+    MaxStackSize         20  
     RenderDepth          1
-    Sprite               PrisonUniformDirty
+    Sprite               PrisonUniformDirty  
     StackSprite          StackPrisonUniformDirty
     SpriteScale          1.2
     Properties           Material
@@ -1055,104 +1027,121 @@ BEGIN Object
     StackSprite         StackWood
     Properties          Material
     Properties          Sellable
-END
+END 
 
-BEGIN Object
-    Name                 Workman
+BEGIN Object     
+    Name                 Workman  
     Toughness            5.0000
-    Price                100
-    Teleportable         true
-    RenderDepth          2
+    Price                150  
+    RenderDepth          2  
     ViewRange            3
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Workman
-    SpriteVariants       4
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Workman  
+    SpriteVariants       4  
     Properties           Entity
     Properties           Staff
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 TruckDriver
     Toughness            5.0000
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            3
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               TruckDriver
     Properties           Entity
     Properties           Staff
 END
 
-BEGIN Object
-    Name                 Guard
-    MoveSpeedFactor      0.500000
-    Toughness            20.0000
-    Price                100
-    RenderDepth          2
+BEGIN Object     
+    Name                 Guard  
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    Price                150  
+    RenderDepth          2  
     ViewRange            12
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               Guard
-    SpriteVariants       4
+    SpriteVariants       4  
     Properties           Entity
     Properties           Staff
     Properties           Guard
     Equipment            Baton
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 ArmedGuard
-    MoveSpeedFactor      0.500000
-    Toughness            15.0000
-    Price                100
-    RenderDepth          2
+    MoveSpeedFactor      0.500000  
+    Toughness            15.0000  
+    Price                150  
+    RenderDepth          2  
     ViewRange            15
     BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Armoury
     Sprite               ArmedGuard
     SpriteVariants       4
     Properties           Entity
     Properties           Staff
     Properties           Guard
-    Properties           DoesNotTire
     Equipment            Shotgun
 END
 
-BEGIN Object
-    Name                 DogHandler
-    MoveSpeedFactor      0.500000
+BEGIN Object     
+    Name                 DogHandler  
+    MoveSpeedFactor      0.500000  
     Toughness            15.0000
-    Price                100
-    RenderDepth          2
+    Price                150  
+    RenderDepth          2  
     ViewRange            12
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Dogs
-    Sprite               DogHandler
-    SpriteVariants       4
+    Sprite               DogHandler  
+    SpriteVariants       4  
     Properties           Entity
     Properties           Staff
     Properties           Guard
     Equipment            DogLeash
 END
 
-BEGIN Object
+BEGIN Object     
+    Name                 Sniper  
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    Price                150  
+    RenderDepth          2  
+    ViewRange            12
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Sniper
+    SpriteVariants       4  
+    Properties           Entity
+    Properties           Guard
+    Properties           Staff
+    Equipment            Rifle
+    Research             Armoury
+END
+
+BEGIN Object     
     Name                 Teacher
-    MoveSpeedFactor      0.500000
+    MoveSpeedFactor      0.500000  
     Toughness            5.0000
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            5
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Teacher
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Teacher 
     SpriteVariants       4
     Properties           Entity
     Properties           DoesNotTire
@@ -1162,118 +1151,118 @@ BEGIN Object
     Name                 SpiritualLeader
     MoveSpeedFactor      0.500000
     Toughness            5.0000
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            5
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               Priest
     SpriteVariants       7
     Properties           Entity
     Properties           DoesNotTire
-END
+END 
 
 BEGIN Object
     Name                 ParoleOfficer
     MoveSpeedFactor      0.500000
     Toughness            5.0000
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            5
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               ParoleBoardMember
     SpriteVariants       4
     Properties           Entity
     Properties           DoesNotTire
-END
+END 
 
 BEGIN Object
     Name                 ParoleLawyer
     MoveSpeedFactor      0.500000
     Toughness            5.0000
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            5
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               ParoleLawyer
     SpriteVariants       4
     Properties           Entity
     Properties           DoesNotTire
-END
+END 
 
 BEGIN Object
     Name                 AppealsLawyer
     MoveSpeedFactor      0.500000
     Toughness            5.0000
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            5
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               ParoleLawyer
     SpriteVariants       4
     Properties           Entity
     Properties           DoesNotTire
-END
+END 
 
 BEGIN Object
     Name                 AppealsMagistrate
     MoveSpeedFactor      0.500000
     Toughness            5.0000
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            5
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               ParoleBoardMember
     SpriteVariants       4
     Properties           Entity
     Properties           DoesNotTire
-END
+END 
 
-BEGIN Object
-    Name                 Dog
-    MoveSpeedFactor      1.00000
-    Toughness            20.0000
-    RenderDepth          2
+BEGIN Object     
+    Name                 Dog  
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    RenderDepth          2  
     ViewRange            12
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Dogs
     Sprite               GuardDog
     Properties           Entity
     Properties           Staff
 END
 
-BEGIN Object
-    Name                 RiotGuard
-    MoveSpeedFactor      0.500000
-    Toughness            60.0000
-    RenderDepth          2
+BEGIN Object     
+    Name                 RiotGuard  
+    MoveSpeedFactor      0.500000  
+    Toughness            60.0000  
+    RenderDepth          2  
     ViewRange            12
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               RiotGuard
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               RiotGuard  
     Properties           Entity
     Properties           Guard
     Properties           DoesNotTire
     Equipment            Baton
 END
 
-BEGIN Object
-    Name                 Soldier
-    MoveSpeedFactor      0.500000
-    Toughness            60.0000
-    RenderDepth          2
+BEGIN Object     
+    Name                 Soldier  
+    MoveSpeedFactor      0.500000  
+    Toughness            60.0000  
+    RenderDepth          2  
     ViewRange            12
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Soldier
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Soldier  
     Properties           Entity
     Properties           Guard
     Properties           Staff
@@ -1282,133 +1271,133 @@ BEGIN Object
 END
 
 
-BEGIN Object
-    Name                 Prisoner
-    MoveSpeedFactor      0.500000
-    Toughness            20.0000
-    RenderDepth          2
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Prisoner
+BEGIN Object     
+    Name                 Prisoner  
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    RenderDepth          2  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Prisoner  
     Properties           Entity
     Properties           DoesNotTire
 END
 
-BEGIN Object
-    Name                 Doctor
-    Toughness            10.0000
-    Price                100
+BEGIN Object     
+    Name                 Doctor  
+    Toughness            10.0000  
+    Price                150
     Toughness            5
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            3
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Health
-    Sprite               Doctor
-    SpriteVariants       4
+    Sprite               Doctor  
+    SpriteVariants       4  
     Properties           Entity
     Properties           Staff
     Equipment            Needle
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Paramedic
     Toughness            10.0000
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            12
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               Paramedic
     Properties           Entity
     Properties           DoesNotTire
 END
 
-BEGIN Object
-    Name                 Cook
-    Price                100
+BEGIN Object     
+    Name                 Cook  
+    Price                150
     Toughness            5
-    RenderDepth          2
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Chef
-    SpriteVariants       4
-    ViewRange            3
+    RenderDepth          2  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Chef  
+    SpriteVariants       4  
+    ViewRange            3    
     Properties           Entity
     Properties           Staff
 END
 
-BEGIN Object
-    Name                 Gardener
-    Price                100
+BEGIN Object     
+    Name                 Gardener  
+    Price                150  
     Toughness            5
-    RenderDepth          2
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    RenderDepth          2  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             GroundsKeeping
-    Sprite               Gardener
-    SpriteVariants       4
+    Sprite               Gardener  
+    SpriteVariants       4  
     Properties           Entity
     Properties           Staff
 END
 
-BEGIN Object
-    Name                 Janitor
-    Price                100
+BEGIN Object     
+    Name                 Janitor  
+    Price                150  
     Toughness            5
-    RenderDepth          2
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    RenderDepth          2  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Cleaning
-    Sprite               Janitor
-    SpriteVariants       4
+    Sprite               Janitor  
+    SpriteVariants       4  
     Properties           Entity
     Properties           Staff
 END
 
-BEGIN Object
-    Name                 Fireman
-    RenderDepth          2
+BEGIN Object     
+    Name                 Fireman  
+    RenderDepth          2  
     Toughness            10
     ViewRange            12
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Fireman
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Fireman  
     Properties           Entity
     Properties           DoesNotTire
     Equipment            Hose
 END
 
-BEGIN Object
-    Name                 Avatar
-    Toughness            100.000
-    RenderDepth          2
+BEGIN Object     
+    Name                 Avatar  
+    Toughness            100.000  
+    RenderDepth          2  
     ViewRange            12
-    Sprite               Sonny
+    Sprite               Sonny  
     Properties           Entity
 END
 
-BEGIN Object
-    Name                 Actor
-    RenderDepth          2
-    Sprite               Actor
+BEGIN Object     
+    Name                 Actor  
+    RenderDepth          2  
+    Sprite               Actor  
     Properties           Entity
     Toughness            1
     ViewRange            10
     Properties           DoesNotTire
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Visitor
-    RenderDepth          2
+    RenderDepth          2  
     Toughness            5
-    Sprite               PalermoDaughter1
+    Sprite               PalermoDaughter1  
     Properties           Entity
     Properties           DoesNotTire
 END
@@ -1424,274 +1413,271 @@ END
 
 BEGIN Object
     Name                 Warden
-    Price                100
-    RenderDepth          2
+    Price                150  
+    RenderDepth          2  
     ViewRange            3
     Toughness            5
     BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Warden
-    Sprite               Warden
+    Sprite               Warden  
     Properties           Entity
     Properties           Administrator
     Properties           Staff
     Equipment            Clipboard
 END
 
-BEGIN Object
-    Name                 Chief
-    Price                100
-    RenderDepth          2
+BEGIN Object     
+    Name                 Chief  
+    Price                150  
+    RenderDepth          2  
     ViewRange            12
     Toughness            20
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Security
-    Sprite               Chief
+    Sprite               Chief  
     Properties           Entity
     Properties           Administrator
     Properties           Staff
     Equipment            Clipboard
 END
 
-BEGIN Object
-    Name                 Foreman
-    Price                100
-    RenderDepth          2
+BEGIN Object     
+    Name                 Foreman  
+    Price                150  
+    RenderDepth          2  
     Toughness            5
     ViewRange            3
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Maintainance
-    Sprite               Foreman
+    Sprite               Foreman  
     Properties           Entity
-    Properties           Administrator
-    Properties           Staff
+    Properties           Administrator   
+    Properties           Staff 
     Equipment            Clipboard
 END
 
-BEGIN Object
-    Name                 Psychologist
-    Price                100
+BEGIN Object     
+    Name                 Psychologist  
+    Price                150  
     RenderDepth          2
     Toughness            5
     ViewRange            3
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             MentalHealth
-    Sprite               Shrink
+    Sprite               Shrink  
     Properties           Entity
-    Properties           Administrator
+    Properties           Administrator    
     Properties           Staff
 END
 
-BEGIN Object
-    Name                 Accountant
-    Price                100
+BEGIN Object     
+    Name                 Accountant  
+    Price                150
     RenderDepth          2
     Toughness            5
     ViewRange            3
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Finance
-    Sprite               Accountant
+    Sprite               Accountant  
     Properties           Entity
-    Properties           Administrator
+    Properties           Administrator    
     Properties           Staff
     Equipment            Clipboard
 END
 
-BEGIN Object
-    Name                 Lawyer
-    Price                100
+BEGIN Object     
+    Name                 Lawyer  
+    Price                150
     Toughness            5
-    RenderDepth          2
+    RenderDepth          2  
     ViewRange            3
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Legal
-    Sprite               Lawyer
+    Sprite               Lawyer  
     Properties           Entity
-    Properties           Administrator
+    Properties           Administrator    
     Properties           Staff
     Equipment            Clipboard
 END
 
-BEGIN Object
-    Name                 SupplyTruck
-    Width                2
-    Height               8
-    MaxStackSize         -1
+BEGIN Object     
+    Name                 SupplyTruck  
+    Width                2  
+    Height               8  
+    MaxStackSize         -1  
     NumSlots             8
     Sprite               SupplyTruck
     SpriteScale          1.2
     Properties           Vehicle
 END
 
-BEGIN Object
-    Name                 PrisonerBus
-    Width                2
-    Height               8
-    RenderDepth          3
-    MaxStackSize         -1
+BEGIN Object     
+    Name                 PrisonerBus  
+    Width                2  
+    Height               8  
+    RenderDepth          3  
+    MaxStackSize         -1  
     NumSlots             8
     Sprite               PrisonerBus
     SpriteScale          1
     Properties           Vehicle
 END
 
-BEGIN Object
-    Name                 FireEngine
-    Width                2
-    Height               7
-    MaxStackSize         -1
-    NumSlots             4
-    Sprite               FireEngine
+BEGIN Object     
+    Name                 FireEngine  
+    Width                2  
+    Height               7  
+    MaxStackSize         -1  
+    NumSlots             4  
+    Sprite               FireEngine  
     SpriteScale          1.2
     Properties           Vehicle
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 RiotVan
     Width                2
-    Height               5
-    MaxStackSize         -1
+    Height               5  
+    MaxStackSize         -1  
     NumSlots             6
     Sprite               RiotVan
     SpriteScale          1.4
     Properties           Vehicle
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Ambulance
-    Width                2
-    Height               5
-    MaxStackSize         -1
+    Width                2 
+    Height               5  
+    MaxStackSize         -1  
     NumSlots             4
     Sprite               Ambulance
     SpriteScale          1.2
     Properties           Vehicle
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Hearse
-    Width                2
-    Height               5
-    MaxStackSize         -1
+    Width                2 
+    Height               5  
+    MaxStackSize         -1  
     NumSlots             4
     Sprite               Ambulance
     SpriteScale          1.2
     Properties           Vehicle
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Limo
-    Width                2
-    Height               5
-    MaxStackSize         -1
+    Width                2 
+    Height               5  
+    MaxStackSize         -1  
     NumSlots             4
     Sprite               RiotVan
     SpriteScale          1.4
     Properties           Vehicle
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 TroopTruck
     Width                2
-    Height               5
-    MaxStackSize         -1
+    Height               5  
+    MaxStackSize         -1  
     NumSlots             6
     Sprite               TroopTruck
     Properties           Vehicle
 END
 
-BEGIN Object
-    Name                 Fire
-    MoveSpeedFactor      0.250000
-    Toughness            10.0000
-    MaxStackSize         -1
-    RenderDepth          3
-    Sprite               Fire
+BEGIN Object     
+    Name                 Fire  
+    MoveSpeedFactor      0.500000  
+    Toughness            10.0000  
+    MaxStackSize         -1  
+    RenderDepth          3  
+    Sprite               Fire  
 END
 
-BEGIN Object
-    Name                 Garbage
-    MoveSpeedFactor      0.800000
-    Toughness            1.00000
-    MaxStackSize         -1
-    RenderDepth          2
+BEGIN Object     
+    Name                 Garbage  
+    MoveSpeedFactor      0.500000  
+    Toughness            1.00000  
+    MaxStackSize         -1  
+    RenderDepth          2  
     Properties           Rubbish
-    Sprite               Garbage
+    Sprite               Garbage  
 END
 
-BEGIN Object
-    Name                 Rubble
-    MoveSpeedFactor      0.800000
-    MaxStackSize         10
+BEGIN Object     
+    Name                 Rubble  
+    MoveSpeedFactor      0.500000  
+    MaxStackSize         10  
     RenderDepth          1
     Properties           Rubbish
-    Sprite               Rubble1
+    Sprite               Rubble1  
 END
 
-BEGIN Object
-    Name                 Bookshelf
-    ConstructionTime     0.0001
-    Toughness            10.0000
-    Price                100
-    Teleportable         true
-    RenderDepth          2
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    MadeOf               Wood
-    Sprite               Bookshelf
+BEGIN Object     
+    Name                 Bookshelf  
+    ConstructionTime     0.0001  
+    Toughness            10.0000  
+    Price                150  
+    RenderDepth          2  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation 
+    MadeOf               Wood 
+    Sprite               Bookshelf  
     Properties           StaticObject
     Properties           RoomSpecific
 END
 
-BEGIN Object
-    Name                 OfficeDesk
-    Width                2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.800000
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               OfficeDesk
+BEGIN Object     
+    Name                 OfficeDesk  
+    Width                2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    RenderDepth          1  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               OfficeDesk  
     MadeOf               Wood
     ToolbarSprite        OfficeDeskToolbar
     Properties           StaticObject
     Properties           RoomSpecific
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 SchoolDesk
     Height               2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.600000
-    Price                100
-    Teleportable         true
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000
+    Price                150
     NumSlots             1
-    RenderDepth          1
-    AttachToWall         true
-    Group                StaticObject
+    RenderDepth          1  
+    AttachToWall         true  
+    Group                StaticObject  
     Research             Education
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               SchoolDesk
     ToolbarSprite        SchoolDeskToolbar
     MadeOf               Wood
@@ -1699,109 +1685,105 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-BEGIN Object
-    Name                 FilingCabinet
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.800000
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               FilingCabinet
+BEGIN Object     
+    Name                 FilingCabinet  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    RenderDepth          1  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               FilingCabinet 
     MadeOf               HollowMetal
     ToolbarSprite        FilingCabinetToolbar
     Properties           StaticObject
     Properties           RoomSpecific
 END
 
-BEGIN Object
-    Name                 MedicalBed
-    Width                2
-    Height               2
+BEGIN Object     
+    Name                 MedicalBed  
+    Width                2  
+    Height               2  
     RenderDepth          0
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            30.0000
-    Price                100
-    Teleportable         true
-    NumSlots             1
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               MedicalBed
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            30.0000  
+    Price                150  
+    NumSlots             1  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               MedicalBed  
     MadeOf               HollowMetal
     Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
     Research             Health
 END
 
-BEGIN Object
-    Name                 MorgueSlab
-    Width                1
-    Height               2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            30.0000
-    Price                100
-    Teleportable         true
-    NumSlots             1
+BEGIN Object     
+    Name                 MorgueSlab  
+    Width                1  
+    Height               2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            30.0000  
+    Price                150  
+    NumSlots             1  
     RenderDepth          0
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
     BlockedBy            UtilityStation
-    Sprite               MorgueSlab
+    Sprite               MorgueSlab    
     ToolbarSprite        MorgueSlabToolbar
     MadeOf               Composite
     Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
     Research             Health
 END
 
-BEGIN Object
-    Name                 Equipment
-    Toughness            5.00000
-    RenderDepth          1
-    Sprite               Hammer
+BEGIN Object     
+    Name                 Equipment  
+    Toughness            5.00000  
+    RenderDepth          1  
+    Sprite               Hammer  
 END
 
-BEGIN Object
-    Name                 Prop
-    RenderDepth          1
-    Sprite               Box
+BEGIN Object     
+    Name                 Prop  
+    RenderDepth          1  
+    Sprite               Box  
     MadeOf               Composite
 END
 
-BEGIN Object
-    Name                 Dummy
-    RenderDepth          1
-    Sprite               Dummy
+BEGIN Object     
+    Name                 Dummy  
+    RenderDepth          1  
+    Sprite               Dummy  
 END
 
-BEGIN Object
-    Name                 PowerStation
-    Width                3
-    Height               3
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            50.0000
-    Price                100
-    Teleportable         true
-    Group                UtilityStation
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            Cable
-    BlockedBy            LargePipe
-    BlockedBy            SmallPipe
-    BlockedBy            UtilityStation
-    Sprite               PowerStation
+BEGIN Object     
+    Name                 PowerStation  
+    Width                3  
+    Height               3  
+    ConstructionTime     20.0000  
+    MoveSpeedFactor      0.500000  
+    Toughness            50.0000  
+    Price                150  
+    Group                UtilityStation  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            Cable  
+    BlockedBy            LargePipe  
+    BlockedBy            SmallPipe  
+    BlockedBy            UtilityStation  
+    Sprite               PowerStation  
     MadeOf               Composite
     Properties           StaticObject
     Properties           Utility
@@ -1809,53 +1791,50 @@ BEGIN Object
     Properties           ExplodeWhenWet
 END
 
-BEGIN Object
-    Name                 Capacitor
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Price                100
-    Teleportable         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               Capacitor
+BEGIN Object     
+    Name                 Capacitor  
+    ConstructionTime     10.0000  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               Capacitor  
     MadeOf               Composite
     Properties           StaticObject
     Properties           Utility
     Properties           Electrical
 END
 
-BEGIN Object
-    Name                 ElectricalCable
-    ConstructionTime     0.0001
-    Toughness            5.00000
-    MaxStackSize         10
-    Price                100
-    Teleportable         true
-    RenderDepth          2
-    Sprite               ElectricalCable
+BEGIN Object     
+    Name                 ElectricalCable  
+    ConstructionTime     0.0001  
+    Toughness            5.00000  
+    MaxStackSize         10  
+    Price                150  
+    RenderDepth          2  
+    Sprite               ElectricalCable  
     StackSprite          StackCable
     Properties           Utility
     Properties           Material
     Properties           CanPlaceOnRoad
 END
 
-BEGIN Object
-    Name                 PowerSwitch
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.800000
-    Price                100
-    Teleportable         true
+BEGIN Object     
+    Name                 PowerSwitch  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
     RenderDepth          2
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            Cable
-    BlockedBy            LargePipe
-    BlockedBy            SmallPipe
-    BlockedBy            UtilityStation
-    Sprite               ElectricalSwitch
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            Cable  
+    BlockedBy            LargePipe  
+    BlockedBy            SmallPipe  
+    BlockedBy            UtilityStation  
+    Sprite               ElectricalSwitch  
     MadeOf               Composite
     Properties           StaticObject
     Properties           Utility
@@ -1863,22 +1842,42 @@ BEGIN Object
     Properties           Wired
 END
 
+BEGIN Object     
+    Name                 WaterPumpStation  
+    Width                3  
+    Height               3  
+    ConstructionTime     20.0000  
+    MoveSpeedFactor      0.500000  
+    Toughness            50.0000  
+    Price                150  
+    RenderDepth          1  
+    Group                UtilityStation  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            Cable  
+    BlockedBy            LargePipe  
+    BlockedBy            SmallPipe  
+    BlockedBy            UtilityStation  
+    Sprite               WaterStation  
+    MadeOf               Composite
+    Properties           StaticObject
+    Properties           Utility
+    Properties           Electrical
+END
+
 BEGIN Object
-    Name                 WaterPumpStation
-    Width                3
-    Height               3
-    ConstructionTime     0.0001
+    Name                 WaterBoiler
+    Width                2
+    Height               1
+    ConstructionTime     20.0000
     MoveSpeedFactor      0.500000
     Toughness            50.0000
-    Price                100
-    Teleportable         true
+    Price                150
     RenderDepth          1
     Group                UtilityStation
     BlockedBy            Wall
     BlockedBy            StaticObject
     BlockedBy            Cable
-    BlockedBy            LargePipe
-    BlockedBy            SmallPipe
     BlockedBy            UtilityStation
     Sprite               WaterStation
     MadeOf               Composite
@@ -1890,178 +1889,168 @@ END
 BEGIN Object
     Name                 PipeValve
     ConstructionTime     0.0001
-    MoveSpeedFactor      0.800000
-    Toughness            5.00000
-    Price                100
-    Teleportable         true
-    RenderDepth          1
+    MoveSpeedFactor      0.500000  
+    Toughness            5.00000  
+    Price                150  
+    RenderDepth          1  
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               PipeValve
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               PipeValve  
     Properties           StaticObject
     Properties           Utility
 END
 
-BEGIN Object
-    Name                 PipeLarge
-    ConstructionTime     0.0001
-    MaxStackSize         10
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    Group                LargePipe
-    BlockedBy            LargePipe
-    BlockedBy            UtilityStation
-    Sprite               PipeLarge
+BEGIN Object     
+    Name                 PipeLarge  
+    ConstructionTime     0.0001  
+    MaxStackSize         10  
+    Price                150  
+    RenderDepth          1  
+    Group                LargePipe  
+    BlockedBy            LargePipe  
+    BlockedBy            UtilityStation  
+    Sprite               PipeLarge  
     StackSprite          StackPipes
     Properties           Utility
     Properties           Material
     Properties           CanPlaceOnRoad
 END
 
-BEGIN Object
-    Name                 PipeSmall
-    ConstructionTime     0.0001
-    MaxStackSize         10
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    Group                SmallPipe
-    BlockedBy            LargePipe
-    BlockedBy            SmallPipe
-    BlockedBy            UtilityStation
-    Sprite               PipeSmall
+BEGIN Object     
+    Name                 PipeSmall  
+    ConstructionTime     0.0001  
+    MaxStackSize         10  
+    Price                150  
+    RenderDepth          1  
+    Group                SmallPipe  
+    BlockedBy            LargePipe  
+    BlockedBy            SmallPipe  
+    BlockedBy            UtilityStation  
+    Sprite               PipeSmall  
     StackSprite          StackPipes
     Properties           Utility
     Properties           Material
     Properties           CanPlaceOnRoad
 END
 
-BEGIN Object
-    Name                 Sprinkler
-    ConstructionTime     0.0001
-    Toughness            10.0000
-    Price                100
-    Teleportable         true
-    RenderDepth          3
-    AttachToWall         true
-    BlockedBy            Wall
-    BlockedBy            UtilityStation
-    Sprite               Sprinkler
+BEGIN Object     
+    Name                 Sprinkler  
+    ConstructionTime     0.0001  
+    Toughness            10.0000  
+    Price                150  
+    RenderDepth          3  
+    AttachToWall         true   
+    BlockedBy            Wall    
+    BlockedBy            UtilityStation 
+    Sprite               Sprinkler  
     SpriteScale          0.6
     MadeOf               HollowMetal
     Properties           StaticObject
     Properties           DontAvoid
 END
 
-BEGIN Object
-    Name                 Drain
-    ConstructionTime     0.0001
-    Toughness            10.0000
-    Price                100
-    Teleportable         true
-    RenderDepth          -1
+BEGIN Object     
+    Name                 Drain  
+    ConstructionTime     0.0001  
+    Toughness            10.0000  
+    Price                150  
+    RenderDepth          -1  
     AttachToWall         false
-    BlockedBy            Wall
-    BlockedBy            UtilityStation
-    Sprite               Drain
+    BlockedBy            Wall    
+    BlockedBy            UtilityStation  
+    Sprite               Drain  
     MadeOf               HollowMetal
     Properties           StaticObject
     Properties           DontAvoid
 END
 
-BEGIN Object
-    Name                 MetalDetector
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Price                100
-    Teleportable         true
-    RenderDepth          3
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
+BEGIN Object     
+    Name                 MetalDetector  
+    ConstructionTime     10.0000  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    RenderDepth          3  
+    AttachToWall         true 
+    Group                StaticObject 
+    BlockedBy            Wall    
     BlockedBy            UtilityStation
-    BlockedBy            StaticObject
-    Sprite               MetalDetector
+    BlockedBy            StaticObject  
+    Sprite               MetalDetector  
     MadeOf               SolidMetal
     Properties           StaticObject
     Properties           Electrical
     Properties           DontAvoid
 END
 
-BEGIN Object
-    Name                 WeightsBench
-    Width                1
-    Height               1
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    RenderPostOffset     2
+BEGIN Object     
+    Name                 WeightsBench  
+    Width                1  
+    Height               1  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    RenderDepth          1  
+    RenderPostOffset     2  
     NumSlots             1
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
+    Group                StaticObject 
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
     BlockedBy            UtilityStation
-    Sprite               WeightsBench
+    Sprite               WeightsBench  
     MadeOf               HollowMetal
     ToolbarSprite        WeightsToolbar
     Properties           StaticObject
 END
 
-BEGIN Object
-    Name                 PhoneBooth
-    Width                1
-    Height               1
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    AttachToWall         true
+BEGIN Object     
+    Name                 PhoneBooth  
+    Width                1  
+    Height               1  
+    ConstructionTime     10.0000  
+    Price                150  
+    RenderDepth          1  
+    AttachToWall         true  
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               PhoneBooth
     MadeOf               Composite
     Properties           StaticObject
     Properties           Wired
 END
 
-BEGIN Object
-    Name                 Tv
-    Width                1
-    Height               1
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
-    RenderDepth          1
+BEGIN Object     
+    Name                 Tv  
+    Width                1  
+    Height               1  
+    ConstructionTime     20.0000  
+    Price                150  
+    RenderDepth          1  
     AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               TvSmall
     MadeOf               Composite
     Properties           StaticObject
     Properties           Electrical
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 LargeTv
-    Width                2
-    Height               1
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
-    RenderDepth          1
+    Width                2  
+    Height               1  
+    ConstructionTime     20.0000  
+    Price                150  
+    RenderDepth          1  
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               TvLarge
     MadeOf               Composite
     Properties           StaticObject
@@ -2069,45 +2058,43 @@ BEGIN Object
     Properties           RoomSpecific
 END
 
-BEGIN Object
-    Name                 PoolTable
-    Width                3
-    Height               2
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
-    RenderDepth          1
-    AttachToWall         false
+BEGIN Object     
+    Name                 PoolTable  
+    Width                3  
+    Height               2  
+    ConstructionTime     20.0000  
+    Price                150  
+    RenderDepth          1  
+    AttachToWall         false  
     NumSlots             2
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               PoolTable
     MadeOf               Wood
     ToolbarSprite        PoolTableToolbar
     Properties           StaticObject
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Polaroid
-    Toughness            10.000000
-    RenderDepth          1
+    Toughness            10.000000  
+    RenderDepth          1  
 END
 
-BEGIN Object
-    Name                 Cctv
-    Width                1
-    Height               1
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
-    RenderDepth          2
+BEGIN Object     
+    Name                 Cctv  
+    Width                1  
+    Height               1  
+    ConstructionTime     10.0000  
+    Price                150  
+    RenderDepth          2  
     AttachToWall         true
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               Cctv
     SpriteScale          0.9
     MadeOf               Composite
@@ -2118,82 +2105,78 @@ BEGIN Object
     Research             Cctv
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 CctvMonitor
-    Width                3
-    Height               1
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    Width                3  
+    Height               1  
+    ConstructionTime     30.0000  
+    Price                150  
     Toughness            30
-    RenderDepth          1
+    RenderDepth          1  
     AttachToWall         false
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               CctvMonitor
     ToolbarSprite        CctvMonitorToolbar
     MadeOf               Composite
     Properties           StaticObject
     Properties           Electrical
     Properties           Wired
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
     Research             Cctv
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 DoorControlSystem
-    Width                2
-    Height               1
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    Width                2  
+    Height               1  
+    ConstructionTime     30.0000  
+    Price                150  
     Toughness            30
-    RenderDepth          1
+    RenderDepth          1  
     AttachToWall         false
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               DoorControlSystem
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               DoorControlSystem    
     MadeOf               Composite
     Properties           StaticObject
     Properties           Electrical
     Properties           Wired
-    Properties           RoomSpecific
+    Properties           RoomSpecific  
     Research             RemoteAccess
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 PhoneMonitor
     Width                1
-    Height               1
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    Height               1  
+    ConstructionTime     30.0000  
+    Price                150  
     Toughness            30
-    RenderDepth          1
+    RenderDepth          1  
     AttachToWall         false
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               PhoneMonitor
     ToolbarSprite        PhoneMonitor
     MadeOf               Composite
     Properties           StaticObject
     Properties           Electrical
     Properties           Wired
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
     Research             Cctv
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Servo
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    ConstructionTime     10.0000  
+    Price                150  
     Height               2
     RenderDepth          3
     AttachToWall         false
@@ -2203,158 +2186,151 @@ BEGIN Object
     MadeOf               Composite
     Properties           StaticObject
     Properties           Wired
-    Properties           Electrical
+    Properties           Electrical    
     Research             RemoteAccess
 END
 
 BEGIN Object
     Name                 DoorTimer
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    ConstructionTime     20.0
+    Price                150
     AttachToWall         false
     Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation 
     Sprite               DoorTimer
-    ToolbarSprite        DoorTimer
-    MadeOf               Composite
+    ToolbarSprite        DoorTimer    
+    MadeOf               Composite    
     Properties           StaticObject
     Properties           Electrical
     Properties           Wired
     Research             RemoteAccess
-END
+END    
 
-BEGIN Object
+BEGIN Object     
     Name                 LogicCircuit
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    ConstructionTime     10.0000  
+    Price                150
     RenderDepth          3
     AttachToWall         false
     Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               CircuitBox
     MadeOf               Composite
     Properties           StaticObject
     Properties           Wired
-    Properties           Electrical
-    Research             RemoteAccess
+    Properties           Electrical   
+    Research             RemoteAccess 
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 LogicBridge
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    ConstructionTime     10.0000  
+    Price                150
     RenderDepth          3
     AttachToWall         false
     Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               LogicBridge
     MadeOf               Composite
     Properties           StaticObject
     Properties           Wired
-    Properties           Electrical
-    Research             RemoteAccess
+    Properties           Electrical   
+    Research             RemoteAccess 
 END
 
-BEGIN Object
+BEGIN Object  
     Name                 PressurePad
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    ConstructionTime     10.0000  
+    Price                150
     RenderDepth          0
-    AttachToWall         false
-    BlockedBy            Wall
-    BlockedBy            UtilityStation
+    AttachToWall         false 
+    BlockedBy            Wall    
+    BlockedBy            UtilityStation  
     Sprite               PressurePad
     MadeOf               Composite
     Properties           StaticObject
     Properties           Wired
-    Properties           Electrical
-    Research             RemoteAccess
+    Properties           Electrical   
+    Research             RemoteAccess 
     Properties           DontAvoid
-END
+END    
 
-BEGIN Object
+BEGIN Object  
     Name                 StatusLight
-    ConstructionTime     0.0001
-    Price                100
-    Teleportable         true
+    ConstructionTime     0.0001  
+    Price                150
     RenderDepth          1
     AttachToWall         false
     Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               StatusLight
     MadeOf               Composite
     Properties           StaticObject
     Properties           Wired
-    Properties           Electrical
-    Research             RemoteAccess
-END
+    Properties           Electrical   
+    Research             RemoteAccess 
+END   
 
-BEGIN Object
+BEGIN Object     
     Name                 Wire
-    ConstructionTime     0.0001
-    Price                100
+    ConstructionTime     0.0001  
+    Price                150  
     Sprite               Connection
     MadeOf               Composite
     Properties           Wired
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 TidyWires
-    ConstructionTime     0.0001
-    Price                100
+    ConstructionTime     0.0001  
+    Price                150  
     Sprite               Connection
     MadeOf               Composite
     Properties           Wired
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 ShowAllWires
-    ConstructionTime     0.0001
-    Sprite               Connection
+    ConstructionTime     10.0000  
+    Sprite               Connection  
     Properties           Utility
     Properties           Wired
 END
 
 BEGIN Object
     Name                 LaundryMachine
-    Price                100
-    Teleportable         true
+    Price                150
     ConstructionTime     20
-    MoveSpeedFactor      0.500000
+    MoveSpeedFactor      0.500000  
     Toughness            15.0000
-    RenderDepth          1
-    NumSlots             1
+    RenderDepth          1  
+    NumSlots             1  
     Sprite               LaundryMachine
     ToolbarSprite        LaundryMachineToolbar
     Properties           StaticObject
     Properties           Electrical
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
     MadeOf               Composite
     Group                StaticObject
     BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             PrisonLabour
 END
 
 BEGIN Object
     Name                 WorkshopSaw
-    Price                100
-    Teleportable         true
+    Price                150
     ConstructionTime     20
-    MoveSpeedFactor      0.500000
+    MoveSpeedFactor      0.500000  
     Toughness            15.0000
     Width                3
-    NumSlots             3
+    NumSlots             3  
     Sprite               WorkshopSaw
     SpriteScale          1.1
     ToolbarSprite        WorkshopSawToolbar
@@ -2365,8 +2341,8 @@ BEGIN Object
     MadeOf               Composite
     Group                StaticObject
     BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             PrisonLabour
     BEGIN Workers
         Worker           Prisoner
@@ -2375,13 +2351,12 @@ END
 
 BEGIN Object
     Name                 WorkshopPress
-    Price                100
-    Teleportable         true
+    Price                150
     ConstructionTime     20
-    MoveSpeedFactor      0.500000
+    MoveSpeedFactor      0.500000  
     Toughness            15.0000
     Width                3
-    NumSlots             3
+    NumSlots             3  
     Sprite               WorkshopPress
     SpriteScale          1.1
     ToolbarSprite        WorkshopPressToolbar
@@ -2392,32 +2367,31 @@ BEGIN Object
     MadeOf               Composite
     Group                StaticObject
     BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             PrisonLabour
 END
 
 BEGIN Object
     Name                 CarpenterTable
-    Price                100
-    Teleportable         true
+    Price                150
     ConstructionTime     20
-    MoveSpeedFactor      0.500000
+    MoveSpeedFactor      0.500000  
     Toughness            15.0000
     Width                3
     Height               2
-    NumSlots             3
+    NumSlots             3  
     Sprite               CarpenterTable
     SpriteScale          1.1
     ToolbarSprite        CarpenterTableToolbar
-    Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           StaticObject   
+    Properties           RoomSpecific 
     Properties           Processor
     MadeOf               Composite
     Group                StaticObject
     BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             PrisonLabour
 END
 
@@ -2431,7 +2405,7 @@ BEGIN Object
 	NumSlots			3
 	Sprite				IroningBoard
 	Properties			StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
     Properties           Processor
 	MadeOf              HollowMetal
     ToolbarSprite       IroningBoardToolbar
@@ -2444,19 +2418,18 @@ END
 
 BEGIN Object
     Name                 LaundryBasket
-    Price                100
-    Teleportable         true
+    Price                150
     ConstructionTime     2
-    MoveSpeedFactor      0.800000
-    Toughness            15.0000
+    MoveSpeedFactor      0.500000  
+    Toughness            15.0000  
     NumSlots             1
     Sprite               LaundryBasket
     SpriteScale          1.2
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
     Properties           MobileObject
     BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             PrisonLabour
 END
 
@@ -2464,102 +2437,97 @@ BEGIN Object
     Name                 VisitorTable
     Width                3
     Height               2
-    Price                100
-    Teleportable         true
+    Price                150
     ConstructionTime     2
-    MoveSpeedFactor      0.500000
-    Toughness            15.0000
+    MoveSpeedFactor      0.500000  
+    Toughness            15.0000  
     NumSlots             4
     Sprite               VisitorTable
     MadeOf               Wood
     ToolbarSprite        VisitorTableToolbar
     Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
     Group                StaticObject
     BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
 END
 
-BEGIN Object
-    Name                 DogCrate
-    Height               2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.800000
-    Toughness            30.0000
-    Price                100
-    Teleportable         true
-    NumSlots             1
+BEGIN Object     
+    Name                 DogCrate  
+    Height               2  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            30.0000  
+    Price                150  
+    NumSlots             1  
     RenderPostOffset     3
-    AttachToWall         false
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    AttachToWall         false  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Dogs
-    Sprite               DogCrate
+    Sprite               DogCrate  
     MadeOf               Composite
     ToolbarSprite        DogCrateToolbar
     Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
 BEGIN Object
     Name                 GuardLocker
     ConstructionTime     0.0001
-    MoveSpeedFactor      0.600000
-    Toughness            50.0000
-    Price                100
-    Teleportable         true
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    MoveSpeedFactor      0.500000  
+    Toughness            50.0000  
+    Price                150  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Research             Armoury
-    Sprite               GuardLocker
+    Sprite               GuardLocker  
     MadeOf               HollowMetal
     ToolbarSprite        GuardLockerToolbar
     Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
 BEGIN Object
     Name                 WeaponRack
     Width                2
     ConstructionTime     0.0001
-    MoveSpeedFactor      0.900000
-    Toughness            20.0000
-    Price                100
-    Teleportable         true
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    Price                150
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation 
     Research             Armoury
-    Sprite               GunRack
+    Sprite               GunRack  
     MadeOf               Wood
     ToolbarSprite        GunRackToolbar
     Properties           StaticObject
-    Properties           RoomSpecific
+    Properties           RoomSpecific 
 END
 
 BEGIN Object
     Name                 SofaChairSingle
     Width                1
     ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Toughness            20.0000
-    Price                100
-    Teleportable         true
-    AttachToWall         true
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    Price                150  
+    AttachToWall         true  
     NumSlots             1
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               SofaSingle
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               SofaSingle  
     MadeOf               Composite
     ToolbarSprite        SofaSingle
     Properties           StaticObject
@@ -2569,17 +2537,16 @@ BEGIN Object
     Name                 SofaChairDouble
     Width                2
     ConstructionTime     0.0001
-    MoveSpeedFactor      0.400000
-    Toughness            20.0000
-    Price                100
-    Teleportable         true
-    AttachToWall         true
+    MoveSpeedFactor      0.500000  
+    Toughness            20.0000  
+    Price                150  
+    AttachToWall         true  
     NumSlots             2
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               SofaDouble
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               SofaDouble 
     MadeOf               Composite
     ToolbarSprite        SofaDoubleToolbar
     Properties           StaticObject
@@ -2589,15 +2556,14 @@ BEGIN Object
     Name                 DrinkMachine
     Width                1
     ConstructionTime     0.0001
-    MoveSpeedFactor      0.300000
-    Toughness            50.0000
-    Price                100
-    Teleportable         true
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    MoveSpeedFactor      0.500000  
+    Toughness            50.0000  
+    Price                150  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               DrinkMachine
     MadeOf               Composite
     ToolbarSprite        DrinkMachineToolbar
@@ -2609,15 +2575,14 @@ BEGIN Object
     Name                 ArcadeCabinet
     Width                1
     ConstructionTime     0.0001
-    MoveSpeedFactor      0.300000
-    Toughness            50.0000
-    Price                100
-    Teleportable         true
-    AttachToWall         true
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    MoveSpeedFactor      0.500000  
+    Toughness            50.0000  
+    Price                150  
+    AttachToWall         true  
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               ArcadeCabinet
     MadeOf               Composite
     ToolbarSprite        ArcadeCabinetToolbar
@@ -2629,15 +2594,14 @@ BEGIN Object
     Name                 Radio
     Width                1
     ConstructionTime     0.0001
-    MoveSpeedFactor      0.900000
-    Toughness            10.0000
-    Price                100
-    Teleportable         true
+    MoveSpeedFactor      0.500000  
+    Toughness            10.0000  
+    Price                150  
     AttachToWall         false
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     Sprite               Radio
     MadeOf               Composite
     ToolbarSprite        Radio
@@ -2657,10 +2621,10 @@ BEGIN Object
     AttachToWall        true
     Group               StaticObject
     BlockedBy           Wall
-    BlockedBy           StaticObject
-    BlockedBy           UtilityStation
+    BlockedBy           StaticObject  
+    BlockedBy           UtilityStation  
     MadeOf              Wood
-    Properties          StaticObject
+    Properties          StaticObject  
     Properties          RoomSpecific
     ToolbarSprite       ChurchAltar
 END
@@ -2678,10 +2642,10 @@ BEGIN Object
     AttachToWall        true
     Group               StaticObject
     BlockedBy           Wall
-    BlockedBy           StaticObject
-    BlockedBy           UtilityStation
+    BlockedBy           StaticObject  
+    BlockedBy           UtilityStation  
     MadeOf              Wood
-    Properties          StaticObject
+    Properties          StaticObject  
     Properties          RoomSpecific
     ToolbarSprite       ChurchPewToolbar
 END
@@ -2700,10 +2664,10 @@ BEGIN Object
     AttachToWall        false
     Group               StaticObject
     BlockedBy           Wall
-    BlockedBy           StaticObject
-    BlockedBy           UtilityStation
+    BlockedBy           StaticObject  
+    BlockedBy           UtilityStation  
     MadeOf              Composite
-    Properties          StaticObject
+    Properties          StaticObject  
     Properties          RoomSpecific
     ToolbarSprite       PrayerMat
 END
@@ -2720,8 +2684,8 @@ BEGIN Object
     Price               -250
     Group               StaticObject
     BlockedBy           Wall
-    BlockedBy           StaticObject
-    BlockedBy           UtilityStation
+    BlockedBy           StaticObject  
+    BlockedBy           UtilityStation  
     MadeOf              Wood
     Properties          StaticObject
     Properties          RoomSpecific
@@ -2731,51 +2695,50 @@ BEGIN Object
     ToolbarSprite       LibraryBookshelfToolbar
     StackSprite         LibraryBooks1
     Research             PrisonLabour
-END
+END    
 
-BEGIN Object
+BEGIN Object     
     Name                 LibraryBookUnsorted
     MaxStackSize         20
-    RenderDepth          1
-    Price                100
+    RenderDepth          1  
+    Price                150
     Sprite               BooksUnSorted
     StackSprite          StackBooksUnsorted
-    Properties           Material
+    Properties           Material    
     Properties           SlowDelivery
     Properties           RoomSpecific
     WorkGroup            Library
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 LibraryBookSorted
     MaxStackSize         10
-    RenderDepth          1
-    Price                100
+    RenderDepth          1  
+    Price                150
     Sprite               BooksSorted
     StackSprite          StackBooksSorted
-    Properties           Material
+    Properties           Material    
     Properties           RoomSpecific
     WorkGroup            Library
 END
 
-BEGIN Object
-    Name                 SortingTable
-    Width                3
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.250000
-    Toughness            10.0000
-    Price                100
-    Teleportable         true
-    NumSlots             3
-    Group                StaticObject
-    BlockedBy            Wall
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
+BEGIN Object     
+    Name                 SortingTable  
+    Width                3  
+    ConstructionTime     0.0001  
+    MoveSpeedFactor      0.500000  
+    Toughness            10.0000  
+    Price                150  
+    NumSlots             3 
+    Group                StaticObject  
+    BlockedBy            Wall  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
     MadeOf               Composite
-    Sprite               SortingTable
+    Sprite               SortingTable  
     ToolbarSprite        SortingTableToolbar
     Properties           StaticObject
-    Properties           Processor
+    Properties           Processor   
     Properties           RoomSpecific
     WorkGroup            LibraryMailRoom
 END
@@ -2788,26 +2751,26 @@ BEGIN Object
     Properties          Rubbish
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 MailUnsorted
-    RenderDepth          1
+    RenderDepth          1  
     MaxStackSize         10
     Sprite               MailUnsorted
     StackSprite          StackMailUnsorted
-    Properties           Material
+    Properties           Material    
     Properties           RoomSpecific
     WorkGroup            MailRoom
     Properties           SlowDelivery
     Properties           Uncloneable
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 MailSorted
-    RenderDepth          1
+    RenderDepth          1  
     MaxStackSize         10
     Sprite               MailSorted
     StackSprite          StackMailSorted
-    Properties           Material
+    Properties           Material    
     Properties           RoomSpecific
     WorkGroup            MailRoom
     Properties           Uncloneable
@@ -2824,15 +2787,15 @@ BEGIN Object
     Properties          MobileObject
     WorkGroup           MailRoom
     Properties           Uncloneable
-END
+END    
 
 BEGIN Object
     Name                PrisonerMail
     RenderDepth         2
     Sprite              MailUnopened1
-    SpriteVariants      3
+    SpriteVariants      3 
     Properties          Uncloneable
-END
+END 
 
 BEGIN Object
     Name                PrisonerMailOpened
@@ -2840,7 +2803,7 @@ BEGIN Object
     Sprite              MailOpened1
     SpriteVariants      3
     Properties          Uncloneable
-END
+END 
 
 BEGIN Object
     Name                FoodBowl
@@ -2848,18 +2811,17 @@ BEGIN Object
     RenderDepth         2
     Properties          Uncloneable
 END
-
-BEGIN Object
-    Name                 ShopFront
-    Width                2
-    ConstructionTime     0.0001
-    MoveSpeedFactor      0.500000
-    Price                100
-    Teleportable         true
-    Group                StaticObject
-    BlockedBy            StaticObject
-    BlockedBy            UtilityStation
-    Sprite               ShopFront
+    
+BEGIN Object     
+    Name                 ShopFront  
+    Width                2  
+    ConstructionTime     10.00000  
+    MoveSpeedFactor      0.500000  
+    Price                150  
+    Group                StaticObject  
+    BlockedBy            StaticObject  
+    BlockedBy            UtilityStation  
+    Sprite               ShopFront  
     ToolbarSprite        ShopFrontToolbar
     MadeOf               Composite
     Properties           StaticObject
@@ -2867,7 +2829,7 @@ BEGIN Object
     WorkGroup            Shop
     Research             PrisonLabour
 END
-
+    
 
 BEGIN Object
     Name                ShopShelf
@@ -2881,8 +2843,8 @@ BEGIN Object
     Price               -250
     Group               StaticObject
     BlockedBy           Wall
-    BlockedBy           StaticObject
-    BlockedBy           UtilityStation
+    BlockedBy           StaticObject  
+    BlockedBy           UtilityStation  
     MadeOf              Wood
     Properties          StaticObject
     Properties          RoomSpecific
@@ -2894,38 +2856,60 @@ BEGIN Object
     AutoOrderQuantity   30
     StackSprite         ShopShelfGoods1
     Research             PrisonLabour
-END
+END    
 
-BEGIN Object
-    Name                 ShopGoods
-    MaxStackSize         10
-    RenderDepth          1
-    Sprite               ShopGoods1
+BEGIN Object     
+    Name                 ShopGoods  
+    MaxStackSize         10  
+    RenderDepth          1  
+    Sprite               ShopGoods1  
     StackSprite          StackShopGoods1
-    SpriteVariants       3
+    SpriteVariants       3  
     Properties           Material
     Properties           SlowDelivery
     WorkGroup            Shop
-END
+END    
 
 BEGIN Object
-    Name                 Boombox
-    ConstructionTime     -1.0000
-    Toughness            1.000000
-    Sprite               Boombox
+    Name                GuardTower
+    RenderDepth         1
+    Width               2
+    Height              2
+    Sprite              GuardTower
+    ConstructionTime    60.0
+    MoveSpeedFactor     0.25
+    Toughness           1000
+    NumSlots            2
+    Price               -3000
+    Group               StaticObject
+    BlockedBy           MustBeOutdoor
+    BlockedBy           StaticObject  
+    BlockedBy           UtilityStation  
+    MadeOf              Composite
+    Properties          StaticObject
+    Properties          BlockMovement
+    Research            Armoury
+END
+    
+
+BEGIN Object     
+    Name                 Boombox  
+    ConstructionTime     -1.0000  
+    Toughness            1.000000  
+    Sprite               Boombox  
 END
 
-BEGIN Object
-    Name                 DismantleObject
-    ConstructionTime     0.0001
-    Toughness            0.000000
-    Sprite               Bulldozer
+BEGIN Object     
+    Name                 DismantleObject  
+    ConstructionTime     10.0000  
+    Toughness            0.000000  
+    Sprite               Bulldozer  
 END
 
-BEGIN Object
-    Name                 DismantleUtility
-    ConstructionTime     0.0001
-    Sprite               Bulldozer
+BEGIN Object     
+    Name                 DismantleUtility  
+    ConstructionTime     10.0000  
+    Sprite               Bulldozer  
     Properties           Utility
 END
 
@@ -2967,56 +2951,56 @@ BEGIN Object
 END
 
 BEGIN Material
-    Name                 None
+    Name                 None  
     BEGIN Sprite0    x 0  y 0  END
 END
 
-BEGIN Material
-    Name                 Building
-    ConstructionTime     0.0001
-    BlockMovement        true
-    MoveCost             0.800000
-    SoftEdged            -1
-    IndoorOutdoor        1
+BEGIN Material   
+    Name                 Building  
+    ConstructionTime     0.0001  
+    BlockMovement        true  
+    MoveCost             0.800000  
+    SoftEdged            -1  
+    IndoorOutdoor        1  
     BEGIN Sprite0    x 6  y 14  END
 END
 
-BEGIN Material
-    Name                 BuildingConcrete
-    ConstructionTime     0.0001
-    BlockMovement        true
-    MoveCost             0.800000
-    SoftEdged            -1
-    IndoorOutdoor        1
+BEGIN Material   
+    Name                 BuildingConcrete  
+    ConstructionTime     0.0001  
+    BlockMovement        true  
+    MoveCost             0.800000  
+    SoftEdged            -1  
+    IndoorOutdoor        1  
     BEGIN Sprite0    x 6  y 14  END
 END
 
-BEGIN Material
-    Name                 Demolish
-    ConstructionTime     0.0001
-    SoftEdged            -1
+BEGIN Material   
+    Name                 Demolish  
+    ConstructionTime     0.0001  
+    SoftEdged            -1  
     BEGIN Sprite0    x 0  y 3  END
 END
 
-BEGIN Material
+BEGIN Material   
     Name                 DemolishWalls
-    ConstructionTime     0.0001
-    SoftEdged            -1
+    ConstructionTime     0.0001  
+    SoftEdged            -1  
     BEGIN Sprite0    x 0  y 3  END
 END
 
-BEGIN Material
+BEGIN Material   
     Name                 RemoveTunnels
-    ConstructionTime     0.0001
-    SoftEdged            -1
-    Price                100
+    ConstructionTime     0.0001  
+    SoftEdged            -1  
+    Price                150
     BEGIN Sprite0    x 13  y 3  END
 END
 
-BEGIN Material
+BEGIN Material   
     Name                 ClearIndoorArea
-    ConstructionTime     0.0001
-    SoftEdged            -1
+    ConstructionTime     0.0001  
+    SoftEdged            -1  
     BEGIN Sprite0    x 0  y 3  END
 END
 
@@ -3027,314 +3011,313 @@ BEGIN Material
     BEGIN Sprite0    x 0  y 3  END
 END
 
-BEGIN Material
-    Name                 Dirt
-    ConstructionTime     0.0001
-    MoveCost             0.700000
-    SoftEdged            1
-    IndoorOutdoor        1
-    SpriteType           RandomArea
-    SpriteOverlayScale   5
-    NumSprites           2
+BEGIN Material   
+    Name                 Dirt  
+    ConstructionTime     0.0001  
+    MoveCost             0.700000  
+    SoftEdged            1  
+    IndoorOutdoor        1  
+    SpriteType           RandomArea  
+    SpriteOverlayScale   5  
+    NumSprites           2  
     BEGIN Sprite0    x 5  y 4  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 PavingStone
-    ConstructionTime     0.0001
-    MoveCost             1.30000
+BEGIN Material   
+    Name                 PavingStone  
+    ConstructionTime     0.0001  
+    MoveCost             1.30000  
     SoftEdged            0
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
-    SpriteType           RandomArea
-    NumSprites           2
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 15  y 4  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 Grass
-    ConstructionTime     0.0001
-    MoveCost             0.700000
-    SoftEdged            1
-    IndoorOutdoor        1
-    ObjectRequired       GrassTurf
-    SpriteType           RandomArea
-    SpriteOverlayScale   4
-    NumSprites           2
+BEGIN Material   
+    Name                 Grass  
+    ConstructionTime     0.0001  
+    MoveCost             0.700000  
+    SoftEdged            1  
+    IndoorOutdoor        1  
+    ObjectRequired       GrassTurf  
+    SpriteType           RandomArea  
+    SpriteOverlayScale   4  
+    NumSprites           2  
     BEGIN Sprite0    x 0  y 4  END
     BEGIN Sprite1    x 4  y 2  END
 END
 
-BEGIN Material
+BEGIN Material   
     Name                 LongGrass
     ConstructionTime     -1.00000
-    MoveCost             0.700000
-    SoftEdged            1
-    IndoorOutdoor        1
-    ObjectRequired       GrassTurf
-    SpriteType           RandomArea
+    MoveCost             0.700000  
+    SoftEdged            1  
+    IndoorOutdoor        1  
+    ObjectRequired       GrassTurf  
+    SpriteType           RandomArea 
     SpriteOverlayScale   4
     NumSprites           2
     BEGIN Sprite0    x 25  y 6  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
+BEGIN Material   
     Name                 Mud
-    ConstructionTime     -1.00000
-    MoveCost             0.700000
-    SoftEdged            1
-    IndoorOutdoor        1
-    ObjectRequired       GrassTurf
-    SpriteType           RandomArea
+    ConstructionTime     -1.00000  
+    MoveCost             0.700000  
+    SoftEdged            1  
+    IndoorOutdoor        1  
+    ObjectRequired       GrassTurf  
+    SpriteType           RandomArea  
     SpriteOverlayScale   4
     NumSprites           2
     BEGIN Sprite0    x 25  y 8  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 Gravel
-    ConstructionTime     0.0001
-    MoveCost             0.700000
-    SoftEdged            1
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
-    SpriteType           RandomArea
-    SpriteOverlayScale   3
-    NumSprites           2
+BEGIN Material   
+    Name                 Gravel  
+    ConstructionTime     0.0001  
+    MoveCost             0.700000  
+    SoftEdged            1  
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
+    SpriteType           RandomArea  
+    SpriteOverlayScale   3  
+    NumSprites           2  
     BEGIN Sprite0    x 20  y 4  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 Road
-    ConstructionTime     0.0001
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 Road  
+    ConstructionTime     10.0000  
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 15  y 6  END
     BEGIN Sprite1    x 2  y 2  END
 END
 
-BEGIN Material
-    Name                 RoadMarkings
+BEGIN Material   
+    Name                 RoadMarkings  
     ConstructionTime     -1
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
     SpriteType           RandomArea
-    NumSprites           2
+    NumSprites           2  
     BEGIN Sprite0    x 19  y 6  END
     BEGIN Sprite1    x 1  y 2  END
 END
 
-BEGIN Material
-    Name                 RoadMarkingsLeft
+BEGIN Material   
+    Name                 RoadMarkingsLeft  
     ConstructionTime     -1
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
     SpriteType           RandomArea
-    NumSprites           2
+    NumSprites           2  
     BEGIN Sprite0    x 17  y 6  END
     BEGIN Sprite1    x 1  y 2  END
 END
 
-BEGIN Material
-    Name                 RoadMarkingsRight
+BEGIN Material   
+    Name                 RoadMarkingsRight  
     ConstructionTime     -1
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
     SpriteType           RandomArea
-    NumSprites           2
+    NumSprites           2  
     BEGIN Sprite0    x 18  y 6  END
     BEGIN Sprite1    x 1  y 2  END
 END
 
-BEGIN Material
-    Name                 RoadCrossing
+BEGIN Material   
+    Name                 RoadCrossing  
     ConstructionTime     -1
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
     SpriteType           SingleSprite
-    NumSprites           2
-    SoftEdged            -1
+    NumSprites           2  
+    SoftEdged            -1 
     BEGIN Sprite0    x 15  y 16  END
 END
 
-BEGIN Material
-    Name                 RoadCrossingLeft
+BEGIN Material   
+    Name                 RoadCrossingLeft  
     ConstructionTime     -1
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
     SpriteType           SingleSprite
-    NumSprites           2
-    SoftEdged            -1
+    NumSprites           2  
+    SoftEdged            -1 
     BEGIN Sprite0    x 17  y 16  END
 END
 
-BEGIN Material
-    Name                 RoadCrossingRight
+BEGIN Material   
+    Name                 RoadCrossingRight  
     ConstructionTime     -1
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
     SpriteType           SingleSprite
-    NumSprites           2
-    SoftEdged            -1
+    NumSprites           2  
+    SoftEdged            -1 
     BEGIN Sprite0    x 18  y 16  END
 END
 
-BEGIN Material
-    Name                 Stone
-    ConstructionTime     0.0001
-    IndoorOutdoor        1
-    ObjectRequired       Concrete
-    SpriteType           AlignedArea
-    NumSprites           2
+BEGIN Material   
+    Name                 Stone  
+    ConstructionTime     0.0001  
+    IndoorOutdoor        1  
+    ObjectRequired       Concrete  
+    SpriteType           AlignedArea  
+    NumSprites           2  
     BEGIN Sprite0    x 25  y 4  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 Fence
-    ConstructionTime     0.0001
-    BlockMovement        true
-    MoveCost             0.400000
-    SoftEdged            -1
+BEGIN Material   
+    Name                 Fence  
+    ConstructionTime     10.0000  
+    BlockMovement        true  
+    MoveCost             0.400000  
+    SoftEdged            -1  
     IndoorOutdoor        1
-    Price                100
-    Teleportable         true
-    SpriteType           Connected
+    Price                150
+    SpriteType           Connected  
     NumSprites           1
     BEGIN Sprite0    x 0  y 16  END
 END
 
-BEGIN Material
-    Name                 ConcreteTiles
-    ConstructionTime     0.0001
-    MoveCost             1.30000
-    SoftEdged            -1
-    ObjectRequired       Concrete
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 ConcreteTiles  
+    ConstructionTime     0.0001  
+    MoveCost             1.30000  
+    SoftEdged            -1  
+    ObjectRequired       Concrete  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 10  y 6  END
     BEGIN Sprite1    x 2  y 2  END
 END
 
-BEGIN Material
-    Name                 ConcreteFloor
-    MoveCost             1.20000
-    SoftEdged            1
-    IndoorOutdoor        2
-    ObjectRequired       Concrete
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 ConcreteFloor  
+    MoveCost             1.20000  
+    SoftEdged            1  
+    IndoorOutdoor        2  
+    ObjectRequired       Concrete  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 20  y 6  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 WoodenFloor
-    ConstructionTime     0.0001
-    IndoorOutdoor        2
-    ObjectRequired       Brick
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 WoodenFloor  
+    ConstructionTime     0.0001  
+    IndoorOutdoor        2  
+    ObjectRequired       Brick  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 0  y 6  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 CeramicFloor
-    ConstructionTime     0.0001
-    IndoorOutdoor        2
-    ObjectRequired       Brick
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 CeramicFloor  
+    ConstructionTime     0.0001  
+    IndoorOutdoor        2  
+    ObjectRequired       Brick  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 5  y 6  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 MosaicFloor
-    ConstructionTime     0.0001
-    MoveCost             1.30000
-    IndoorOutdoor        2
-    ObjectRequired       Concrete
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 MosaicFloor  
+    ConstructionTime     0.0001  
+    MoveCost             1.30000  
+    IndoorOutdoor        2  
+    ObjectRequired       Concrete  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 10  y 4  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 MetalFloor
-    ConstructionTime     0.0001
-    MoveCost             1.30000
-    SoftEdged            -1
-    IndoorOutdoor        2
-    ObjectRequired       Concrete
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 MetalFloor  
+    ConstructionTime     0.0001  
+    MoveCost             1.30000  
+    SoftEdged            -1  
+    IndoorOutdoor        2  
+    ObjectRequired       Concrete  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 15  y 8  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
+BEGIN Material   
     Name                 Sand
-    ConstructionTime     0.0001
+    ConstructionTime     0.0001  
     MoveCost             0.50000
     SoftEdged            1
     IndoorOutdoor        1
     SpriteOverlayScale   5
     SpriteType           RandomArea
-    NumSprites           2
+    NumSprites           2  
     BEGIN Sprite0    x 15  y 10  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 MarbleTiles
-    ConstructionTime     0.0001
-    SoftEdged            -1
+BEGIN Material   
+    Name                 MarbleTiles  
+    ConstructionTime     0.0001  
+    SoftEdged            -1  
     IndoorOutdoor        2
-    ObjectRequired       Concrete
+    ObjectRequired       Concrete  
     BEGIN Sprite0    x 22  y 8  END
 END
 
-BEGIN Material
-    Name                 WhiteTiles
-    ConstructionTime     0.0001
-    SoftEdged            -1
-    IndoorOutdoor        2
-    ObjectRequired       Concrete
+BEGIN Material   
+    Name                 WhiteTiles  
+    ConstructionTime     0.0001  
+    SoftEdged            -1  
+    IndoorOutdoor        2  
+    ObjectRequired       Concrete  
     BEGIN Sprite0    x 22  y 9  END
 END
 
-BEGIN Material
-    Name                 FancyTiles
-    ConstructionTime     0.0001
-    SoftEdged            -1
-    IndoorOutdoor        2
-    ObjectRequired       Concrete
-    SpriteType           AlignedArea
-    NumSprites           2
+BEGIN Material   
+    Name                 FancyTiles  
+    ConstructionTime     0.0001  
+    SoftEdged            -1  
+    IndoorOutdoor        2  
+    ObjectRequired       Concrete  
+    SpriteType           AlignedArea  
+    NumSprites           2  
     BEGIN Sprite0    x 20  y 8  END
     BEGIN Sprite1    x 2  y 2  END
 END
 
-BEGIN Material
-    Name                 ConcreteWall
-    ConstructionTime     0.0001
-    BlockMovement        true
-    BlockVisibility      true
-    MoveCost             0.400000
-    SoftEdged            -1
-    ObjectRequired       Brick
-    SpriteType           Linked
-    NumSprites           18
+BEGIN Material   
+    Name                 ConcreteWall  
+    ConstructionTime     0.0001  
+    BlockMovement        true  
+    BlockVisibility      true  
+    MoveCost             0.400000  
+    SoftEdged            -1  
+    ObjectRequired       Brick  
+    SpriteType           Linked  
+    NumSprites           18  
     BEGIN Sprite0    x 1  y 2  END
     BEGIN Sprite1    x 0  y 2  END
     BEGIN Sprite2    x 1  y 1  END
@@ -3355,97 +3338,96 @@ BEGIN Material
     BEGIN Sprite17   x 6  y 2  END
 END
 
-BEGIN Material
-    Name                 BrickWall
-    ConstructionTime     0.0001
-    BlockMovement        true
-    BlockVisibility      true
-    MoveCost             0.400000
-    SoftEdged            -1
-    ObjectRequired       Brick
-    SpriteType           Connected
+BEGIN Material   
+    Name                 BrickWall  
+    ConstructionTime     0.0001  
+    BlockMovement        true  
+    BlockVisibility      true  
+    MoveCost             0.400000  
+    SoftEdged            -1  
+    ObjectRequired       Brick  
+    SpriteType           Connected  
     NumSprites           1
     BEGIN Sprite0    x 8  y 8  END
 END
 
-BEGIN Material
-    Name                 PerimeterWall
-    ConstructionTime     0.0001
-    BlockMovement        true
-    BlockVisibility      true
+BEGIN Material   
+    Name                 PerimeterWall  
+    ConstructionTime     25.00000
+    BlockMovement        true  
+    BlockVisibility      true  
     MoveCost             0.100000
-    SoftEdged            -1
-    ObjectRequired       Brick
-    Price                100
-    Teleportable         true
-    IndoorOutdoor        1
-    SpriteType           Connected
+    SoftEdged            -1  
+    ObjectRequired       Brick  
+    Price                150
+    IndoorOutdoor        1  
+    SpriteType           Connected  
     NumSprites           1
     BEGIN Sprite0    x 8  y 16  END
 END
 
-BEGIN Material
-    Name                 Roof
-    ConstructionTime     -1.00000
-    SpriteType           Connected
+BEGIN Material   
+    Name                 Roof  
+    ConstructionTime     -1.00000  
+    SpriteType           Connected  
     NumSprites           1
     BEGIN Sprite0    x 15  y 12  END
 END
 
-BEGIN Material
+BEGIN Material   
     Name                 Water
-    ConstructionTime     -1.00000
+    ConstructionTime     -1.00000  
     SpriteType           RandomArea
     BlockMovement        true
-    MoveCost             0.100000
+    MoveCost             0.100000  
     SoftEdged            1
-    NumSprites           2
+    NumSprites           2 
     BEGIN Sprite0    x 0  y 26  END
     BEGIN Sprite1    x 6  y 1  END
 END
 
-BEGIN Material
-    Name                 BurntFloor
-    ConstructionTime     -1.00000
-    MoveCost             0.500000
-    SoftEdged            1
-    ObjectRequired       Concrete
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 BurntFloor  
+    ConstructionTime     -1.00000  
+    MoveCost             0.500000  
+    SoftEdged            1  
+    ObjectRequired       Concrete  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 20  y 4  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 BurntWall
-    ConstructionTime     -1.00000
-    BlockMovement        true
-    BlockVisibility      true
-    MoveCost             0.400000
-    SoftEdged            -1
-    ObjectRequired       Brick
-    SpriteType           RandomArea
-    NumSprites           2
+BEGIN Material   
+    Name                 BurntWall  
+    ConstructionTime     -1.00000  
+    BlockMovement        true  
+    BlockVisibility      true  
+    MoveCost             0.400000  
+    SoftEdged            -1  
+    ObjectRequired       Brick  
+    SpriteType           RandomArea  
+    NumSprites           2  
     BEGIN Sprite0    x 15  y 6  END
     BEGIN Sprite1    x 5  y 2  END
 END
 
-BEGIN Material
-    Name                 BuildingFrame
-    ConstructionTime     0.0001
-    MoveCost             0.800000
-    SoftEdged            -1
-    BlockVisibility      true
-    ObjectRequired       Steel
-    SpriteType           Connected
+BEGIN Material   
+    Name                 BuildingFrame  
+    ConstructionTime     0.0001  
+    MoveCost             0.800000  
+    SoftEdged            -1  
+    BlockVisibility      true    
+    ObjectRequired       Steel  
+    SpriteType           Connected  
     NumSprites           1
     BEGIN Sprite0    x 0  y 12  END
 END
 
 BEGIN Room       Name None  END
 
-BEGIN Room
-    Name                 Cell
+BEGIN Room       
+    Name                 Cell  
     Capturable           true
     Properties           Housing
     Properties           QualityGraded
@@ -3472,10 +3454,10 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      Tv              END
     BEGIN Grading       Type    Item    Id      Radio           END
     BEGIN Grading       Type    Item    Id      Bookshelf       END
-    BEGIN Grading       Type    Item    Id      Chair           END
+    BEGIN Grading       Type    Item    Id      Chair           END    
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 SuperiorCell
     Capturable           true
     Properties           Housing
@@ -3499,11 +3481,11 @@ BEGIN Room
     BEGIN Grading       Type    Item    Id      Tv              END
     BEGIN Grading       Type    Item    Id      Radio           END
     BEGIN Grading       Type    Item    Id      Bookshelf       END
-    BEGIN Grading       Type    Item    Id      Chair           END
+    BEGIN Grading       Type    Item    Id      Chair           END  
 END
 
-BEGIN Room
-    Name                 HoldingCell
+BEGIN Room       
+    Name                 HoldingCell  
     Capturable           true
     Properties           Housing
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
@@ -3583,8 +3565,8 @@ BEGIN Room
     BEGIN LikelyObject	Id		PhoneBooth		END
 END
 
-BEGIN Room
-    Name                 Canteen
+BEGIN Room       
+    Name                 Canteen  
     Properties           RequiresSector
     Properties           DiningArea
     BEGIN Requirement Type Indoor  END
@@ -3594,8 +3576,8 @@ BEGIN Room
     BEGIN LikelyObject	Id		Bin             END
 END
 
-BEGIN Room
-    Name                 Kitchen
+BEGIN Room       
+    Name                 Kitchen  
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Object  Id Cooker  END
     BEGIN Requirement Type Object  Id Fridge  END
@@ -3610,61 +3592,61 @@ BEGIN Room
     Qualification        KitchenInduction
 END
 
-BEGIN Room
-    Name                 Shower
+BEGIN Room       
+    Name                 Shower  
     BEGIN Requirement Type Object  Id ShowerHead  END
     BEGIN LikelyObject	Id		Drain			END
 END
 
-BEGIN Room
-    Name                 Yard
+BEGIN Room       
+    Name                 Yard  
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
     BEGIN Requirement Type Secure END
     BEGIN LikelyObject	Id		WeightsBench	END
     BEGIN LikelyObject	Id		PhoneBooth		END
 END
 
-BEGIN Room
-    Name Storage
+BEGIN Room       
+    Name Storage  
     BEGIN Contraband    Id      Screwdriver     END
     BEGIN Contraband    Id      Saw             END
     BEGIN Contraband    Id      Drill           END
     BEGIN Contraband    Id      Hammer          END
 END
 
-BEGIN Room
+BEGIN Room       
     Name Exports
+    BEGIN Requirement Type MinimumSize  x 1  y 3  END  
+END
+
+BEGIN Room       
+    Name Deliveries  
     BEGIN Requirement Type MinimumSize  x 1  y 3  END
 END
 
-BEGIN Room
-    Name Deliveries
+BEGIN Room       
+    Name Garbage  
     BEGIN Requirement Type MinimumSize  x 1  y 3  END
 END
 
-BEGIN Room
-    Name Garbage
-    BEGIN Requirement Type MinimumSize  x 1  y 3  END
-END
-
-BEGIN Room
-    Name                 Intake
+BEGIN Room       
+    Name                 Intake  
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Object  Id OfficeDesk  END
-    BEGIN Requirement Type Object  Id Table  END
+    BEGIN Requirement Type Object  Id Table  END    
     BEGIN Requirement Type Object  Id Chair  END
 END
 
-BEGIN Room
-    Name                 Execution
+BEGIN Room       
+    Name                 Execution  
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Object  Id ElectricChair  END
 END
 
-BEGIN Room
-    Name                 Workshop
-    Research             PrisonLabour
-    Properties           PrisonersCanWork
+BEGIN Room       
+    Name                 Workshop 
+    Research             PrisonLabour 
+    Properties           PrisonersCanWork    
     Qualification        WorkshopInduction
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
     BEGIN Requirement Type Object   Id WorkshopSaw  END
@@ -3679,8 +3661,8 @@ BEGIN Room
     BEGIN Contraband    Id      WoodenPickAxe   END
 END
 
-BEGIN Room
-    Name                 Security
+BEGIN Room       
+    Name                 Security  
     Research             Security
     BEGIN Requirement Type MinimumSize  x 4  y 4  END
     BEGIN Requirement Type Object  Id OfficeDesk  END
@@ -3695,8 +3677,8 @@ BEGIN Room
     BEGIN Contraband    Id      Lighter         END
 END
 
-BEGIN Room
-    Name                 Office
+BEGIN Room       
+    Name                 Office  
     BEGIN Requirement Type MinimumSize  x 4  y 4  END
     BEGIN Requirement Type Object  Id OfficeDesk  END
     BEGIN Requirement Type Object  Id Chair  END
@@ -3709,9 +3691,9 @@ BEGIN Room
     BEGIN Contraband    Id      Lighter         END
 END
 
-BEGIN Room
-    Name                 MedicalWard
-    Research             Health
+BEGIN Room       
+    Name                 MedicalWard  
+    Research             Health  
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Object  Id MedicalBed  END
     BEGIN Contraband    Id      Needle          END
@@ -3720,9 +3702,9 @@ BEGIN Room
     BEGIN Contraband    Id      Scissors        END
 END
 
-BEGIN Room
-    Name                 Morgue
-    Research             Health
+BEGIN Room       
+    Name                 Morgue  
+    Research             Health  
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Object  Id MorgueSlab  END
     BEGIN Contraband    Id      Scissors         END
@@ -3730,8 +3712,8 @@ BEGIN Room
 
 END
 
-BEGIN Room
-    Name                 CommonRoom
+BEGIN Room       
+    Name                 CommonRoom  
     BEGIN Requirement Type Indoor  END
     BEGIN LikelyObject	Id		Bench			END
     BEGIN LikelyObject	Id		PoolTable		END
@@ -3739,7 +3721,7 @@ BEGIN Room
     BEGIN LikelyObject	Id		TvSmall			END
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 Laundry
     Research             PrisonLabour
     BEGIN Requirement Type Indoor  END
@@ -3751,7 +3733,7 @@ BEGIN Room
     Properties           RequiresSector
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 CleaningCupboard
     Research             Cleaning
     Properties           PrisonersCanWork
@@ -3761,7 +3743,7 @@ BEGIN Room
     BEGIN Contraband    Id      Club END
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 Visitation
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type Object  Id VisitorTable  END
@@ -3770,31 +3752,31 @@ BEGIN Room
     BEGIN Contraband    Id      Drugs   END
     BEGIN Contraband    Id      Booze   END
     BEGIN Contraband    Id      MobilePhone END
-
+    
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 ParoleRoom
     BEGIN Requirement Type Indoor  END
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
     BEGIN Requirement Type Object  Id VisitorTable  END
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 Solitary
     BEGIN Requirement Type Enclosed END
     BEGIN LikelyObject	Id		SolitaryDoor	END
 END
 
-BEGIN Room
-    Name                 Kennel
+BEGIN Room       
+    Name                 Kennel  
     Research             Dogs
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
     BEGIN Requirement Type Enclosed END
     BEGIN Requirement Type Object  Id DogCrate  END
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 Armoury
     Research             Armoury
     BEGIN Requirement Type Indoor END
@@ -3807,7 +3789,7 @@ BEGIN Room
     BEGIN Contraband    Id      Baton           END
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 Staffroom
     BEGIN Requirement Type Indoor END
     BEGIN Requirement Type MinimumSize  x 4  y 4  END
@@ -3821,8 +3803,8 @@ BEGIN Room
     BEGIN Contraband    Id      MobilePhone     END
 END
 
-BEGIN Room
-    Name                 Library
+BEGIN Room       
+    Name                 Library  
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
     BEGIN Requirement Type Indoor END
     BEGIN Requirement Type Object  Id LibraryBookshelf  END
@@ -3834,7 +3816,7 @@ BEGIN Room
     Research             PrisonLabour
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 Forestry
     Research             GroundsKeeping
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
@@ -3844,7 +3826,7 @@ BEGIN Room
     BEGIN Contraband  Id   Spade END
 END
 
-BEGIN Room
+BEGIN Room       
     Name                 Classroom
     Research             Education
     BEGIN Requirement Type MinimumSize  x 5  y 5  END
@@ -3886,246 +3868,246 @@ BEGIN Room
     Research            PrisonLabour
 END
 
-BEGIN Room
-    Name ClearRooms
+BEGIN Room       
+    Name ClearRooms  
 END
 
-BEGIN Equipment
-    Name                 Fists
+BEGIN Equipment  
+    Name                 Fists  
     Sprite               Hand
     AttackPower          0.750000
-    RechargeTime         1.50000
+    RechargeTime         1.50000  
     Properties           Weapons
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Baton
-    Sprite               HandBaton
-    AttackPower          1.50000
-    RechargeTime         1.50000
+BEGIN Equipment  
+    Name                 Baton  
+    Sprite               HandBaton  
+    AttackPower          1.50000  
+    RechargeTime         1.50000  
     Properties           Weapons
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 Club
-    Sprite               Stick
-    AttackPower          1.50000
-    RechargeTime         1.50000
+    Sprite               Stick  
+    AttackPower          1.50000  
+    RechargeTime         1.50000  
     Properties           Weapons
+    Properties           Improvised    
+END
+
+BEGIN Equipment  
+    Name                 Shank  
+    Sprite               HandKnife  
+    AttackPower          9.00000  
+    RechargeTime         3.00000  
+    Properties           Weapons
+    Properties           Metal
+    Properties           Tools
     Properties           Improvised
 END
 
-BEGIN Equipment
-    Name                 Shank
-    Sprite               HandKnife
-    AttackPower          9.00000
-    RechargeTime         3.00000
-    Properties           Weapons
-    Properties           Metal
-    Properties           Tools
-    Properties           Improvised
-END
-
-BEGIN Equipment
-    Name                 Knife
-    Sprite               Knife
-    Scale                1.00000
-    AttackPower          6.00000
-    RechargeTime         3.00000
+BEGIN Equipment  
+    Name                 Knife  
+    Sprite               Knife  
+    Scale                1.00000  
+    AttackPower          6.00000  
+    RechargeTime         3.00000  
     Properties           Weapons
     Properties           Metal
     Properties           Tools
 END
 
-BEGIN Equipment
-    Name                 Fork
-    Sprite               Fork
-    Scale                0.800000
-    AttackPower          3.00000
-    RechargeTime         2.00000
+BEGIN Equipment  
+    Name                 Fork  
+    Sprite               Fork  
+    Scale                0.800000  
+    AttackPower          3.00000  
+    RechargeTime         2.00000  
     Properties           Weapons
     Properties           Metal
     Properties           Tools
 END
 
-BEGIN Equipment
-    Name                 Spoon
-    Sprite               Spoon
-    Scale                0.800000
+BEGIN Equipment  
+    Name                 Spoon  
+    Sprite               Spoon  
+    Scale                0.800000  
     Properties           Tools
     Properties           Metal
 END
 
-BEGIN Equipment
-    Name                 Needle
-    Sprite               Needle
+BEGIN Equipment  
+    Name                 Needle  
+    Sprite               Needle  
     Properties           Narcotics
 END
 
-BEGIN Equipment
-    Name                 Booze
-    Sprite               Booze
-    Scale                0.700000
+BEGIN Equipment  
+    Name                 Booze  
+    Sprite               Booze  
+    Scale                0.700000  
     Properties           Narcotics
     Properties           Luxuries
 END
 
-BEGIN Equipment
-    Name                 Poison
-    Sprite               Poison
-    Scale                0.800000
+BEGIN Equipment  
+    Name                 Poison  
+    Sprite               Poison  
+    Scale                0.800000  
     Properties           Narcotics
     Properties           Smelly
 END
 
-BEGIN Equipment
-    Name                 Cigs
-    Sprite               Cigs
+BEGIN Equipment  
+    Name                 Cigs  
+    Sprite               Cigs  
     Scale                0.700000
     Properties           Narcotics
     Properties           Luxuries
     Properties           Smelly
 END
 
-BEGIN Equipment
-    Name                 Saw
-    Sprite               Saw
+BEGIN Equipment  
+    Name                 Saw  
+    Sprite               Saw  
     Properties           Tools
     Properties           Metal
 END
 
-BEGIN Equipment
-    Name                 JailKeys
-    Sprite               JailKey
-    Scale                0.800000
+BEGIN Equipment  
+    Name                 JailKeys  
+    Sprite               JailKey  
+    Scale                0.800000  
     Properties           Metal
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 MobilePhone
-    Sprite               MobilePhone
-    Scale                0.600000
+BEGIN Equipment  
+    Name                 MobilePhone  
+    Sprite               MobilePhone  
+    Scale                0.600000  
     Properties           Luxuries
 END
 
-BEGIN Equipment
-    Name                 Lighter
-    Sprite               Lighter
-    Scale                0.600000
+BEGIN Equipment  
+    Name                 Lighter  
+    Sprite               Lighter  
+    Scale                0.600000  
     Properties           Luxuries
 END
 
-BEGIN Equipment
-    Name                 Screwdriver
-    Sprite               Screwdriver
-    Scale                0.800000
-    AttackPower          3.00000
-    RechargeTime         2.00000
+BEGIN Equipment  
+    Name                 Screwdriver  
+    Sprite               Screwdriver  
+    Scale                0.800000  
+    AttackPower          3.00000  
+    RechargeTime         2.00000  
     Properties           Tools
     Properties           Weapons
     Properties           Metal
 END
 
-BEGIN Equipment
-    Name                 Drugs
-    Sprite               Pills
-    Scale                0.600000
+BEGIN Equipment  
+    Name                 Drugs  
+    Sprite               Pills  
+    Scale                0.600000  
     Properties           Narcotics
     Properties           Smelly
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 Medicine
     Sprite               Medicine
-    Scale                0.700000
+    Scale                0.700000  
     Properties           Narcotics
     Properties           Smelly
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 Scissors
     Sprite               Scissors
-    Scale                0.800000
-    AttackPower          1.00000
-    RechargeTime         1.00000
+    Scale                0.800000  
+    AttackPower          1.00000  
+    RechargeTime         1.00000  
     Properties           Weapons
     Properties           Metal
     Properties           Tools
 END
 
-BEGIN Equipment
-    Name                 Sheers
-    Sprite               Sheers
+BEGIN Equipment  
+    Name                 Sheers  
+    Sprite               Sheers  
     Properties           Weapons
     Properties           Metal
     Properties           Tools
-    AttackPower          10.00000
-    RechargeTime         4.00000
+    AttackPower          10.00000  
+    RechargeTime         4.00000  
 END
 
-BEGIN Equipment
-    Name                 Mop
-    Sprite               Mop
+BEGIN Equipment  
+    Name                 Mop  
+    Sprite               Mop  
     TwoHanded            true
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Rake
-    Sprite               Rake
+BEGIN Equipment  
+    Name                 Rake  
+    Sprite               Rake  
     TwoHanded            true
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Hose
-    Sprite               Hose
+BEGIN Equipment  
+    Name                 Hose  
+    Sprite               Hose  
     TwoHanded            true
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Spatula
-    Sprite               Spatula
-    Scale                1.00000
+BEGIN Equipment  
+    Name                 Spatula  
+    Sprite               Spatula  
+    Scale                1.00000  
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 WoodenSpoon
-    Sprite               WoodenSpoon
+BEGIN Equipment  
+    Name                 WoodenSpoon  
+    Sprite               WoodenSpoon  
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 CleaningBrush
-    Sprite               CleaningBrush
+BEGIN Equipment  
+    Name                 CleaningBrush  
+    Sprite               CleaningBrush  
     Scale                0.900000
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Hammer
-    Sprite               Hammer
-    AttackPower          9.00000
-    RechargeTime         2.50000
+BEGIN Equipment  
+    Name                 Hammer  
+    Sprite               Hammer  
+    AttackPower          9.00000  
+    RechargeTime         2.50000  
     Properties           Tools
     Properties           Weapons
     Properties           Metal
 END
 
-BEGIN Equipment
-    Name                 Clipboard
-    Sprite               Clipboard
-    Scale                0.600000
+BEGIN Equipment  
+    Name                 Clipboard  
+    Sprite               Clipboard  
+    Scale                0.600000  
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Drill
-    Sprite               Drill
+BEGIN Equipment  
+    Name                 Drill  
+    Sprite               Drill  
     AttackPower          0.70000
     RechargeTime         0.15000
     Properties           Tools
@@ -4133,35 +4115,35 @@ BEGIN Equipment
     Properties           Weapons
 END
 
-BEGIN Equipment
-    Name                 PianoWire
-    Sprite               PianoWire
-    Scale                0.500000
+BEGIN Equipment  
+    Name                 PianoWire  
+    Sprite               PianoWire  
+    Scale                0.500000  
     TwoHanded            true
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Gun
-    Sprite               Gun
-    Scale                0.700000
+BEGIN Equipment  
+    Name                 Gun  
+    Sprite               Gun  
+    Scale                0.700000  
     AttackPower          15.0000
     RechargeTime         0.50000
     Range                10.0
     Ammo                 6
     Properties           Weapons
     Properties           Metal
-    Properties           RangedWeapon
+    Properties           RangedWeapon    
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Shotgun
-    Sprite               Shotgun
-    Scale                1.20000
-    AttackPower          25.00000
-    RechargeTime         1.00000
-    TwoHanded            true
+BEGIN Equipment  
+    Name                 Shotgun  
+    Sprite               Shotgun  
+    Scale                1.20000  
+    AttackPower          25.00000  
+    RechargeTime         1.00000  
+    TwoHanded            true  
     Range                10.0
     Ammo                 6
     Properties           Weapons
@@ -4170,13 +4152,13 @@ BEGIN Equipment
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Rifle
-    Sprite               Rifle
-    Scale                1.20000
-    AttackPower          50.00000
+BEGIN Equipment  
+    Name                 Rifle  
+    Sprite               Rifle  
+    Scale                1.20000  
+    AttackPower          50.00000  
     RechargeTime         2.00000
-    TwoHanded            true
+    TwoHanded            true  
     Range                40.0
     Ammo                 10
     Properties           Weapons
@@ -4185,25 +4167,25 @@ BEGIN Equipment
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 AssaultRifle
-    Sprite               AssaultRifle
-    Scale                1.10000
-    AttackPower          4.00000
+BEGIN Equipment  
+    Name                 AssaultRifle  
+    Sprite               AssaultRifle  
+    Scale                1.10000  
+    AttackPower          4.00000  
     RechargeTime         0.1000
     Range                20.0
     Ammo                 30
-    TwoHanded            true
+    TwoHanded            true  
     Properties           Weapons
     Properties           RangedWeapon
     Properties           Metal
     Properties           NoImport
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 SubMachineGun
     Sprite               Mac10
-    Scale                1.10000
+    Scale                1.10000  
     AttackPower          2.00000
     RechargeTime         0.1000
     Range                20.0
@@ -4214,132 +4196,132 @@ BEGIN Equipment
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Tazer
-    Sprite               Tazer
-    Scale                0.800000
+BEGIN Equipment  
+    Name                 Tazer  
+    Sprite               Tazer  
+    Scale                0.800000  
     AttackPower          1.00000
-    RechargeTime         2.00000
-    TwoHanded            false
+    RechargeTime         2.00000  
+    TwoHanded            false  
     Ammo                 1
     Properties           Weapons
     Properties           RangedWeapon
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 GuardUniform
-    Sprite               GuardUniform
+BEGIN Equipment  
+    Name                 GuardUniform  
+    Sprite               GuardUniform  
     Properties           NoImport
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 PrisonerUniform
     Sprite               PrisonUniformDirty
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 StabVest
-    Sprite               StabVest
+BEGIN Equipment  
+    Name                 StabVest  
+    Sprite               StabVest  
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Torch
+BEGIN Equipment  
+    Name                 Torch  
     Sprite               Torch
-    AttackPower          4.00000
-    RechargeTime         2.50000
+    AttackPower          4.00000  
+    RechargeTime         2.50000  
     Properties           Tools
-    Properties           Weapons
-    Properties           Metal
+    Properties           Weapons    
+    Properties           Metal     
     Properties           NoImport
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 DogBite
     AttackPower          0.750000
-    RechargeTime         1.00000
-    Properties           Weapons
-    Properties           NoImport
+    RechargeTime         1.00000  
+    Properties           Weapons   
+    Properties           NoImport 
 END
 
-BEGIN Equipment
-    Name                 Iron
-    Sprite               Iron
+BEGIN Equipment  
+    Name                 Iron  
+    Sprite               Iron  
     Properties           Metal
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 MoneyBag
-    Sprite               MoneyBag
+BEGIN Equipment  
+    Name                 MoneyBag  
+    Sprite               MoneyBag  
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 DogLeash
-    Sprite               DogLeash
+BEGIN Equipment  
+    Name                 DogLeash  
+    Sprite               DogLeash  
     Scale                0.5
-    TwoHanded            true
+    TwoHanded            true 
     Properties           NoImport
 END
 
-BEGIN Equipment
-    Name                 Axe
-    Sprite               Axe
+BEGIN Equipment  
+    Name                 Axe  
+    Sprite               Axe  
     Properties           NoImport
     Properties           Metal
     Properties           Tools
     Properties           Weapons
-    AttackPower          15.00000
-    RechargeTime         2.50000
+    AttackPower          15.00000  
+    RechargeTime         2.50000  
 END
 
-BEGIN Equipment
-    Name                 Spade
-    Sprite               Spade
-    TwoHanded            true
+BEGIN Equipment  
+    Name                 Spade  
+    Sprite               Spade  
+    TwoHanded            true 
     Properties           NoImport
     Properties           Metal
     Properties           Tools
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 WoodenPickAxe
     Sprite               WoodPickAxe
-    Properties           NoImport
+    Properties           NoImport    
     Properties           Tools
     Properties           Improvised
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 BatteringRam
     Sprite               BatteringRam
     Properties           NoImport
     TwoHanded            true
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 Megaphone
     Sprite               Megaphone
     Properties           NoImport
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 Photo
     Sprite               Photo
     Properties           NoImport
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 Microphone
     Sprite               Microphone
     Properties           NoImport
-    Scale                0.75
+    Scale                0.75    
 END
 
-BEGIN Equipment
+BEGIN Equipment  
     Name                 CbRadio
     Sprite               CbRadio
     Scale                0.8
@@ -4377,31 +4359,31 @@ BEGIN Equipment
     Properties          NoImport
 END
 
-BEGIN Callout
+BEGIN Callout  
     Name                 None
 END
 
-BEGIN Callout
-    Name                 FireEngine
-    Price                100
-    MaxNumber            2
+BEGIN Callout  
+    Name                 FireEngine  
+    Cost                 150  
+    MaxNumber            2 
     Vehicle              FireEngine
     Entity               Fireman
     NumEntities          4
     Sprite               EmergencyFireEngine
 END
 
-BEGIN Callout
-    Name                 RiotPolice
-    Price                100
-    MaxNumber            3
+BEGIN Callout  
+    Name                 RiotPolice  
+    Cost                 150  
+    MaxNumber            3 
     Vehicle              RiotVan
     Entity               RiotGuard
     NumEntities          6
     Sprite               EmergencyRiotPolice
 END
 
-BEGIN Callout
+BEGIN Callout  
     Name                 ArmedPolice
     MaxNumber            1
     Vehicle              RiotVan
@@ -4410,27 +4392,27 @@ BEGIN Callout
     Sprite               EmergencyRiotPolice
 END
 
-BEGIN Callout
-    Name                 Paramedics
-    Price                100
-    MaxNumber            2
+BEGIN Callout  
+    Name                 Paramedics  
+    Cost                 150  
+    MaxNumber            2 
     Vehicle              Ambulance
     Entity               Paramedic
     NumEntities          4
     Sprite               EmergencyParamedics
 END
 
-BEGIN Callout
-    Name                 Soldiers
-    MaxNumber            5
+BEGIN Callout  
+    Name                 Soldiers  
+    MaxNumber            5 
     Vehicle              TroopTruck
     Entity               Soldier
     NumEntities          6
     Sprite               EmergencyRiotPolice
 END
 
-BEGIN Object
+BEGIN Object     
     Name                 Collectable
-    RenderDepth          1
+    RenderDepth          1  
     Sprite               GameBible
 END

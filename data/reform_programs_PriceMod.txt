@@ -1,7 +1,7 @@
 
 BEGIN Program
     Name            WorkshopInduction
-    SessionCost     -100
+    SessionCost     100
     Places          10
     SessionLength   120
     NumSessions     2
@@ -17,7 +17,7 @@ END
 
 BEGIN Program
     Name            KitchenInduction
-    SessionCost     -100
+    SessionCost     100
     Places          5
     SessionLength   120
     NumSessions     2
@@ -32,7 +32,7 @@ END
 
 BEGIN Program
     Name            FoundationEducation
-    SessionCost     -300
+    SessionCost     100
     Places          20
     SessionLength   180
     NumSessions     10
@@ -49,7 +49,7 @@ END
 
 BEGIN Program
     Name            GeneralEducation
-    SessionCost     -500
+    SessionCost     100
     Places          10
     SessionLength   180
     NumSessions     20
@@ -67,7 +67,7 @@ END
 
 BEGIN Program
     Name            Carpentry
-    SessionCost     -500
+    SessionCost     100
     Places          5
     SessionLength   120
     NumSessions     5
@@ -83,7 +83,7 @@ END
 
 BEGIN Program
     Name            Therapy
-    SessionCost     -200
+    SessionCost     100
     Places          1
     SessionLength   120
     NumSessions     5
@@ -98,7 +98,7 @@ END
 
 BEGIN Program
     Name            Methadone
-    SessionCost     -200
+    SessionCost     100
     Places          10
     SessionLength   60
     NumSessions     3
@@ -115,7 +115,7 @@ END
 
 BEGIN Program
     Name            AlcoholicsMeeting
-    SessionCost     -200
+    SessionCost     100
     Places          20
     SessionLength   120
     NumSessions     10
@@ -132,7 +132,7 @@ END
 
 BEGIN Program
     Name            TazerTraining
-    SessionCost     -100
+    SessionCost     100
     Places          10
     SessionLength   60
     NumSessions     1
@@ -149,7 +149,7 @@ END
 
 BEGIN Program
     Name            SpiritualGuidance
-    SessionCost     -250
+    SessionCost     100
     Places          20
     SessionLength   120
     NumSessions     1
