@@ -1,0 +1,279 @@
+BEGIN Object
+    Name                 RemoveCTMEntities
+    Toughness            20.0000
+    Price                150
+    Teleportable         true
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Clipboard
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 SatisfyAllNeeds
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Pills
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 CallAllGuardsHere
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               CbRadio
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 SpawnFire
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Fire
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 RemoveAllFires
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Fireman
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 StopEscapingPrisoners
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Tazer
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 InfectPatientZero
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Needle
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 CureAllPrisoners
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Needle
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 MakeAllAngry
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               AssaultRifle
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 AssignBodyguard
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Box
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 SpawnInmate
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Prisoner
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 Spawn2Inmates
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Prisoner
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 Spawn3Inmates
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Prisoner
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 RestAllGuards
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Megaphone
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 OpenAllDoors
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               JailKey
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 PlaceRandomContraband
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Knife
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 Luther
+    Toughness            100.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    BEGIN Sprite
+      x 0
+      y 0
+      w 2
+      h 2
+      RotateType 4
+    END
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+    Equipment            Gun
+END
+
+BEGIN Object
+    Name                 StartRiot
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Megaphone
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 StopRiot
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Megaphone
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 GiveEveryoneContraband
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Axe
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END
+
+BEGIN Object
+    Name                 SpawnRandomCategoryInmate
+    Toughness            20.0000
+    Price                150
+    RenderDepth          2
+    Group                StaticObject
+    Sprite               Prisoner
+    SpriteScale          0.9
+    Properties           Entity
+    Properties           DoesNotTire
+    Properties           Scripted
+END

@@ -1,11 +1,11 @@
 
 BEGIN Program
     Name            WorkshopInduction
-    SessionCost     -100
+    SessionCost     200
     Places          10
-    SessionLength   120
-    NumSessions     2
-    Difficulty      1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
     Research        PrisonLabour
     Room            Workshop
     Teacher         Foreman
@@ -17,11 +17,11 @@ END
 
 BEGIN Program
     Name            KitchenInduction
-    SessionCost     -100
+    SessionCost     200
     Places          5
-    SessionLength   120
-    NumSessions     2
-    Difficulty      1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
     Research        PrisonLabour
     Room            Kitchen
     Teacher         Cook
@@ -32,11 +32,11 @@ END
 
 BEGIN Program
     Name            FoundationEducation
-    SessionCost     -300
+    SessionCost     200
     Places          20
-    SessionLength   180
-    NumSessions     10
-    Difficulty      1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
     Room            Classroom
     Teacher         Teacher
     Equipment       SchoolDesk
@@ -49,11 +49,11 @@ END
 
 BEGIN Program
     Name            GeneralEducation
-    SessionCost     -500
+    SessionCost     200
     Places          10
-    SessionLength   180
-    NumSessions     20
-    Difficulty      1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
     Room            Classroom
     Equipment       SchoolDesk
     Teacher         Teacher
@@ -67,11 +67,11 @@ END
 
 BEGIN Program
     Name            Carpentry
-    SessionCost     -500
+    SessionCost     200
     Places          5
-    SessionLength   120
-    NumSessions     5
-    Difficulty      1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
     Teacher         Foreman
     Room            Workshop
     Equipment       CarpenterTable
@@ -83,11 +83,11 @@ END
 
 BEGIN Program
     Name            Therapy
-    SessionCost     -200
+    SessionCost     200
     Places          1
-    SessionLength   120
-    NumSessions     5
-    Difficulty      1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
     Teacher         Psychologist
     Room            Office
     Equipment       Chair
@@ -98,11 +98,11 @@ END
 
 BEGIN Program
     Name            Methadone
-    SessionCost     -200
+    SessionCost     200
     Places          10
     SessionLength   60
-    NumSessions     3
-    Difficulty      1
+    NumSessions     1
+    Difficulty      0
     Teacher         Doctor
     Room            MedicalWard
     Equipment       MedicalBed
@@ -115,11 +115,11 @@ END
 
 BEGIN Program
     Name            AlcoholicsMeeting
-    SessionCost     -200
+    SessionCost     200
     Places          20
-    SessionLength   120
-    NumSessions     10
-    Difficulty      1
+    SessionLength   60
+    NumSessions     1
+    Difficulty      0
     Teacher         Psychologist
     Room            CommonRoom
     Equipment       Chair
@@ -132,11 +132,11 @@ END
 
 BEGIN Program
     Name            TazerTraining
-    SessionCost     -100
+    SessionCost     200
     Places          10
     SessionLength   60
     NumSessions     1
-    Difficulty      1
+    Difficulty      0
     Equipment       SchoolDesk
     Research        TazersForEveryone
     Room            Classroom
@@ -149,11 +149,11 @@ END
 
 BEGIN Program
     Name            SpiritualGuidance
-    SessionCost     -250
+    SessionCost     200
     Places          20
-    SessionLength   120
+    SessionLength   60
     NumSessions     1
-    Difficulty      1
+    Difficulty      0
     Room            Chapel
     Equipment       Pews
     EquipmentAlt    PrayerMat
@@ -173,9 +173,9 @@ BEGIN Program
     Name            ParoleHearing
     SessionCost     0
     Places          1
-    SessionLength   240
+    SessionLength   60
     NumSessions     1
-    Difficulty      1
+    Difficulty      0
     Equipment       VisitorTable
     Research        Policy
     Room            ParoleRoom
@@ -194,9 +194,9 @@ BEGIN Program
     Name            DeathRowAppeal
     SessionCost     0
     Places          1
-    SessionLength   240
+    SessionLength   60
     NumSessions     1
-    Difficulty      1
+    Difficulty      0
     Equipment       VisitorTable
     Research        Deathrow
     Room            ParoleRoom

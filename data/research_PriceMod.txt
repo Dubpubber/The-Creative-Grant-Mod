@@ -1,3 +1,4 @@
+
 BEGIN Research
 END
 BEGIN Research
@@ -12,11 +13,9 @@ END
 BEGIN Research
     Name                 Maintainance
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Foreman
-    Cost                 1
-    Time                 1
+    Cost                 -500
+    Time                 360
     X                    400
     Y                    360
     NonWideX             320
@@ -25,11 +24,9 @@ END
 BEGIN Research
     Name                 Security
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Chief
-    Cost                 1
-    Time                 1
+    Cost                 -500
+    Time                 360
     X                    760
     Y                    100
     NonWideX             660
@@ -38,11 +35,9 @@ END
 BEGIN Research
     Name                 Legal
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Lawyer
-    Cost                 1
-    Time                 1
+    Cost                 -5000
+    Time                 720
     X                    400
     Y                    540
     NonWideX             320
@@ -51,11 +46,9 @@ END
 BEGIN Research
     Name                 MentalHealth
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Psychologist
-    Cost                 1
-    Time                 1
+    Cost                 -500
+    Time                 360
     X                    760
     Y                    300
     NonWideX             800
@@ -64,11 +57,9 @@ END
 BEGIN Research
     Name                 Finance
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Accountant
-    Cost                 1
-    Time                 1
+    Cost                 -500
+    Time                 360
     X                    400
     Y                    100
     NonWideX             320
@@ -77,11 +68,9 @@ END
 BEGIN Research
     Name                 Cctv
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
     Sprite               Cctv
-    Cost                 1
-    Time                 1
+    Cost                 -2000
+    Time                 360
     X                    1180
     Y                    100
     NonWideX             920
@@ -90,11 +79,9 @@ END
 BEGIN Research
     Name                 RemoteAccess
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
     Sprite               RemoteDoor
-    Cost                 1
-    Time                 1
+    Cost                 -2000
+    Time                 360
     X                    1000
     Y                    340
     NonWideX             800
@@ -103,11 +90,9 @@ END
 BEGIN Research
     Name                 Health
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Doctor
-    Cost                 1
-    Time                 1
+    Cost                 -500
+    Time                 360
     X                    760
     Y                    440
     NonWideX             800
@@ -116,11 +101,9 @@ END
 BEGIN Research
     Name                 Cleaning
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Janitor
-    Cost                 1
-    Time                 1
+    Cost                 -2000
+    Time                 360
     X                    160
     Y                    540
     NonWideX             160
@@ -129,11 +112,9 @@ END
 BEGIN Research
     Name                 GroundsKeeping
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Gardener
-    Cost                 1
-    Time                 1
+    Cost                 -2000
+    Time                 360
     X                    160
     Y                    420
     NonWideX             160
@@ -142,10 +123,8 @@ END
 BEGIN Research
     Name                 Clone
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -1500
+    Time                 360
     X                    160
     Y                    360
     NonWideX             160
@@ -154,10 +133,8 @@ END
 BEGIN Research
     Name                 Deployment
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -1000
+    Time                 360
     X                    1000
     Y                    140
     NonWideX             800
@@ -166,10 +143,8 @@ END
 BEGIN Research
     Name                 Patrols
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -1000
+    Time                 360
     X                    1000
     Y                    260
     NonWideX             800
@@ -178,11 +153,9 @@ END
 BEGIN Research
     Name                 Dogs
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Dog
-    Cost                 1
-    Time                 1
+    Cost                 -1000
+    Time                 360
     X                    1180
     Y                    260
     NonWideX             920
@@ -191,11 +164,9 @@ END
 BEGIN Research
     Name                 PrisonLabour
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
     Sprite               LicensePlate
-    Cost                 1
-    Time                 1
+    Cost                 -1000
+    Time                 360
     X                    280
     Y                    540
     NonWideX             160
@@ -204,11 +175,9 @@ END
 BEGIN Research
     Name                 Education
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
     Sprite               Teacher
-    Cost                 1
-    Time                 1
+    Cost                 -2000
+    Time                 720
     X                    760
     Y                    580
     NonWideX             920
@@ -217,10 +186,8 @@ END
 BEGIN Research
     Name                 LandExpansion
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -1000
+    Time                 720
     X                    220
     Y                    100
     NonWideX             200
@@ -229,10 +196,8 @@ END
 BEGIN Research
     Name                 Contraband
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -1000
+    Time                 360
     X                    1000
     Y                    200
     NonWideX             800
@@ -241,10 +206,8 @@ END
 BEGIN Research
     Name                 Policy
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -1000
+    Time                 360
     X                    760
     Y                    220
     NonWideX             920
@@ -253,11 +216,9 @@ END
 BEGIN Research
     Name                 Armoury
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               ArmedGuard
-    Cost                 1
-    Time                 1
+    Cost                 -2000
+    Time                 720
     X                    940
     Y                    480
     NonWideX             800
@@ -266,11 +227,9 @@ END
 BEGIN Research
     Name                 BodyArmour
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
+    Cost                 -1000
     CostPerUse           -100
-    Time                 1
+    Time                 360
     X                    1080
     Y                    540
     NonWideX             920
@@ -279,11 +238,9 @@ END
 BEGIN Research
     Name                 Tazers
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
+    Cost                 -1000
     CostPerUse           -400
-    Time                 1
+    Time                 360
     X                    1080
     Y                    480
     NonWideX             920
@@ -292,11 +249,9 @@ END
 BEGIN Research
     Name                 TazersForEveryone
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
+    Cost                 -5000
     CostPerUse           -400
-    Time                 1
+    Time                 720
     X                    1200
     Y                    480
     NonWideX             920
@@ -305,10 +260,8 @@ END
 BEGIN Research
     Name                 BankLoans
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -500
+    Time                 720
     X                    220
     Y                    220
     NonWideX             200
@@ -317,10 +270,8 @@ END
 BEGIN Research
     Name                 LowerTaxes1
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -10000
+    Time                 2880
     X                    220
     Y                    280
     NonWideX             200
@@ -329,10 +280,8 @@ END
 BEGIN Research
     Name                 LowerTaxes2
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -50000
+    Time                 2880
     X                    100
     Y                    280
     NonWideX             80
@@ -341,10 +290,8 @@ END
 BEGIN Research
     Name                 ExtraGrant
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -500
+    Time                 360
     X                    220
     Y                    160
     NonWideX             200
@@ -353,10 +300,8 @@ END
 BEGIN Research
     Name                 AdvancedManagement
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -1000
+    Time                 360
     X                    400
     Y                    220
     NonWideX             320
@@ -365,10 +310,8 @@ END
 BEGIN Research
     Name                 Deathrow
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -10000
+    Time                 1440
     X                    520
     Y                    600
     NonWideX             460
@@ -377,10 +320,8 @@ END
 BEGIN Research
     Name                 PermanentPunishment
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -5000
+    Time                 1440
     X                    520
     Y                    660
     NonWideX             460
@@ -389,10 +330,8 @@ END
 BEGIN Research
     Name                 RemoveMinCellSize
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -10000
+    Time                 1440
     X                    400
     Y                    660
     NonWideX             460
@@ -401,10 +340,8 @@ END
 BEGIN Research
     Name                 ReduceExecutionLiability
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -10000
+    Time                 4320
     X                    640
     Y                    600
     NonWideX             580
@@ -413,10 +350,8 @@ END
 BEGIN Research
     Name                 LegalPrep
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -50000
+    Time                 4320
     X                    520
     Y                    540
     NonWideX             460
@@ -425,10 +360,8 @@ END
 BEGIN Research
     Name                 LegalDefense
     Type                 Ability
-    Requires             Warden
-    Admin                Warden
-    Cost                 1
-    Time                 1
+    Cost                 -50000
+    Time                 180
     X                    640
     Y                    540
     NonWideX             580
@@ -437,13 +370,11 @@ END
 BEGIN Research
     Name                 GuardTowers
     Type                 Entity
-    Requires             Warden
-    Admin                Warden
     Sprite               Sniper
-    Cost                 1
-    Time                 1
+    Cost                 -5000
+    Time                 1080
     X                    1080
     Y                    600
-    NonWideX             800
+    NonWideX             680
     NonWideY             620
 END

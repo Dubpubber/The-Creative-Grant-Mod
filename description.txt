@@ -1,4 +1,4 @@
-Title: "The Creative Trainer Mod 4.05.1 (Start a Riot! Spawn Inmates! Infect Patient Zero!)""
+Title: "The Creative Trainer Mod 4.6 [For 1.1 - Start a riot, Give Contraband, Spawn Inmates!]"
 
 Inspired by Introversions in game development kit and the lack of modding options through the LUA API, I'm happy to introduce the newly rebranded TGM to "The Creative Trainer Mod"! Finally, a mod that packs the most into a game that refuses to give modders the options we need to make the game even more powerful. Enough of that, check out the features!
 
@@ -8,6 +8,9 @@ Inspired by Introversions in game development kit and the lack of modding option
  - Taze anyone that attempts to escape.
  - Infect patient zero with the virus, simulate quarantine.
  - Spawn 1, 2 or 3 prisoners at once!
+ - Equip all prisoners with random contraband then start a riot! Then end the riot!
+ - Place random contraband anywhere on the map!
+ - Spawn a random category inmate!
  - Fully open source on GitHub! Copy, modify, and reference whatever you like!
  - Of course, unlock the power of cash with 10 money giving grants!
  - Build every single item instantly.
@@ -26,6 +29,9 @@ Like all mods for prison architect, it's activated through the extras menu, chec
 Since somebody has to do it, I'm pushing [b][i]YOU[/i][/b] to use this mod to inspire your own creative ideas! Please, let's get this community rolling and push the developers to give us the tools we need! The more references I see the more features I'll add! Thanks so much for your participation!
 
 Though not required, I'd love if you do use this project as reference for your idea... How about sending a little bit of love my way? Rate this, star github, say thank you, give credit, whatever you want to do. Doesn't mean much but it means people care. Thanks!
+
+[h1]Want this mod but still want the old prices? Look here![/h1]
+You can download the mod manually and install a "no price mod" [url=https://onedrive.live.com/redir?resid=C4D5022B3F8AFA11!4262&authkey=!AHRtJTt3opDhopg&ithint=file%2czip]here.[/url] The no price edition of this mod makes it so all the vanilla prices are intact but all the super cool features are in as well!
 
 [h1]Suggestions, Complaints, Bug Reports?[/h1]
 Start a discussion or leave a hurtful comment, thank you!
