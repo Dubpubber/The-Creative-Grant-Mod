@@ -7,5 +7,5 @@
 function Create()
     local prisoner = Object.Spawn("Prisoner", this.Pos.x, this.Pos.y);
     prisoner.Category = math.random(1, 6);
+    this.Delete();
 end
-
