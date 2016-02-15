@@ -1,7 +1,5 @@
-# Current State: [11/15/2015]
-Introversion's latest ghost patch to 1.1 has lead to script related workshop mods to not update. This can be replicated across all mods. I've submitted a report to Mantis and eagerly await to be told I'm wrong and it's my problem.
-
-Maybe resolved.
+# Current State: [2/15/2016]
+It seems the "cannot apply" bug happens mainly with heavily scripted mods. Mantis isn't fruitful at all.
 
 # The-Creative-Grant-Mod
 A very early implementation of a trainer for the popular tycoon game known as "Prison Architect"!
