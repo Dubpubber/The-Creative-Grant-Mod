@@ -1,4 +1,4 @@
-Title: "The Creative Trainer Mod 4.6 [For 1.1 - Start a riot, Give Contraband, Spawn Inmates!]"
+Title: "The Creative Trainer Mod 4.8.1 [For 5c - Start a riot, Give Contraband, Spawn Inmates!]"
 
 Inspired by Introversions in game development kit and the lack of modding options through the LUA API, I'm happy to introduce the newly rebranded TGM to "The Creative Trainer Mod"! Finally, a mod that packs the most into a game that refuses to give modders the options we need to make the game even more powerful. Enough of that, check out the features!
 
@@ -31,13 +31,28 @@ Since somebody has to do it, I'm pushing [b][i]YOU[/i][/b] to use this mod to in
 Though not required, I'd love if you do use this project as reference for your idea... How about sending a little bit of love my way? Rate this, star github, say thank you, give credit, whatever you want to do. Doesn't mean much but it means people care. Thanks!
 
 [h1]Want this mod but still want the old prices? Look here![/h1]
-You can download the mod manually and install a "no price mod" [url=https://onedrive.live.com/redir?resid=C4D5022B3F8AFA11!4262&authkey=!AHRtJTt3opDhopg&ithint=file%2czip]here.[/url] The no price edition of this mod makes it so all the vanilla prices are intact but all the super cool features are in as well!
+You can download the mod manually and install a "no price mod" [url=https://onedrive.live.com/redir?resid=C4D5022B3F8AFA11!4356&authkey=!AMUnrtCqdAQJ1g0&ithint=file%2czip]here.[/url] The no price edition of this mod makes it so all the vanilla prices are intact but all the super cool features are in as well!
 
 [h1]Suggestions, Complaints, Bug Reports?[/h1]
 Start a discussion or leave a hurtful comment, thank you!
+
+[h1]Currently known incapabilities[/h1]
+[url=http://steamcommunity.com/sharedfiles/filedetails/?id=422078383]This mod. [/url] It's reported that since CGM overwrites contraband for custom scripts, it will conflict with this. [b]Current fix: [/b] It was recently discovered by Cpt. Dinosaur, that placing my mod below this mod will allow his mod to overwrite the materials I use. (Note: only contraband.) So in your extras->mods, simply move this mod down the list until it's below his and that should fix this problem. I'm still working on a permanent solution but for now, thank him!
 
 [h1]Some mentions[/h1]
 My man, [url=http://steamcommunity.com/profiles/76561198190710127]aubergine18[/url] made an amazing effort to create a [url=http://steamcommunity.com/sharedfiles/filedetails/?id=480978426]modding guide[/url]. I used it a ton making this project, use it! You can find the rest of his work [url=http://steamcommunity.com/profiles/76561198190710127/myworkshopfiles/?section=guides&appid=233450]here[/url]. Be sure to thank him as well.
 
 [h1]I've joined the SCP team as their active LUA script maker![/h1]
 I've seen some requests and got some pm's on reddit on the SCP mod being made for Prison Architect and as a long time fan of the secret agency, I'm proud to say I'm working alongside the good people of the mod in hopes of bringing a the SCP world into the Prison Architect world. Please note, I'm by no means giving up development on this mod and will continue to update it with future content and with future PA patches. Thanks.n the SCP mod being made for Prison Architect and as a long time fan of the secret agency, I'm proud to say I'm working alongside the good people of the mod in hopes of bringing a the SCP world into the Prison Architect world. Please note, I'm by no means giving up development on this mod and will continue to update it with future content and with future PA patches. Thanks.
+
+[h1]Having troubles applying this mod or others? Try this: [/h1]
+First of all, credit to @Logslog for figuring this out. I still can't believe it was so simple yet just small enough for me to look over it as much as I did, for as long as I did. I can finally go back to simply adding new features! So thanks to @Logslog and all 9.5k of you awesome people that support this mod!
+
+Solution:
+  1. Find the mod in your appdata/local/introversion/prison architect
+  2. copy the 2611379081 file
+  3. paste in in there again
+  4. rename it to whatever you want
+  5. go the manifest.txt file and change the TITLE to anything (i used test)
+  6. delete the FileID in the manifest
+  7. run the game and enable test

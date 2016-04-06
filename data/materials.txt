@@ -279,6 +279,19 @@ BEGIN Object
 END
 
 BEGIN Object
+    Name                 RemoveWater
+    ConstructionTime     1.00000
+    Toughness            100.000
+    Teleportable         true
+    Price                -1
+    RenderDepth          2
+    BlockedBy            StaticObject
+    Sprite               Water
+    Properties           StaticObject
+    Properties           Scripted
+END
+
+BEGIN Object
     Name                 None
 END
 
@@ -304,10 +317,10 @@ END
 BEGIN Object
     Name                 Bed
     Height               2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            30.0000
-    Price                1
+    Price                -1
     NumSlots             2
     AttachToWall         true
     Group                StaticObject
@@ -323,10 +336,10 @@ END
 BEGIN Object
     Name                 BunkBed
     Height               2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            30.0000
-    Price                1
+    Price                -1
     NumSlots             2
     Group                StaticObject
     BlockedBy            Wall
@@ -341,10 +354,10 @@ END
 BEGIN Object
     Name                 SuperiorBed
     Height               2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            10.0000
-    Price                1000
+    Price                -1
     NumSlots             2
     AttachToWall         true
     Group                StaticObject
@@ -362,10 +375,10 @@ END
 
 BEGIN Object
     Name                 Crib
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            30.0000
-    Price                1
+    Price                -1
     NumSlots             1
     AttachToWall         true
     Group                StaticObject
@@ -382,9 +395,9 @@ END
 
 BEGIN Object
     Name                 PlayMat
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            5.0000
-    Price                1
+    Price                -1
     NumSlots             1
     Group                StaticObject
     BlockedBy            Wall
@@ -399,10 +412,10 @@ END
 
 BEGIN Object
     Name                 Toilet
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            15.0000
-    Price                1
+    Price                -1
     RenderDepth          1
     NumSlots             1
     AttachToWall         true
@@ -418,10 +431,10 @@ END
 BEGIN Object
     Name                 Table
     Width                4
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.250000
     Toughness            10.0000
-    Price                1
+    Price                -1
     NumSlots             4
     Group                StaticObject
     BlockedBy            Wall
@@ -435,9 +448,9 @@ END
 
 BEGIN Object
     Name                 Chair
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
-    Price                1
+    Price                -1
     NumSlots             1
     Group                StaticObject
     BlockedBy            Wall
@@ -451,10 +464,10 @@ END
 BEGIN Object
     Name                 Bench
     Width                4
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            20.0000
-    Price                1
+    Price                -1
     NumSlots             4
     Group                StaticObject
     BlockedBy            Wall
@@ -470,10 +483,10 @@ BEGIN Object
     Name                 ElectricChair
     Width                2
     Height               2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            40.0000
-    Price                1
+    Price                -1
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -487,10 +500,10 @@ END
 
 BEGIN Object
     Name                 JailDoor
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            100.000
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          2
     Group                StaticObject
     BlockedBy            StaticObject
@@ -504,10 +517,10 @@ END
 BEGIN Object
     Name                 JailDoorLarge
     Width                2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            100.000
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          2
     Group                StaticObject
     BlockedBy            StaticObject
@@ -522,10 +535,10 @@ BEGIN Object
     Name                 RoadGate
     Width                7
     Height               1
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            100.000
     Teleportable         true
-    Price                1
+    Price                -1
     RenderPreOffset      -2
     RenderDepth          2
     Group                StaticObject
@@ -541,10 +554,10 @@ END
 
 BEGIN Object
     Name                 Door
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            20.0000
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          2
     Group                StaticObject
     BlockedBy            StaticObject
@@ -557,10 +570,10 @@ END
 
 BEGIN Object
     Name                 StaffDoor
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            40.0000
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          2
     Group                StaticObject
     BlockedBy            StaticObject
@@ -573,10 +586,10 @@ END
 
 BEGIN Object
     Name                 SolitaryDoor
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            300.000
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          2
     Group                StaticObject
     BlockedBy            StaticObject
@@ -589,10 +602,10 @@ END
 
 BEGIN Object
     Name                 RemoteDoor
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            300.000
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          2
     Research             RemoteAccess
     Group                StaticObject
@@ -609,7 +622,7 @@ BEGIN Object
     MoveSpeedFactor      0.500000
     Toughness            100.000
     BlockMove            true
-    Price                1
+    Price                -1
     RenderDepth          2
     Group                StaticObject
     BlockedBy            Wall
@@ -623,10 +636,10 @@ END
 
 BEGIN Object
     Name                 Window
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            20.0000
-    Price                1
+    Price                -1
     Group                StaticObject
     BlockedBy            StaticObject
     BlockedBy            UtilityStation
@@ -640,9 +653,9 @@ END
 BEGIN Object
     Name                 WindowLarge
     Width                2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
-    Price                1
+    Price                -1
     Group                StaticObject
     BlockedBy            StaticObject
     BlockedBy            UtilityStation
@@ -657,10 +670,10 @@ BEGIN Object
     Name                 Tree
     Width                3
     Height               3
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            10.0000
     RenderDepth          2
-    Price                1
+    Price                -1
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -694,10 +707,10 @@ END
 
 BEGIN Object
     Name                 Light
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            1.00000
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          4
     BlockedBy            Wall
     BlockedBy            UtilityStation
@@ -711,10 +724,10 @@ END
 BEGIN Object
     Name                 Cooker
     Width                2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.750000
     Toughness            10.0000
-    Price                1
+    Price                -1
     NumSlots             2
     Group                StaticObject
     BlockedBy            Wall
@@ -726,14 +739,16 @@ BEGIN Object
     Properties           StaticObject
     Properties           Electrical
     Properties           RoomSpecific
+    Properties           RadiatesHeat
+    RadiantTemperature   40
 END
 
 BEGIN Object
     Name                 Fridge
     Width                2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.750000
-    Price                1
+    Price                -1
     NumSlots             2
     Group                StaticObject
     BlockedBy            Wall
@@ -749,10 +764,10 @@ END
 
 BEGIN Object
     Name                 Bin
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.800000
     Toughness            3.00000
-    Price                1
+    Price                -1
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -765,9 +780,9 @@ END
 BEGIN Object
     Name                 Sink
     Width                3
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.800000
-    Price                1
+    Price                -1
     NumSlots             3
     AttachToWall         true
     Group                StaticObject
@@ -784,9 +799,9 @@ END
 BEGIN Object
     Name                 ServingTable
     Width                5
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.800000
-    Price                1
+    Price                -1
     NumSlots             5
     RenderPostOffset     2
     Group                StaticObject
@@ -802,8 +817,8 @@ END
 
 BEGIN Object
     Name                 ShowerHead
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          3
     AttachToWall         true
     BlockedBy            Wall
@@ -820,7 +835,7 @@ BEGIN Object
     Toughness            1.00000
     MaxStackSize         20
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          1
     Sprite               Brick
     StackSprite          StackBrick
@@ -831,7 +846,7 @@ BEGIN Object
     Name                 Concrete
     MaxStackSize         20
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          1
     Sprite               Concrete
     StackSprite          StackConcrete
@@ -842,7 +857,7 @@ BEGIN Object
     Name                 Steel
     MaxStackSize         20
     Teleportable         true
-    Price                1
+    Price                -1
     RenderDepth          1
     Sprite               Girder
     StackSprite          StackGirder
@@ -853,7 +868,7 @@ BEGIN Object
     Name                 Bleach
     MaxStackSize         10
     RenderDepth          1
-    Price                1
+    Price                -1
     Sprite               StackBleach
     StackSprite          StackBleach
     Properties           Material
@@ -864,7 +879,7 @@ BEGIN Object
     Name                 SheetMetal
     MaxStackSize         10
     RenderDepth          1
-    Price                1
+    Price                -1
     Sprite               SheetMetal
     StackSprite          StackSheetMetal
     Properties           Material
@@ -884,7 +899,7 @@ BEGIN Object
     Name                 LicensePlate
     MaxStackSize         20
     RenderDepth          1
-    Price                1000
+    Price                -1
     Sprite               Plate
     StackSprite          StackPlates
     Properties           Material
@@ -939,7 +954,7 @@ END
 BEGIN Object
     Name                 Meal
     MaxStackSize         10
-    Price                1
+    Price                -1
     RenderDepth          1
     Sprite               FoodTray
     Properties           Material
@@ -948,7 +963,7 @@ END
 BEGIN Object
     Name                 FoodTray
     MaxStackSize         40
-    Price                1
+    Price                -1
     RenderDepth          1
     Sprite               FoodTray
     StackSprite          StackFoodTrays
@@ -959,7 +974,7 @@ END
 BEGIN Object
     Name                 FoodTrayDirty
     MaxStackSize         20
-    Price                1
+    Price                -1
     RenderDepth          1
     Sprite               FoodTrayDirty
     StackSprite          StackFoodTraysDirty
@@ -969,7 +984,7 @@ END
 BEGIN Object
     Name                 GrassTurf
     MaxStackSize         10
-    Price                1
+    Price                -1
     RenderDepth          1
     Teleportable         true
     Sprite               GrassTurf
@@ -980,7 +995,7 @@ END
 BEGIN Object
     Name                 PrisonerUniform
     MaxStackSize         20
-    Price                1
+    Price                -1
     RenderDepth          1
     Sprite               PrisonerUniform
     StackSprite          StackPrisonUniform
@@ -1011,7 +1026,7 @@ BEGIN Object
     Name                Log
     MaxStackSize        3
     RenderDepth         1
-    Price               1
+    Price               -100
     Sprite              RawWood
     StackSprite         StackLogs
     Properties          Material
@@ -1022,7 +1037,7 @@ BEGIN Object
     Name                Wood
     MaxStackSize        20
     RenderDepth         1
-    Price               1
+    Price               -100
     Sprite              Wood
     StackSprite         StackWood
     Properties          Material
@@ -1032,7 +1047,7 @@ END
 BEGIN Object
     Name                 Workman
     Toughness            5.0000
-    Price                1
+    Price                -1
     RenderDepth          2
     ViewRange            3
     BlockedBy            Wall
@@ -1061,7 +1076,7 @@ BEGIN Object
     Name                 Guard
     MoveSpeedFactor      0.500000
     Toughness            20.0000
-    Price                1
+    Price                -1
     RenderDepth          2
     ViewRange            12
     BlockedBy            Wall
@@ -1079,7 +1094,7 @@ BEGIN Object
     Name                 ArmedGuard
     MoveSpeedFactor      0.500000
     Toughness            15.0000
-    Price                1
+    Price                -1
     RenderDepth          2
     ViewRange            15
     BlockedBy            Wall
@@ -1098,7 +1113,7 @@ BEGIN Object
     Name                 DogHandler
     MoveSpeedFactor      0.500000
     Toughness            15.0000
-    Price                1
+    Price                -1
     RenderDepth          2
     ViewRange            12
     BlockedBy            Wall
@@ -1117,7 +1132,7 @@ BEGIN Object
     Name                 Sniper
     MoveSpeedFactor      0.500000
     Toughness            20.0000
-    Price                1
+    Price                -1
     RenderDepth          5
     ViewRange            12
     BlockedBy            Wall
@@ -1270,6 +1285,7 @@ BEGIN Object
     Equipment            AssaultRifle
 END
 
+
 BEGIN Object
     Name                 Prisoner
     MoveSpeedFactor      0.500000
@@ -1286,7 +1302,7 @@ END
 BEGIN Object
     Name                 Doctor
     Toughness            10.0000
-    Price                1
+    Price                -1
     Toughness            5
     RenderDepth          2
     ViewRange            3
@@ -1316,7 +1332,7 @@ END
 
 BEGIN Object
     Name                 Cook
-    Price                1
+    Price                -1
     Toughness            5
     RenderDepth          2
     BlockedBy            Wall
@@ -1331,7 +1347,7 @@ END
 
 BEGIN Object
     Name                 Gardener
-    Price                1
+    Price                -1
     Toughness            5
     RenderDepth          2
     BlockedBy            Wall
@@ -1346,7 +1362,7 @@ END
 
 BEGIN Object
     Name                 Janitor
-    Price                1
+    Price                -1
     Toughness            5
     RenderDepth          2
     BlockedBy            Wall
@@ -1412,7 +1428,7 @@ END
 
 BEGIN Object
     Name                 Warden
-    Price                1
+    Price                -1
     RenderDepth          2
     ViewRange            3
     Toughness            5
@@ -1429,7 +1445,7 @@ END
 
 BEGIN Object
     Name                 Chief
-    Price                1
+    Price                -1
     RenderDepth          2
     ViewRange            12
     Toughness            20
@@ -1446,7 +1462,7 @@ END
 
 BEGIN Object
     Name                 Foreman
-    Price                1
+    Price                -1
     RenderDepth          2
     Toughness            5
     ViewRange            3
@@ -1463,7 +1479,7 @@ END
 
 BEGIN Object
     Name                 Psychologist
-    Price                1
+    Price                -1
     RenderDepth          2
     Toughness            5
     ViewRange            3
@@ -1479,7 +1495,7 @@ END
 
 BEGIN Object
     Name                 Accountant
-    Price                1
+    Price                -1
     RenderDepth          2
     Toughness            5
     ViewRange            3
@@ -1496,7 +1512,7 @@ END
 
 BEGIN Object
     Name                 Lawyer
-    Price                1
+    Price                -1
     Toughness            5
     RenderDepth          2
     ViewRange            3
@@ -1606,6 +1622,8 @@ BEGIN Object
     MaxStackSize         -1
     RenderDepth          3
     Sprite               Fire
+    Properties           RadiatesHeat
+    RadiantTemperature   233
 END
 
 BEGIN Object
@@ -1629,9 +1647,9 @@ END
 
 BEGIN Object
     Name                 Bookshelf
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            10.0000
-    Price                1
+    Price                -1
     RenderDepth          2
     AttachToWall         true
     Group                StaticObject
@@ -1647,9 +1665,9 @@ END
 BEGIN Object
     Name                 OfficeDesk
     Width                2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.800000
-    Price                1
+    Price                -1
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -1666,9 +1684,9 @@ END
 BEGIN Object
     Name                 SchoolDesk
     Height               2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.600000
-    Price                1
+    Price                -1
     NumSlots             1
     RenderDepth          1
     AttachToWall         true
@@ -1686,9 +1704,9 @@ END
 
 BEGIN Object
     Name                 FilingCabinet
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.800000
-    Price                1
+    Price                -1
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -1707,10 +1725,10 @@ BEGIN Object
     Width                2
     Height               2
     RenderDepth          0
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            30.0000
-    Price                1
+    Price                -1
     NumSlots             1
     AttachToWall         true
     Group                StaticObject
@@ -1728,10 +1746,10 @@ BEGIN Object
     Name                 MorgueSlab
     Width                1
     Height               2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            30.0000
-    Price                1
+    Price                -1
     NumSlots             1
     RenderDepth          0
     AttachToWall         true
@@ -1771,10 +1789,10 @@ BEGIN Object
     Name                 PowerStation
     Width                3
     Height               3
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            50.0000
-    Price                1
+    Price                -1
     Group                UtilityStation
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -1788,13 +1806,15 @@ BEGIN Object
     Properties           Utility
     Properties           Electrical
     Properties           ExplodeWhenWet
+    Properties           RadiatesHeat
+    RadiantTemperature   25
 END
 
 BEGIN Object
     Name                 Capacitor
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
-    Price                1
+    Price                -1
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -1808,10 +1828,10 @@ END
 
 BEGIN Object
     Name                 ElectricalCable
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            5.00000
     MaxStackSize         10
-    Price                1
+    Price                -1
     RenderDepth          2
     Sprite               ElectricalCable
     StackSprite          StackCable
@@ -1822,9 +1842,9 @@ END
 
 BEGIN Object
     Name                 PowerSwitch
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.800000
-    Price                1
+    Price                -1
     RenderDepth          2
     Group                StaticObject
     BlockedBy            Wall
@@ -1845,10 +1865,10 @@ BEGIN Object
     Name                 WaterPumpStation
     Width                3
     Height               3
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            50.0000
-    Price                1
+    Price                -1
     RenderDepth          1
     Group                UtilityStation
     BlockedBy            Wall
@@ -1862,35 +1882,40 @@ BEGIN Object
     Properties           StaticObject
     Properties           Utility
     Properties           Electrical
+    Properties           RadiatesHeat
+    RadiantTemperature   21
 END
 
 BEGIN Object
     Name                 WaterBoiler
     Width                2
     Height               1
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            50.0000
-    Price                1
+    Price                -1
     RenderDepth          1
     Group                UtilityStation
     BlockedBy            Wall
     BlockedBy            StaticObject
     BlockedBy            Cable
     BlockedBy            UtilityStation
-    Sprite               WaterStation
+    Sprite               WaterBoiler
+    ToolbarSprite        WaterBoilerToolbar
     MadeOf               Composite
     Properties           StaticObject
     Properties           Utility
     Properties           Electrical
+    Properties           RadiatesHeat
+    RadiantTemperature   30
 END
 
 BEGIN Object
     Name                 PipeValve
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.800000
     Toughness            5.00000
-    Price                1
+    Price                -1
     RenderDepth          1
     Group                StaticObject
     BlockedBy            Wall
@@ -1903,9 +1928,9 @@ END
 
 BEGIN Object
     Name                 PipeLarge
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MaxStackSize         10
-    Price                1
+    Price                -1
     RenderDepth          1
     Group                LargePipe
     BlockedBy            LargePipe
@@ -1919,9 +1944,9 @@ END
 
 BEGIN Object
     Name                 PipeSmall
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MaxStackSize         10
-    Price                1
+    Price                -1
     RenderDepth          1
     Group                SmallPipe
     BlockedBy            LargePipe
@@ -1935,10 +1960,26 @@ BEGIN Object
 END
 
 BEGIN Object
+    Name                 PipeHotWater
+    ConstructionTime     1.00000
+    MaxStackSize         10
+    Price                -1
+    RenderDepth          1
+    Group                HotPipe
+    BlockedBy            HotPipe
+    BlockedBy            UtilityStation
+    Sprite               PipeHot
+    StackSprite          StackPipes
+    Properties           Utility
+    Properties           Material
+    Properties           CanPlaceOnRoad
+END
+
+BEGIN Object
     Name                 Sprinkler
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            10.0000
-    Price                1
+    Price                -1
     RenderDepth          3
     AttachToWall         true
     BlockedBy            Wall
@@ -1952,9 +1993,9 @@ END
 
 BEGIN Object
     Name                 Drain
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            10.0000
-    Price                1
+    Price                -1
     RenderDepth          -1
     AttachToWall         false
     BlockedBy            Wall
@@ -1967,9 +2008,9 @@ END
 
 BEGIN Object
     Name                 MetalDetector
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
-    Price                1
+    Price                -1
     RenderDepth          3
     AttachToWall         true
     Group                StaticObject
@@ -1987,9 +2028,9 @@ BEGIN Object
     Name                 WeightsBench
     Width                1
     Height               1
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
-    Price                1
+    Price                -1
     RenderDepth          1
     RenderPostOffset     2
     NumSlots             1
@@ -2007,8 +2048,8 @@ BEGIN Object
     Name                 PhoneBooth
     Width                1
     Height               1
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -2025,8 +2066,8 @@ BEGIN Object
     Name                 Tv
     Width                1
     Height               1
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          1
     AttachToWall         true
     Group                StaticObject
@@ -2043,8 +2084,8 @@ BEGIN Object
     Name                 LargeTv
     Width                2
     Height               1
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          1
     Group                StaticObject
     BlockedBy            Wall
@@ -2061,8 +2102,8 @@ BEGIN Object
     Name                 PoolTable
     Width                3
     Height               2
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          1
     AttachToWall         false
     NumSlots             2
@@ -2086,8 +2127,8 @@ BEGIN Object
     Name                 Cctv
     Width                1
     Height               1
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          2
     AttachToWall         true
     Group                StaticObject
@@ -2108,8 +2149,8 @@ BEGIN Object
     Name                 CctvMonitor
     Width                3
     Height               1
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     Toughness            30
     RenderDepth          1
     AttachToWall         false
@@ -2131,8 +2172,8 @@ BEGIN Object
     Name                 DoorControlSystem
     Width                2
     Height               1
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     Toughness            30
     RenderDepth          1
     AttachToWall         false
@@ -2153,8 +2194,8 @@ BEGIN Object
     Name                 PhoneMonitor
     Width                1
     Height               1
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     Toughness            30
     RenderDepth          1
     AttachToWall         false
@@ -2174,8 +2215,8 @@ END
 
 BEGIN Object
     Name                 Servo
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     Height               2
     RenderDepth          3
     AttachToWall         false
@@ -2191,8 +2232,8 @@ END
 
 BEGIN Object
     Name                 DoorTimer
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     AttachToWall         false
     Group                StaticObject
     BlockedBy            Wall
@@ -2209,8 +2250,8 @@ END
 
 BEGIN Object
     Name                 LogicCircuit
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          3
     AttachToWall         false
     Group                StaticObject
@@ -2226,8 +2267,8 @@ END
 
 BEGIN Object
     Name                 LogicBridge
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          3
     AttachToWall         false
     Group                StaticObject
@@ -2243,8 +2284,8 @@ END
 
 BEGIN Object
     Name                 PressurePad
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          0
     AttachToWall         false
     BlockedBy            Wall
@@ -2260,8 +2301,8 @@ END
 
 BEGIN Object
     Name                 StatusLight
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     RenderDepth          1
     AttachToWall         false
     Group                StaticObject
@@ -2277,8 +2318,8 @@ END
 
 BEGIN Object
     Name                 Wire
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     Sprite               Connection
     MadeOf               Composite
     Properties           Wired
@@ -2286,8 +2327,8 @@ END
 
 BEGIN Object
     Name                 TidyWires
-    ConstructionTime     1
-    Price                1
+    ConstructionTime     1.00000
+    Price                -1
     Sprite               Connection
     MadeOf               Composite
     Properties           Wired
@@ -2295,7 +2336,7 @@ END
 
 BEGIN Object
     Name                 ShowAllWires
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Sprite               Connection
     Properties           Utility
     Properties           Wired
@@ -2303,7 +2344,7 @@ END
 
 BEGIN Object
     Name                 LaundryMachine
-    Price                1
+    Price                -1
     ConstructionTime     20
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2324,7 +2365,7 @@ END
 
 BEGIN Object
     Name                 WorkshopSaw
-    Price                1
+    Price                -1
     ConstructionTime     20
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2350,7 +2391,7 @@ END
 
 BEGIN Object
     Name                 WorkshopPress
-    Price                1
+    Price                -1
     ConstructionTime     20
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2373,7 +2414,7 @@ END
 
 BEGIN Object
     Name                 CarpenterTable
-    Price                1
+    Price                -1
     ConstructionTime     20
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2417,7 +2458,7 @@ END
 
 BEGIN Object
     Name                 LaundryBasket
-    Price                1
+    Price                -1
     ConstructionTime     2
     MoveSpeedFactor      0.800000
     Toughness            15.0000
@@ -2436,7 +2477,7 @@ BEGIN Object
     Name                 VisitorTable
     Width                3
     Height               2
-    Price                1
+    Price                -1
     ConstructionTime     2
     MoveSpeedFactor      0.500000
     Toughness            15.0000
@@ -2456,7 +2497,7 @@ BEGIN Object
     Name                 VisitorTableSecure
     Width                2
     Height               2
-    Price                1
+    Price                -1
     ConstructionTime     4
     RenderPostOffset     3
     MoveSpeedFactor      0.500000
@@ -2468,6 +2509,7 @@ BEGIN Object
     Properties           StaticObject
     Properties           RoomSpecific
     Properties           BlockMovement
+    Properties           Wired
     Group                StaticObject
     BlockedBy            Wall
     BlockedBy            StaticObject
@@ -2477,10 +2519,10 @@ END
 BEGIN Object
     Name                 DogCrate
     Height               2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.800000
     Toughness            30.0000
-    Price                1
+    Price                -1
     NumSlots             1
     RenderPostOffset     3
     AttachToWall         false
@@ -2498,10 +2540,10 @@ END
 
 BEGIN Object
     Name                 GuardLocker
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.600000
     Toughness            50.0000
-    Price                1
+    Price                -1
     AttachToWall         true
     Group                StaticObject
     BlockedBy            Wall
@@ -2518,10 +2560,10 @@ END
 BEGIN Object
     Name                 WeaponRack
     Width                2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.900000
     Toughness            20.0000
-    Price                1
+    Price                -1
     AttachToWall         true
     Group                StaticObject
     BlockedBy            Wall
@@ -2538,10 +2580,10 @@ END
 BEGIN Object
     Name                 SofaChairSingle
     Width                1
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
     Toughness            20.0000
-    Price                1
+    Price                -1
     AttachToWall         true
     NumSlots             1
     Group                StaticObject
@@ -2557,10 +2599,10 @@ END
 BEGIN Object
     Name                 SofaChairDouble
     Width                2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.400000
     Toughness            20.0000
-    Price                1
+    Price                -1
     AttachToWall         true
     NumSlots             2
     Group                StaticObject
@@ -2576,10 +2618,10 @@ END
 BEGIN Object
     Name                 DrinkMachine
     Width                1
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.300000
     Toughness            50.0000
-    Price                1
+    Price                -1
     AttachToWall         true
     Group                StaticObject
     BlockedBy            Wall
@@ -2595,10 +2637,10 @@ END
 BEGIN Object
     Name                 ArcadeCabinet
     Width                1
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.300000
     Toughness            50.0000
-    Price                1
+    Price                -1
     AttachToWall         true
     Group                StaticObject
     BlockedBy            Wall
@@ -2614,10 +2656,10 @@ END
 BEGIN Object
     Name                 Radio
     Width                1
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.900000
     Toughness            10.0000
-    Price                1
+    Price                -1
     AttachToWall         false
     Group                StaticObject
     BlockedBy            Wall
@@ -2722,7 +2764,7 @@ BEGIN Object
     Name                 LibraryBookUnsorted
     MaxStackSize         20
     RenderDepth          1
-    Price                1
+    Price                -1
     Sprite               BooksUnSorted
     StackSprite          StackBooksUnsorted
     Properties           Material
@@ -2735,7 +2777,7 @@ BEGIN Object
     Name                 LibraryBookSorted
     MaxStackSize         10
     RenderDepth          1
-    Price                1
+    Price                -1
     Sprite               BooksSorted
     StackSprite          StackBooksSorted
     Properties           Material
@@ -2746,10 +2788,10 @@ END
 BEGIN Object
     Name                 SortingTable
     Width                3
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.250000
     Toughness            10.0000
-    Price                1
+    Price                -1
     NumSlots             3
     Group                StaticObject
     BlockedBy            Wall
@@ -2836,9 +2878,9 @@ END
 BEGIN Object
     Name                 ShopFront
     Width                2
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveSpeedFactor      0.500000
-    Price                1
+    Price                -1
     Group                StaticObject
     BlockedBy            StaticObject
     BlockedBy            UtilityStation
@@ -2914,6 +2956,26 @@ BEGIN Object
     Research            GuardTowers
 END
 
+BEGIN Object
+    Name                 Radiator
+    Height               1
+    ConstructionTime     1.00000
+    MoveSpeedFactor      0.500000
+    Toughness            50.0000
+    Price                -1
+    NumSlots             0
+    AttachToWall         true
+    Group                StaticObject
+    BlockedBy            Wall
+    BlockedBy            StaticObject
+    BlockedBy            UtilityStation
+    Sprite               Radiator
+    MadeOf               Metal
+    Properties           StaticObject
+    Properties           RadiatesHeat
+    RadiantTemperature   21
+    RadiantRange         20
+END
 
 BEGIN Object
     Name                 Boombox
@@ -2924,14 +2986,14 @@ END
 
 BEGIN Object
     Name                 DismantleObject
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Toughness            0.000000
     Sprite               Bulldozer
 END
 
 BEGIN Object
     Name                 DismantleUtility
-    ConstructionTime     1
+    ConstructionTime     1.00000
     Sprite               Bulldozer
     Properties           Utility
 END
@@ -2980,7 +3042,7 @@ END
 
 BEGIN Material
     Name                 Building
-    ConstructionTime     1
+    ConstructionTime     1.00000
     BlockMovement        true
     MoveCost             0.800000
     SoftEdged            -1
@@ -2990,7 +3052,7 @@ END
 
 BEGIN Material
     Name                 BuildingConcrete
-    ConstructionTime     1
+    ConstructionTime     1.00000
     BlockMovement        true
     MoveCost             0.800000
     SoftEdged            -1
@@ -3000,43 +3062,43 @@ END
 
 BEGIN Material
     Name                 Demolish
-    ConstructionTime     1
+    ConstructionTime     1.00000
     SoftEdged            -1
     BEGIN Sprite0    x 0  y 3  END
 END
 
 BEGIN Material
     Name                 DemolishWalls
-    ConstructionTime     1
+    ConstructionTime     1.00000
     SoftEdged            -1
     BEGIN Sprite0    x 0  y 3  END
 END
 
 BEGIN Material
     Name                 RemoveTunnels
-    ConstructionTime     1
+    ConstructionTime     1.00000
     SoftEdged            -1
-    Price                1
+    Price                -1
     BEGIN Sprite0    x 13  y 3  END
 END
 
 BEGIN Material
     Name                 ClearIndoorArea
-    ConstructionTime     1
+    ConstructionTime     1.00000
     SoftEdged            -1
     BEGIN Sprite0    x 0  y 3  END
 END
 
 BEGIN Material
     Name                 CancelJobs
-    ConstructionTime     1
+    ConstructionTime     1.00000
     SoftEdged            -1
     BEGIN Sprite0    x 0  y 3  END
 END
 
 BEGIN Material
     Name                 Dirt
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             0.700000
     SoftEdged            1
     IndoorOutdoor        1
@@ -3049,7 +3111,7 @@ END
 
 BEGIN Material
     Name                 PavingStone
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             1.30000
     SoftEdged            0
     IndoorOutdoor        1
@@ -3062,7 +3124,7 @@ END
 
 BEGIN Material
     Name                 Grass
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             0.700000
     SoftEdged            1
     IndoorOutdoor        1
@@ -3104,7 +3166,7 @@ END
 
 BEGIN Material
     Name                 Gravel
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             0.700000
     SoftEdged            1
     IndoorOutdoor        1
@@ -3118,7 +3180,7 @@ END
 
 BEGIN Material
     Name                 Road
-    ConstructionTime     1
+    ConstructionTime     1.00000
     IndoorOutdoor        1
     ObjectRequired       Concrete
     SpriteType           RandomArea
@@ -3195,7 +3257,7 @@ END
 
 BEGIN Material
     Name                 Stone
-    ConstructionTime     1
+    ConstructionTime     1.00000
     IndoorOutdoor        1
     ObjectRequired       Concrete
     SpriteType           AlignedArea
@@ -3206,12 +3268,12 @@ END
 
 BEGIN Material
     Name                 Fence
-    ConstructionTime     1
+    ConstructionTime     1.00000
     BlockMovement        true
     MoveCost             0.400000
     SoftEdged            -1
     IndoorOutdoor        1
-    Price                1
+    Price                -1
     SpriteType           Connected
     NumSprites           1
     BEGIN Sprite0    x 0  y 16  END
@@ -3219,7 +3281,7 @@ END
 
 BEGIN Material
     Name                 ConcreteTiles
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             1.30000
     SoftEdged            -1
     ObjectRequired       Concrete
@@ -3233,7 +3295,6 @@ BEGIN Material
     Name                 ConcreteFloor
     MoveCost             1.20000
     SoftEdged            1
-    IndoorOutdoor        2
     ObjectRequired       Concrete
     SpriteType           RandomArea
     NumSprites           2
@@ -3243,8 +3304,7 @@ END
 
 BEGIN Material
     Name                 WoodenFloor
-    ConstructionTime     1
-    IndoorOutdoor        2
+    ConstructionTime     1.00000
     ObjectRequired       Brick
     SpriteType           RandomArea
     NumSprites           2
@@ -3254,8 +3314,7 @@ END
 
 BEGIN Material
     Name                 CeramicFloor
-    ConstructionTime     1
-    IndoorOutdoor        2
+    ConstructionTime     1.00000
     ObjectRequired       Brick
     SpriteType           RandomArea
     NumSprites           2
@@ -3265,9 +3324,8 @@ END
 
 BEGIN Material
     Name                 MosaicFloor
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             1.30000
-    IndoorOutdoor        2
     ObjectRequired       Concrete
     SpriteType           RandomArea
     NumSprites           2
@@ -3277,10 +3335,9 @@ END
 
 BEGIN Material
     Name                 MetalFloor
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             1.30000
     SoftEdged            -1
-    IndoorOutdoor        2
     ObjectRequired       Concrete
     SpriteType           RandomArea
     NumSprites           2
@@ -3290,7 +3347,7 @@ END
 
 BEGIN Material
     Name                 Sand
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             0.50000
     SoftEdged            1
     IndoorOutdoor        1
@@ -3303,27 +3360,24 @@ END
 
 BEGIN Material
     Name                 MarbleTiles
-    ConstructionTime     1
+    ConstructionTime     1.00000
     SoftEdged            -1
-    IndoorOutdoor        2
     ObjectRequired       Concrete
     BEGIN Sprite0    x 22  y 8  END
 END
 
 BEGIN Material
     Name                 WhiteTiles
-    ConstructionTime     1
+    ConstructionTime     1.00000
     SoftEdged            -1
-    IndoorOutdoor        2
     ObjectRequired       Concrete
     BEGIN Sprite0    x 22  y 9  END
 END
 
 BEGIN Material
     Name                 FancyTiles
-    ConstructionTime     1
+    ConstructionTime     1.00000
     SoftEdged            -1
-    IndoorOutdoor        2
     ObjectRequired       Concrete
     SpriteType           AlignedArea
     NumSprites           2
@@ -3333,7 +3387,7 @@ END
 
 BEGIN Material
     Name                 ConcreteWall
-    ConstructionTime     1
+    ConstructionTime     1.00000
     BlockMovement        true
     BlockVisibility      true
     MoveCost             0.400000
@@ -3363,7 +3417,7 @@ END
 
 BEGIN Material
     Name                 BrickWall
-    ConstructionTime     1
+    ConstructionTime     1.00000
     BlockMovement        true
     BlockVisibility      true
     MoveCost             0.400000
@@ -3376,13 +3430,13 @@ END
 
 BEGIN Material
     Name                 PerimeterWall
-    ConstructionTime     1
+    ConstructionTime     1.00000
     BlockMovement        true
     BlockVisibility      true
     MoveCost             0.100000
     SoftEdged            -1
     ObjectRequired       Brick
-    Price                1
+    Price                -1
     IndoorOutdoor        1
     SpriteType           Connected
     NumSprites           1
@@ -3399,9 +3453,10 @@ END
 
 BEGIN Material
     Name                 Water
-    ConstructionTime     -1.00000
+    ConstructionTime     1.00000
     SpriteType           RandomArea
     BlockMovement        true
+    BlockVisibility      true
     MoveCost             0.100000
     SoftEdged            1
     NumSprites           2
@@ -3437,7 +3492,7 @@ END
 
 BEGIN Material
     Name                 BuildingFrame
-    ConstructionTime     1
+    ConstructionTime     1.00000
     MoveCost             0.800000
     SoftEdged            -1
     BlockVisibility      true
@@ -4392,7 +4447,7 @@ END
 
 BEGIN Callout
     Name                 FireEngine
-    Cost                 -100
+    Cost                 -1
     MaxNumber            2
     Vehicle              FireEngine
     Entity               Fireman
@@ -4402,7 +4457,7 @@ END
 
 BEGIN Callout
     Name                 RiotPolice
-    Cost                 -100
+    Cost                 -1
     MaxNumber            3
     Vehicle              RiotVan
     Entity               RiotGuard
@@ -4421,7 +4476,7 @@ END
 
 BEGIN Callout
     Name                 Paramedics
-    Cost                 -100
+    Cost                 -1
     MaxNumber            2
     Vehicle              Ambulance
     Entity               Paramedic
