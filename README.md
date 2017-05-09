@@ -24,17 +24,21 @@ With that, the Creative-Grant-Mod is now shutdown and further updates canceled. 
  - Reform programs now made easy.
 
 ##Get this for Prison Architect
+
 [Steam workshop link](http://steamcommunity.com/sharedfiles/filedetails/?id=261379081&searchtext=)
  
 ##Copy this project, please!
+
 Since somebody has to do it, I'm pushing YOU to use this mod to inspire your own creative ideas! Please, let's get this community rolling and push the developers to give us the tools we need! The more references I see the more features I'll add! Thanks so much for your participation! 
 
 Though not required, I'd love if you do use this project as reference for your idea... How about sending a little bit of love my way? Rate this, star github, say thank you, give credit, whatever you want to do. Doesn't mean much but it means people care. Thanks!
 
 ##Suggestions, Complaints, Bug Reports?
+
 Start a discussion or leave a hurtful comment, thank you!
 
 ##Some Mentions
+
 My man, [aubergine18](http://steamcommunity.com/profiles/76561198190710127) made an amazing effort to create a [modding guide](http://steamcommunity.com/sharedfiles/filedetails/?id=480978426). I used it a ton making this project, use it! You can find the rest of his work [here](http://steamcommunity.com/profiles/76561198190710127/myworkshopfiles/?section=guides&appid=233450). Be sure to thank him as well.
 
 # Project Author
